@@ -1,0 +1,146 @@
+.filter-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+
+    .filter-saves{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .filter-saves{
+        font-size: 14px;
+        margin-right: 4px;
+        cursor: pointer;
+
+        &:hover{
+            transition: .4s;
+            color: var(--secondary);
+        }
+    }
+
+    .filter-title{
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--primary);
+    }
+
+    .filters{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        
+        .filter-item{
+            height: 60px;
+
+            .search-input{
+                width: 200px;
+                height: 38px;
+                padding: 0 10px;
+                border-radius: 6px;
+                font-size: 14px;
+                color: #aaaaaa;
+                border: 1px solid #ccc;
+                box-shadow: none;
+                
+            }
+
+            .search-author{
+                width: 160px;
+            }
+
+            select {
+                width: 200px;
+                height: 40px;
+                padding: 0 10px;
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: normal;
+                background-color: white;
+                color: #aaaaaa;
+                font-weight: bold;
+                border: 1px solid #ccc;
+                box-shadow: none;
+                
+                &:hover, &:focus {
+                    border-color: #007bff;
+                }
+            }
+
+            .custom-multiselect{
+                width: 200px;
+                border-radius: 6px;
+                font-weight: bolder;
+                height: 40px;
+            }
+        }
+
+        .btn-filter{
+            height: 40px;
+            width: 120px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-size: 16px;
+            background-color: var(--primary);
+            border-radius: 6px;
+            color: #f7f3ef;
+            font-weight: bolder;
+            cursor: pointer;
+            border: none;
+
+            &:hover{
+                transition: 4s;
+                background-color: var(--secondary);
+            }
+        }
+    }
+}
+
+.copied-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 460px;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.bookmark-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .bookmark-icon:hover {
+    color: #4caf50; /* cor mais clara quando o usuário passa o mouse */
+  }
+  

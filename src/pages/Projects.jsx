@@ -1,9 +1,8 @@
-import Card from "./components/Card/Card";
-import Filter from "./components/Filter/Filter";
-import './styles/global.scss';
-import './styles/home.scss';
-import Header from "./components/Header/Header";
-import Projects from "./pages/Projects"
+import Card from "../components/Card/Card";
+import Filter from "../components/Filter/Filter";
+import '../styles/global.scss';
+import '../styles/home.scss';
+import Header from "../components/Header/Header";
 
 import { useState } from 'react';
 
@@ -58,9 +57,38 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
 
-      <Projects />
+      <div className="home-infos">
+        <span className="home-title">Repositório Feminista de Política Externa</span>
+        <span className="home-description">
+          Este repositório exibe um banco de dados com políticas e iniciativas relacionadas à política externa feminista de diversas partes do mundo. Aqui você pode aplicar múltiplos filtros para explorar e comparar políticas de acordo com diversos critérios, como país de origem, áreas de impacto, organizações envolvidas, e abordagens políticas. Nosso objetivo é promover o entendimento e a disseminação de práticas inclusivas e igualitárias nas relações internacionais.
+        </span>
+      </div>
 
+      <Filter 
+        setType={setType} 
+        setRegion={setRegion} 
+        setSource={setSource} 
+        setSelectedThemes={setSelectedThemes} 
+        setSearchTerm={setSearchTerm} 
+        setAuthor={setAuthor} 
+      />
+
+      <div className="projects">
+        {filteredData.map((card) => (
+          <Card
+            key={card.title}
+            title={card.title}
+            tags={card.tags}
+            organization={card.organization}
+            author={card.author}
+            year={card.year}
+            language={card.language}
+            link={card.link}
+          />
+        ))}
+      </div>
     </div>
   );
 }

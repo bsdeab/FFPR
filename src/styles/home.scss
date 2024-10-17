@@ -1,0 +1,30 @@
+.App{
+    min-height: 140vh;
+
+    .home-infos{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 90px;
+        background-color: #f6921e;
+        margin-top: 30px;
+        color: #081950;
+    
+        .home-title{
+            font-size: 48px;
+            font-weight: bolder;    
+            margin-bottom: 20px;
+        }
+
+        .home-description{
+            font-size: 16px;
+        }
+    }
+
+    .projects{
+        margin: 40px 70px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
