@@ -3,9 +3,18 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'MaiolaPro';
+    src: url('../assets/fonts/MaiolaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    font-family: 'NomeDaFonte', sans-serif;
+}
 
 :root{
     --primary: #203370;
     --secondary: #f6921e;
-}
+}   

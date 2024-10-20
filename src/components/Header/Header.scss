@@ -6,6 +6,7 @@
   margin-top: 15px;
   justify-content: space-between;
   margin: 10px 90px;
+  position: relative;
 
   .logo {
     height: 80px;
@@ -28,45 +29,91 @@
       }
     }
 
+    // Estilo para o menu expansivo
+    &.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px; // Para que o menu fique abaixo do cabeçalho
+      left: 0;
+      right: 0;
+      background-color: #f6921e; // Cor do fundo
+      padding: 20px 0;
+      z-index: 1000; // Para garantir que fique acima de outros elementos
+    }
   }
 
+  .language {
+    width: 100px; // Defina uma largura adequada
+  }
+  
+  .language-select {
+
+    .flag-icon{
+      width: 30px;
+      height: 30px;
+    }
+
+    .react-select__control {
+      border-radius: 4px; // Ajuste o arredondamento se necessário
+      border-color: var(--primary); // Altere a cor da borda
+    }
+  
+    .react-select__single-value {
+      display: flex;
+      align-items: center;
+  
+    img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px; // Espaçamento entre a bandeira e o texto
+      }
+    }
+  
+    .react-select__menu {
+      border-radius: 4px; // Arredondamento para o menu de opções
+    }
+  }
+  
+  .menu-toggle {
+    display: none; // Inicialmente escondido
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 4px auto;
+      background-color: var(--primary);
+      transition: 0.3s;
+
+      &.open {
+        background-color: var(--secondary);
+      }
+    }
+  }
 }
 
-.language-select {
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  width: 80px;
-}
+// Responsividade
+@media (max-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    
+    .logo {
+      height: 50px;
+    }
 
-.language-select select {
-  background-color: transparent;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  appearance: none;
-  padding: 5px;
-}
+    .header-items {
+      display: none; // Esconder itens do cabeçalho por padrão
 
-.language-select option {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  font-size: 16px;
-}
+      &.open {
+        display: flex; // Mostrar ao abrir o menu
+      }
+    }
 
-.language-select img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.salvos{
-  cursor: pointer;
-  font-size: 22px;
-
-  &:hover{
-    transition: .4s;
-    color: rgb(27, 203, 21);
+    .menu-toggle {
+      display: block; // Mostrar botão de menu
+      cursor: pointer;
+    }
   }
 }
