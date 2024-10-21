@@ -91,15 +91,15 @@ function Card(props) {
 
       <div className='card-author-area'>
         <span className='area-name'>Autor(es)</span>
-        <span className='author'>{props.author}</span>
+        <div className='author-list'>
+          <span className='author'>{props.author.join(', ')}</span>
+        </div>
       </div>
 
       <div className='card-language-area'>
         <span className='area-name'>Linguagem</span>
         <div className='language-row'>
-          {props.language.map((language) => (
-            <span key={language} className='language'>{language}</span>
-          ))}
+          <span className='language'>{props.language.join(", ")}</span>
         </div>
       </div>
 
