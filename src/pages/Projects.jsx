@@ -3,6 +3,7 @@ import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
 import Header from "../components/Header/Header";
+import infos from '../data/infos.json'; // Importando o arquivo JSON
 
 import { useState } from 'react';
 
@@ -33,7 +34,7 @@ const data = [
   }
 ];
 
-function App() {
+function Projects(props) {
   // Estados para os filtros
   const [type, setType] = useState([]);
   const [region, setRegion] = useState([]);
@@ -42,6 +43,8 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [author, setAuthor] = useState([]);
   const [organization, setOrganization] = useState([]);
+
+  let lang = props.lang;
 
   // Função para extrair autores únicos
   const getUniqueAuthors = () => {
@@ -108,13 +111,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
 
       <div className="home-infos">
-        <span className="home-title">Repositório Feminista de Política Externa</span>
-        <span className="home-description">Este repositório exibe um banco de dados com políticas e iniciativas relacionadas à política externa feminista de diversas partes do mundo.</span>
-        <span className="home-description">Aqui você pode aplicar múltiplos filtros para explorar e comparar políticas de acordo com diversos critérios, como país de origem, áreas de impacto, organizações envolvidas, e abordagens políticas.</span>
-        <span className="home-description">Nosso objetivo é promover o entendimento e a disseminação de práticas inclusivas e igualitárias nas relações internacionais.</span>
+        <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
+        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
+        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase2"]}</span>
+        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</span>
       </div>
 
       <Filter
@@ -127,11 +129,12 @@ function App() {
         setOrganization={setOrganization}
         authorsList={authorsList} // Passa a lista de autores
         organizationsList={organizationsList} // Passa a lista de organizações
+        lang={lang}
       />
 
       <div className="projects">
-        <span className="projects-title">Projetos</span>
-        <span className="projects-found">{filteredData.length} Projetos encontrados!</span>
+        <span className="projects-title">{infos[lang]["Texts"]["Projects"]["Filter"]}</span>
+        <span className="projects-found">{filteredData.length} {infos[lang]["Texts"]["Projects"]["Founded"]}</span>
 
         {filteredData.map((card) => (
           <Card
@@ -150,4 +153,4 @@ function App() {
   );
 }
 
-export default App;
+export default Projects;

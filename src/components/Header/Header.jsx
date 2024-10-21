@@ -12,7 +12,7 @@ import ptFlag from '../../assets/flags/pt.png';
 // Icones
 import { MdMenu, MdClose } from "react-icons/md";
 
-function Header(props) {
+function Header({ setLanguage }) { // Recebe setLanguage como prop
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null); // Ref para detectar cliques fora do menu
 
@@ -26,6 +26,7 @@ function Header(props) {
 
     const handleLanguageChange = (selectedOption) => {
         console.log("Idioma selecionado: ", selectedOption.value);
+        setLanguage(selectedOption.value); // Atualiza a linguagem ao selecionar uma nova opção
     };
 
     const toggleMenu = () => {
@@ -62,7 +63,7 @@ function Header(props) {
                 <div className='language'>
                     <Select
                         options={languageOptions}
-                        onChange={handleLanguageChange}
+                        onChange={handleLanguageChange} // Chama a função que atualiza a linguagem
                         className="language-select"
                         isSearchable={false}
                         defaultValue={languageOptions[0]}

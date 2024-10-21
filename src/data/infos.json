@@ -3,9 +3,14 @@
         "Texts": {
             "Projects": {
                 "Title": "Feminist Foreign Policy Repository",
-                "Phrase1": "",
-                "Phrase2": "",
-                "Phrase3": ""
+                "Phrase1": "This repository displays a database of policies and initiatives related to feminist foreign policy from different parts of the world.",
+                "Phrase2": "Here you can apply multiple filters to explore and compare policies according to various criteria, such as country of origin, areas of impact, organizations involved, and policy approaches.",
+                "Phrase3": "Our objective is to promote the understanding and dissemination of inclusive and egalitarian practices in international relations.",
+                "Filter": "Filter",
+                "Expand": "Expand Filters",
+                "Retract": "Hide Filters",
+                "Project": "Projects",
+                "Founded": "Projects found!"
             }
         },
         "Themes": {
@@ -44,6 +49,19 @@
         "Sources": ["Civil society", "International organization", "Government", "Academia", "News organization", "Individual"]
     },
     "pt": {
+        "Texts": {
+            "Projects": {
+                "Title": "Repositório Feminista de Política Externa",
+                "Phrase1": "Este repositório exibe um banco de dados com políticas e iniciativas relacionadas à política externa feminista de diversas partes do mundo.",
+                "Phrase2": "Aqui você pode aplicar múltiplos filtros para explorar e comparar políticas de acordo com diversos critérios, como país de origem, áreas de impacto, organizações envolvidas, e abordagens políticas.",
+                "Phrase3": "Nosso objetivo é promover o entendimento e a disseminação de práticas inclusivas e igualitárias nas relações internacionais.",
+                "Filter": "Filtro",
+                "Expand": "Expandir Filtros",
+                "Retract": "Retrair Filtros",
+                "Project": "Projetos",
+                "Founded": "Projetos encontrados!"
+            }
+        },
         "Themes": {
             "Justiça climática": "#FAD6A5", 
             "Saúde": "#AEC6CF", 
