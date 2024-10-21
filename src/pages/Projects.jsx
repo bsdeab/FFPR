@@ -133,7 +133,7 @@ function Projects(props) {
       />
 
       <div className="projects">
-        <span className="projects-title">{infos[lang]["Texts"]["Projects"]["Filter"]}</span>
+        <span className="projects-title">{infos[lang]["Texts"]["Projects"]["Project"]}</span>
         <span className="projects-found">{filteredData.length} {infos[lang]["Texts"]["Projects"]["Founded"]}</span>
 
         {filteredData.map((card) => (

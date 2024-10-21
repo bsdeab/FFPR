@@ -5,7 +5,8 @@ import data from '../../data/infos.json'; // Importando o arquivo JSON
 
 const language = "en";
 
-function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor, setOrganization, authorsList, organizationsList }) {
+function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor, setOrganization, authorsList, organizationsList, lang}) {
+    
     const [isExpanded, setIsExpanded] = useState(false);
 
     // Gerando as opções a partir do arquivo JSON
@@ -39,7 +40,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
     return (
         <div className='filter-container'>
             <div className='filter-saves'>
-                <span className='filter-title'>Filtro</span>
+                <span className='filter-title'>{data[lang]["Texts"]["Projects"]["Filter"]["Name"]}</span>
             </div>
 
             <div className="filters">
@@ -47,13 +48,13 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                     <input 
                         id="search" 
                         className='search-input' 
-                        placeholder='Busque o projeto' 
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Search"]}
                         onChange={(e) => setSearchTerm(e.target.value)} 
                     />
                 </div>
 
                 <button className="expand-button" onClick={toggleFilters}>
-                    {isExpanded ? '▲ Esconder Filtros' : '▼ Expandir Filtros'}
+                    {isExpanded ? `▲ ${data[lang]["Texts"]["Projects"]["Filter"]["Expand"]}` : `▼ ${data[lang]["Texts"]["Projects"]["Filter"]["Expand"]}`}
                 </button>
 
                 {isExpanded && (
@@ -66,7 +67,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setSelectedThemes(selectedValues);
                                 }}
                                 options={themeOptions}
-                                placeholder="Selecione os Temas"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Themes"]}
                             />
                         </div>
 
@@ -78,7 +79,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setType(selectedValues);
                                 }}
                                 options={typeOptions}
-                                placeholder="Selecione os Tipos"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Types"]}
                             />
                         </div>
 
@@ -90,7 +91,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setRegion(selectedValues);
                                 }}
                                 options={regionOptions}
-                                placeholder="Selecione as Regiões"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Regions"]}
                             />
                         </div>
 
@@ -102,7 +103,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setSource(selectedValues);
                                 }}
                                 options={sourceOptions}
-                                placeholder="Selecione as Fontes"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
                             />
                         </div>
 
@@ -114,7 +115,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setAuthor(selectedValues);
                                 }}
                                 options={authorsList}
-                                placeholder="Selecione os Autores"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Authors"]}
                             />
                         </div>
 
@@ -126,7 +127,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                                     setOrganization(selectedValues);
                                 }}
                                 options={organizationsList}
-                                placeholder="Selecione as Organizações"
+                                placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Orgs"]}
                             />
                         </div>
                     </>
