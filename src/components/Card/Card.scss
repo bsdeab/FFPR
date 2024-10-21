@@ -111,6 +111,25 @@
     }
   }
   
+  .copy-notification {
+    position: fixed;
+    width: 75%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    z-index: 1000;
+    opacity: 0.9;
+  }  
+
   // Media Queries para responsividade
   @media (max-width: 768px) {
     .card-container {
@@ -127,6 +146,15 @@
     .card-footer {
       justify-content: space-between;
       font-size: 18px;
+    }
+
+    .card-language-area{
+      
+      .language-row{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+      }
     }
   }
   
@@ -149,4 +177,5 @@
       font-size: 16px;
     }
   }
+  
   

@@ -7,6 +7,7 @@ const tagColors = data["en"]["Themes"];
 
 function Card(props) {
   const [isSaved, setIsSaved] = useState(false);
+  const [showNotification, setShowNotification] = useState(false); // Estado para controlar a notificação
 
   // Verifica se o card está salvo no localStorage ao carregar o componente
   useEffect(() => {
@@ -43,6 +44,23 @@ function Card(props) {
       localStorage.setItem('LocalCards', JSON.stringify(savedCards));
       setIsSaved(true);
     }
+  }
+
+  // Função para copiar o link e exibir a notificação
+  function handleShare() {
+    navigator.clipboard.writeText(props.link)
+      .then(() => {
+        // Exibe a notificação após o link ser copiado
+        setShowNotification(true);
+
+        // Remove a notificação após 2 segundos
+        setTimeout(() => {
+          setShowNotification(false);
+        }, 2000);
+      })
+      .catch(err => {
+        console.error('Erro ao copiar o link: ', err);
+      });
   }
 
   return (
@@ -95,10 +113,17 @@ function Card(props) {
             <MdBookmarkBorder className='icon bookmark-icon' />
           )}
         </span>
-        <span className='footer-btn share-btn'>
+        <span className='footer-btn share-btn' onClick={handleShare}>
           <MdOutlineShare className='icon' />
         </span>
       </div>
+
+      {/* Notificação de "Link Copiado" */}
+      {showNotification && (
+        <div className='copy-notification'>
+          Link Copiado
+        </div>
+      )}
     </div>
   );
 }

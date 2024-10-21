@@ -3,31 +3,32 @@ import './Filter.scss';
 import Select from "react-select";
 import data from '../../data/infos.json'; // Importando o arquivo JSON
 
-const language = "en"
+const language = "en";
 
-function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor }) {
-    // Estado para controlar se os filtros estão expandidos ou não
+function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor, setOrganization, authorsList, organizationsList }) {
     const [isExpanded, setIsExpanded] = useState(false);
 
     // Gerando as opções a partir do arquivo JSON
     const themeOptions = Object.keys(data[language].Themes).map((themeKey) => ({
         label: themeKey,
-        value: themeKey.toLowerCase().replace(/\s+/g, '-')
+        value: themeKey
     }));
 
     const typeOptions = data[language].Types.map((type) => ({
         label: type,
-        value: type.toLowerCase().replace(/\s+/g, '-')
+        value: type
     }));
 
-    const regionOptions = data[language].Regions.map((region) => ({
-        label: region,
-        value: region.toLowerCase().replace(/\s+/g, '-')
-    }));
+    const regionOptions = data[language].Regions.map(region => {
+        return {
+            label: region,
+            value: region
+        };
+    });
 
     const sourceOptions = data[language].Sources.map((source) => ({
         label: source,
-        value: source.toLowerCase().replace(/\s+/g, '-')
+        value: source
     }));
 
     // Função para alternar a expansão dos filtros
@@ -51,18 +52,15 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                     />
                 </div>
 
-                {/* Botão de expandir/retrair para mobile */}
                 <button className="expand-button" onClick={toggleFilters}>
-                    {isExpanded ? '▲ Esconder Filtros' : '▼ Expandir Filtors'}
+                    {isExpanded ? '▲ Esconder Filtros' : '▼ Expandir Filtros'}
                 </button>
 
-                {/* Mostrar os filtros adicionais apenas se estiver expandido */}
                 {isExpanded && (
                     <>
                         <div className='filter-item'>
                             <Select
                                 isMulti
-                                value={null}
                                 onChange={(selectedOptions) => {
                                     const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
                                     setSelectedThemes(selectedValues);
@@ -73,38 +71,62 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         </div>
 
                         <div className='filter-item'>
-                            <select id="type" onChange={(e) => setType(e.target.value)}>
-                                <option value="">Selecione o Tipo</option>
-                                {typeOptions.map((typez) => (
-                                    <option key={typez.value} value={typez.value}>{typez.label}</option>
-                                ))}
-                            </select>
+                            <Select
+                                isMulti
+                                onChange={(selectedOptions) => {
+                                    const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                                    setType(selectedValues);
+                                }}
+                                options={typeOptions}
+                                placeholder="Selecione os Tipos"
+                            />
                         </div>
 
                         <div className='filter-item'>
-                            <select id="region" onChange={(e) => setRegion(e.target.value)}>
-                                <option value="">Selecione a Região</option>
-                                {regionOptions.map((region) => (
-                                    <option key={region.label} value={region.label}>{region.label}</option>
-                                ))}
-                            </select>
+                            <Select
+                                isMulti
+                                onChange={(selectedOptions) => {
+                                    const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                                    setRegion(selectedValues);
+                                }}
+                                options={regionOptions}
+                                placeholder="Selecione as Regiões"
+                            />
                         </div>
 
                         <div className='filter-item'>
-                            <select id="source" onChange={(e) => setSource(e.target.value)}>
-                                <option value="">Fonte</option>
-                                {sourceOptions.map((source) => (
-                                    <option key={source.value} value={source.value}>{source.label}</option>
-                                ))}
-                            </select>
+                            <Select
+                                isMulti
+                                onChange={(selectedOptions) => {
+                                    const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                                    setSource(selectedValues);
+                                }}
+                                options={sourceOptions}
+                                placeholder="Selecione as Fontes"
+                            />
                         </div>
 
                         <div className='filter-item'>
-                            <input 
-                                id="author" 
-                                className='search-input' 
-                                placeholder='Busque uma autora' 
-                                onChange={(e) => setAuthor(e.target.value)} 
+                            <Select
+                                isMulti
+                                onChange={(selectedOptions) => {
+                                    const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                                    setAuthor(selectedValues);
+                                }}
+                                options={authorsList}
+                                placeholder="Selecione os Autores"
+                            />
+                        </div>
+
+                        <div className='filter-item'>
+                            <Select
+                                isMulti
+                                onChange={(selectedOptions) => {
+                                    const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                                    setOrganization(selectedValues);
+                                }}
+                                options={organizationsList}
+                                placeholder="Selecione as Organizações"
                             />
                         </div>
                     </>

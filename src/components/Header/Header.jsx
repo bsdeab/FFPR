@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
 import './Header.scss';
 
 import logo from '../../assets/logo.png';
-
 import usFlag from '../../assets/flags/us.png';
 import frFlag from '../../assets/flags/fr.png';
 import spFlag from '../../assets/flags/sp.png';
 import grFlag from '../../assets/flags/gr.png';
 import ptFlag from '../../assets/flags/pt.png';
 
+// Icones
+import { MdMenu, MdClose } from "react-icons/md";
+
 function Header(props) {
     const [menuOpen, setMenuOpen] = useState(false);
+    const menuRef = useRef(null); // Ref para detectar cliques fora do menu
 
     const languageOptions = [
         { value: 'pt', label: <img src={ptFlag} alt="Português" className="flag-icon" /> },
@@ -29,18 +32,33 @@ function Header(props) {
         setMenuOpen(!menuOpen);
     };
 
+    // Fechar o menu ao clicar fora dele
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                setMenuOpen(false);
+            }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
     return (
         <div className='header-container'>
             <div className='header-logo'>
                 <img src={logo} alt="Logo" className='logo' />
             </div>
 
-            <div className={`header-items ${menuOpen ? 'open' : ''}`}>
+            <div ref={menuRef} className={`header-items ${menuOpen ? 'open' : ''}`}>
                 <span className='header-item'>Home</span>
                 <span className='header-item'>Projetos</span>
+                <span className='header-item'>Salvos</span>
                 <span className='header-item'>Sobre</span>
                 <span className='header-item'>Contato</span>
-
+                <span className='header-items'>Dados</span>
+                
                 <div className='language'>
                     <Select
                         options={languageOptions}
@@ -53,9 +71,12 @@ function Header(props) {
             </div>
 
             <div className='menu-toggle' onClick={toggleMenu}>
-                <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
-                <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
-                <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+                {/* Alternar entre ícones de abrir/fechar */}
+                {menuOpen ? (
+                    <MdClose className="menu-icon close-icon" />
+                ) : (
+                    <MdMenu className="menu-icon" />
+                )}
             </div>
         </div>
     );

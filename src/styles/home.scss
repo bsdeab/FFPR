@@ -6,7 +6,6 @@
         flex-direction: column;
         padding: 60px 90px;
         background-color: #f6921e;
-        margin-top: 30px;
         color: #081950;
 
         .home-title {
@@ -50,15 +49,16 @@
 
     @media (max-width: 768px) {
         .home-infos {
-            padding: 30px 40px;
-            height: 40vh;
-
+            box-sizing: content-box;
+            padding: 30px 40px 30px 60px;
+            text-align: center;
             .home-title {
                 font-size: 28px; // Título menor para tablets
             }
 
             .home-description {
                 font-size: 18px;
+                margin-bottom: 12px;
             }
         }
 
@@ -66,27 +66,19 @@
             margin: 20px 30px;
             flex-direction: column; // Empilhar os projetos em telas menores
             gap: 15px; // Menor espaçamento
-        }
-    }
 
-    @media (max-width: 480px) {
-        .home-infos {
-            padding: 20px 20px;
-            height: 55vh;
-            text-align: center;
-
-            .home-title {
-                font-size: 28px; // Ajuste para smartphones
+            .projects-title{
+                font-size: 36px;
+                font-weight: bold;
+                color: #081950;
+                text-align: center;
             }
 
-            .home-description {
-                font-size: 18px;
+            .projects-found{
+                text-align: center;
+                font-weight: lighter;
+                color: #3851a3;
             }
-        }
-
-        .projects {
-            margin: 10px 20px;
-            gap: 10px; // Reduzir ainda mais o espaçamento
         }
     }
 }
