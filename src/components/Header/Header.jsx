@@ -56,11 +56,8 @@ function Header({ setLanguage, lang}) { // Recebe setLanguage como prop
 
             <div ref={menuRef} className={`header-items ${menuOpen ? 'open' : ''}`}>
                 <span className='header-item'>{infos[lang]["Texts"]["Header"]["Home"]}</span>
-                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Projects"]}</span>
                 <span className='header-item'>{infos[lang]["Texts"]["Header"]["Saves"]}</span>
-                <span className='header-item'>{infos[lang]["Texts"]["Header"]["About"]}</span>
                 <span className='header-item'>{infos[lang]["Texts"]["Header"]["Contact"]}</span>
-                <span className='header-items'>{infos[lang]["Texts"]["Header"]["Data"]}</span>
                 
                 <div className='language'>
                     <Select

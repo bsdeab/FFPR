@@ -1,7 +1,7 @@
 .card-container {
     width: 100%;
     max-width: 310px; // Limita o tamanho máximo do card
-    height: auto;
+    height: 450px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
   
     .card-title-area {
       width: 100%;
-      height: auto;
+      height: 80px;
   
       .card-title {
         font-weight: bold;
@@ -68,7 +68,7 @@
     .card-tags-area {
       display: flex;
       flex-direction: column;
-  
+
       .tags {
         margin-top: 2px;
         display: flex;
@@ -87,10 +87,14 @@
     .card-organization-area,
     .card-author-area,
     .card-language-area {
+      height: 65px;
       margin-top: 5px;
       gap: 6px;
       display: flex;
       flex-direction: column;
+      overflow: hidden;            /* Esconde o conteúdo que passa do limite */
+      white-space: wrap;         /* Garante que o texto não será quebrado em várias linhas */
+      text-overflow: ellipsis;     /* Adiciona as reticências quando o texto for maior que o contêiner */
     }
   
     .card-footer {
@@ -135,7 +139,6 @@
     .card-container {
       max-width: 100%;
       padding: 12px;
-      height: auto;
     }
   
     .btn-acess {

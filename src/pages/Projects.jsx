@@ -294,19 +294,23 @@ function Projects(props) {
         <span className="projects-title">{infos[lang]["Texts"]["Projects"]["Project"]}</span>
         <span className="projects-found">{filteredData.length} {infos[lang]["Texts"]["Projects"]["Founded"]}</span>
 
-        {filteredData.map((card) => (
-          <Card
-            key={card.title}
-            title={card.title}
-            tags={card.tags}
-            organization={card.organization}
-            author={card.author}
-            year={card.year}
-            language={card.language}
-            link={card.link}
-            lang={lang}
-          />
-        ))}
+        <div className="project-view">
+
+          {filteredData.map((card) => (
+            <Card
+              key={card.title}
+              title={card.title}
+              tags={card.tags}
+              organization={card.organization}
+              author={card.author}
+              year={card.year}
+              language={card.language}
+              link={card.link}
+              lang={lang}
+            />
+          ))}
+
+        </div>
       </div>
     </div>
   );

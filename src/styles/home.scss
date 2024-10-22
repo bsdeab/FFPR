@@ -25,6 +25,13 @@
         flex-direction: row;
         gap: 30px;
         flex-wrap: wrap;
+
+        .project-view{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
     }
 
     // Ajustes para telas menores

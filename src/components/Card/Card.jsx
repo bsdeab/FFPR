@@ -104,7 +104,7 @@ function Card(props) {
         </div>
       </div>
 
-      <button className='btn-acess' onClick={() => acessLink(props.link)}>Acessar</button>
+      <button className='btn-acess' onClick={() => acessLink(props.link)}>{data[lang]["Texts"]["Projects"]["Card"]["Button"]}</button>
 
       <div className='card-footer'>
         <span className='footer-btn favorite-btn' onClick={handleBookmark}>

@@ -6,7 +6,7 @@
                 "Projects": "Projects",
                 "Saves": "Saves",
                 "About": "About",
-                "Contact": "Contact",
+                "Contact": "Submit",
                 "Data": "Data"
             },
             "Projects": {
@@ -31,7 +31,8 @@
                 "Card": {
                     "Org": "Organization",
                     "Author": "Author(s)",
-                    "Language": "Language"
+                    "Language": "Language",
+                    "Button": "Access"
                 }
             }
         },
@@ -115,7 +116,7 @@
                 "Projects": "Projetos",
                 "Saves": "Salvos",
                 "About": "Sobre",
-                "Contact": "Contato",
+                "Contact": "Enviar",
                 "Data": "Dados"
             },
             "Projects": {
@@ -140,7 +141,8 @@
                 "Card": {
                     "Org": "Organização",
                     "Author": "Autor(es)",
-                    "Language": "Linguagem"
+                    "Language": "Linguagem",
+                    "Button": "Acessar"
                 }
             }
         },
@@ -224,7 +226,7 @@
                 "Projects": "Projekte",
                 "Saves": "Gespeichert",
                 "About": "An",
-                "Contact": "Kontakt",
+                "Contact": "Einreichen",
                 "Data": "Gegeben"
             },
             "Projects": {
@@ -249,7 +251,8 @@
                 "Card": {
                     "Org": "Organisation",
                     "Author": "Autor",
-                    "Language": "Sprache"
+                    "Language": "Sprache",
+                    "Button": "Zugang"
                 }
             }
         }
@@ -261,7 +264,7 @@
                 "Projects": "Projets",
                 "Saves": "Enregistré",
                 "About": "Sur",
-                "Contact": "Contact",
+                "Contact": "Soumettre",
                 "Data": "Donné"
             },
             "Projects": {
@@ -286,7 +289,8 @@
                 "Card": {
                     "Org": "Organisation",
                     "Author": "Auteur",
-                    "Language": "Langue"
+                    "Language": "Langue",
+                    "Button": "Accéder"
                 }
             }
         }
@@ -298,7 +302,7 @@
                 "Projects": "Proyectos",
                 "Saves": "Salvado",
                 "About": "En",
-                "Contact": "Contacto",
+                "Contact": "Entregar",
                 "Data": "Dado"
             },
             "Projects": {
@@ -323,7 +327,8 @@
                 "Card": {
                     "Org": "Organización",
                     "Author": "Autor",
-                    "Language": "Idioma"
+                    "Language": "Idioma",
+                    "Button": "Acceso"
                 }
             }
         }
