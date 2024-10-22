@@ -9,10 +9,12 @@ import spFlag from '../../assets/flags/sp.png';
 import grFlag from '../../assets/flags/gr.png';
 import ptFlag from '../../assets/flags/pt.png';
 
+import infos from '../../data/infos.json'; // Importando o arquivo JSON
+
 // Icones
 import { MdMenu, MdClose } from "react-icons/md";
 
-function Header({ setLanguage }) { // Recebe setLanguage como prop
+function Header({ setLanguage, lang}) { // Recebe setLanguage como prop
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null); // Ref para detectar cliques fora do menu
 
@@ -53,12 +55,12 @@ function Header({ setLanguage }) { // Recebe setLanguage como prop
             </div>
 
             <div ref={menuRef} className={`header-items ${menuOpen ? 'open' : ''}`}>
-                <span className='header-item'>Home</span>
-                <span className='header-item'>Projetos</span>
-                <span className='header-item'>Salvos</span>
-                <span className='header-item'>Sobre</span>
-                <span className='header-item'>Contato</span>
-                <span className='header-items'>Dados</span>
+                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Home"]}</span>
+                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Projects"]}</span>
+                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Saves"]}</span>
+                <span className='header-item'>{infos[lang]["Texts"]["Header"]["About"]}</span>
+                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Contact"]}</span>
+                <span className='header-items'>{infos[lang]["Texts"]["Header"]["Data"]}</span>
                 
                 <div className='language'>
                     <Select

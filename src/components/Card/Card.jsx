@@ -9,6 +9,7 @@ function Card(props) {
   const [isSaved, setIsSaved] = useState(false);
   const [showNotification, setShowNotification] = useState(false); // Estado para controlar a notificação
 
+  let lang = props.lang
   // Verifica se o card está salvo no localStorage ao carregar o componente
   useEffect(() => {
     const savedCards = JSON.parse(localStorage.getItem('LocalCards')) || [];
@@ -85,19 +86,19 @@ function Card(props) {
       </div>
 
       <div className='card-organization-area'>
-        <span className='area-name'>Organização</span>
+        <span className='area-name'>{data[lang]["Texts"]["Projects"]["Card"]["Org"]}</span>
         <span className='organization'>{props.organization}</span>
       </div>
 
       <div className='card-author-area'>
-        <span className='area-name'>Autor(es)</span>
+        <span className='area-name'>{data[lang]["Texts"]["Projects"]["Card"]["Author"]}</span>
         <div className='author-list'>
           <span className='author'>{props.author.join(', ')}</span>
         </div>
       </div>
 
       <div className='card-language-area'>
-        <span className='area-name'>Linguagem</span>
+        <span className='area-name'>{data[lang]["Texts"]["Projects"]["Card"]["Language"]}</span>
         <div className='language-row'>
           <span className='language'>{props.language.join(", ")}</span>
         </div>

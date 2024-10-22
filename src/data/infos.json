@@ -1,6 +1,14 @@
 {
     "en": {
         "Texts": {
+            "Header": {
+                "Home": "Home",
+                "Projects": "Projects",
+                "Saves": "Saves",
+                "About": "About",
+                "Contact": "Contact",
+                "Data": "Data"
+            },
             "Projects": {
                 "Title": "Feminist Foreign Policy Repository",
                 "Phrase1": "This repository displays a database of policies and initiatives related to feminist foreign policy from different parts of the world.",
@@ -19,7 +27,12 @@
                     "Retract": "Hide Filters"
                 },
                 "Project": "Projects",
-                "Founded": "Projects found!"
+                "Founded": "Projects found!",
+                "Card": {
+                    "Org": "Organization",
+                    "Author": "Author(s)",
+                    "Language": "Language"
+                }
             }
         },
         "Themes": {
@@ -97,6 +110,14 @@
     },
     "pt": {
         "Texts": {
+            "Header": {
+                "Home": "Home",
+                "Projects": "Projetos",
+                "Saves": "Salvos",
+                "About": "Sobre",
+                "Contact": "Contato",
+                "Data": "Dados"
+            },
             "Projects": {
                 "Title": "Repositório Feminista de Política Externa",
                 "Phrase1": "Este repositório exibe um banco de dados com políticas e iniciativas relacionadas à política externa feminista de diversas partes do mundo.",
@@ -115,7 +136,12 @@
                     "Retract": "Esconder Filtros"
                 },
                 "Project": "Projetos",
-                "Founded": "Projetos encontrados!"
+                "Founded": "Projetos encontrados!",
+                "Card": {
+                    "Org": "Organização",
+                    "Author": "Autor(es)",
+                    "Language": "Linguagem"
+                }
             }
         },
         "Themes": {
@@ -193,6 +219,14 @@
     },
     "gr": {
         "Texts": {
+            "Header": {
+                "Home": "Heim",
+                "Projects": "Projekte",
+                "Saves": "Gespeichert",
+                "About": "An",
+                "Contact": "Kontakt",
+                "Data": "Gegeben"
+            },
             "Projects": {
                 "Title": "Feministisches Außenpolitik-Repository",
                 "Phrase1": "Dieses Repository zeigt eine Datenbank von Richtlinien und Initiativen zur feministischen Außenpolitik aus verschiedenen Teilen der Welt.",
@@ -211,12 +245,25 @@
                     "Retract": "Filter verbergen"
                 },
                 "Project": "Projekte",
-                "Founded": "Gefundene Projekte!"
+                "Founded": "Gefundene Projekte!",
+                "Card": {
+                    "Org": "Organisation",
+                    "Author": "Autor",
+                    "Language": "Sprache"
+                }
             }
         }
     },
     "fr": {
         "Texts": {
+            "Header": {
+                "Home": "Maison",
+                "Projects": "Projets",
+                "Saves": "Enregistré",
+                "About": "Sur",
+                "Contact": "Contact",
+                "Data": "Donné"
+            },
             "Projects": {
                 "Title": "Répertoire de la Politique Étrangère Féministe",
                 "Phrase1": "Ce répertoire présente une base de données de politiques et d'initiatives liées à la politique étrangère féministe de différentes parties du monde.",
@@ -235,12 +282,25 @@
                     "Retract": "Réduire les filtres"
                 },
                 "Project": "Projets",
-                "Founded": "Projets trouvés !"
+                "Founded": "Projets trouvés !",
+                "Card": {
+                    "Org": "Organisation",
+                    "Author": "Auteur",
+                    "Language": "Langue"
+                }
             }
         }
     },
     "sp": {
         "Texts": {
+            "Header": {
+                "Home": "Hogar",
+                "Projects": "Proyectos",
+                "Saves": "Salvado",
+                "About": "En",
+                "Contact": "Contacto",
+                "Data": "Dado"
+            },
             "Projects": {
                 "Title": "Repositorio de Política Exterior Feminista",
                 "Phrase1": "Este repositorio muestra una base de datos de políticas e iniciativas relacionadas con la política exterior feminista de diferentes partes del mundo.",
@@ -259,7 +319,12 @@
                     "Retract": "Ocultar filtros"
                 },
                 "Project": "Proyectos",
-                "Founded": "¡Proyectos encontrados!"
+                "Founded": "¡Proyectos encontrados!",
+                "Card": {
+                    "Org": "Organización",
+                    "Author": "Autor",
+                    "Language": "Idioma"
+                }
             }
         }
     }

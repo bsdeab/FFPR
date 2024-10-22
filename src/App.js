@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* Passa setLanguage como prop para o Header */}
-      <Header setLanguage={setLanguage} />
+      <Header setLanguage={setLanguage} lang={language}/>
       
       <Projects lang={language}/>
 

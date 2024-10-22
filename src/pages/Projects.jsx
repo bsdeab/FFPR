@@ -304,6 +304,7 @@ function Projects(props) {
             year={card.year}
             language={card.language}
             link={card.link}
+            lang={lang}
           />
         ))}
       </div>
