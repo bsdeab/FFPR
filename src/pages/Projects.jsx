@@ -2,7 +2,6 @@ import Card from "../components/Card/Card";
 import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
-import Header from "../components/Header/Header";
 import infos from '../data/infos.json'; // Importando o arquivo JSON
 
 import { useState } from 'react';
@@ -296,7 +295,7 @@ function Projects(props) {
       <div className="home-infos">
         <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
-        <span className="home-description bolder">{infos[lang]["Texts"]["Projects"]["Phrase2"]}</span>
+        <span className="home-description bolder ">{infos[lang]["Texts"]["Projects"]["Phrase2"]} <a href={infos[lang]["Texts"]["Projects"]["terms"]} className="link-terms" target="_blank">{infos[lang]["Texts"]["Projects"]["Phrase2-terms"]}</a> {infos[lang]["Texts"]["Projects"]["Phrase2-1"]}</span>
         <a href="https://forms.fillout.com/t/a2gP6FojgFus" className="home-description link">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</a>
         <span className="home-description how">{infos[lang]["Texts"]["Projects"]["Phrase4"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase5"]}</span>
