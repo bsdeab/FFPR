@@ -114,13 +114,6 @@ function Card(props) {
       <button className='btn-acess' onClick={() => acessLink(props.link)}>{data[lang]["Texts"]["Projects"]["Card"]["Button"]}</button>
 
       <div className='card-footer'>
-        <span className='footer-btn favorite-btn' onClick={handleBookmark}>
-          {isSaved ? (
-            <MdBookmark className='icon bookmark-icon' style={{ color: '#4caf50' }} />
-          ) : (
-            <MdBookmarkBorder className='icon bookmark-icon' />
-          )}
-        </span>
         <span className='footer-btn share-btn' onClick={handleShare}>
           <MdOutlineShare className='icon' />
         </span>
@@ -129,7 +122,7 @@ function Card(props) {
       {/* Notificação de "Link Copiado" */}
       {showNotification && (
         <div className='copy-notification'>
-          Link Copiado
+          {data[lang]["Texts"]["Projects"]["Modal"]}
         </div>
       )}
     </div>

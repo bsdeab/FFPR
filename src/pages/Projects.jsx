@@ -322,6 +322,7 @@ function Projects(props) {
         setPaid={setPaid} // Adiciona o estado de pagamento ao filtro
         authorsList={authorsList}
         organizationsList={organizationsList}
+        language={lang}
       />
 
       <div className="projects">

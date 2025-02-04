@@ -36,7 +36,8 @@
                     "Author": "Author(s)",
                     "Language": "Language",
                     "Button": "Access"
-                }
+                },
+                "Modal": "Link copied"
             }
         },
         "Themes": {
@@ -149,7 +150,8 @@
                     "Author": "Autor(es)",
                     "Language": "Linguagem",
                     "Button": "Acessar"
-                }
+                },
+                "Modal": "Link Copiado!"
             }
         },
         "Themes": {
@@ -207,61 +209,23 @@
             "Outros"
         ],
         "Regions": [
-            "North America (US and Canada)",
-            "Latin America and the Caribbean",
-            "Middle East and North Africa",
-            "Sub-Saharan Africa",
-            "Asia",
-            "The Pacific/Oceania",
-            "Europe",
+            "América do Norte (EUA e Canadá)",
+            "América Latina e Caribe",
+            "Oriente Médio e Norte da África",
+            "África Subsaariana",
+            "Ásia",
+            "Pacífico/Oceania",
+            "Europa",
             "Global"
         ],
         "Sources": [
-            "Civil society",
-            "International organization",
-            "Government",
+            "Sociedade civil",
+            "Organização internacional",
+            "Governo",
             "Academia",
-            "News organization",
-            "Individual"
+            "Organização de notícias",
+            "Indivíduo"
         ]
-    },
-    "gr": {
-        "Texts": {
-            "Header": {
-                "Home": "Heim",
-                "Projects": "Projekte",
-                "Saves": "Gespeichert",
-                "About": "An",
-                "Contact": "Einreichen",
-                "Data": "Gegeben"
-            },
-            "Projects": {
-                "Title": "Feministisches Außenpolitik-Repository",
-                "Phrase1": "Dieses Repository zeigt eine Datenbank von Richtlinien und Initiativen zur feministischen Außenpolitik aus verschiedenen Teilen der Welt.",
-                "Phrase2": "Hier können Sie mehrere Filter anwenden, um Richtlinien nach verschiedenen Kriterien wie Herkunftsland, Wirkungsbereichen, beteiligten Organisationen und politischen Ansätzen zu erkunden und zu vergleichen.",
-                "Phrase3": "Unser Ziel ist es, das Verständnis und die Verbreitung inklusiver und egalitärer Praktiken in den internationalen Beziehungen zu fördern.",
-                "Filter": {
-                    "Name": "Filter",
-                    "Search": "Projekt suchen",
-                    "Themes": "Themen auswählen",
-                    "Types": "Typen auswählen",
-                    "Regions": "Regionen auswählen",
-                    "Sourcers": "Quellen auswählen",
-                    "Authors": "Autoren auswählen",
-                    "Orgs": "Organisationen auswählen",
-                    "Expand": "Filter erweitern",
-                    "Retract": "Filter verbergen"
-                },
-                "Project": "Projekte",
-                "Founded": "Gefundene Projekte!",
-                "Card": {
-                    "Org": "Organisation",
-                    "Author": "Autor",
-                    "Language": "Sprache",
-                    "Button": "Zugang"
-                }
-            }
-        }
     },
     "fr": {
         "Texts": {
@@ -300,9 +264,82 @@
                     "Author": "Auteur",
                     "Language": "Langue",
                     "Button": "Accéder"
-                }
+                },
+                "Modal": "Lien copié"
             }
-        }
+        },
+        "Themes": {
+            "Justice climatique": "#FAD6A5",
+            "Santé": "#AEC6CF",
+            "Intelligence artificielle": "#FFD1DC",
+            "Innovation numérique": "#FFB347",
+            "Soin": "#B39EB5",
+            "Représentation": "#FF6961",
+            "Diplomatie": "#FDFD96",
+            "Démocratie": "#77DD77",
+            "Mouvements/acteurs anti-droits/anti-genre": "#CFCFC4",
+            "Santé sexuelle et reproductive et droits": "#779ECB",
+            "Violence de genre": "#C23B22",
+            "Financement féministe": "#F49AC2",
+            "Travail/force de travail": "#B19CD9",
+            "Macroéconomie (dette, impôts et commerce)": "#FFB6C1",
+            "Antiracisme": "#FFCC99",
+            "Décolonisation": "#FF9AA2",
+            "Masculinités": "#E3E3E3",
+            "Femmes, paix et sécurité": "#C5E384",
+            "Migration et réfugiés": "#FDFD96",
+            "Droits LGBTQIA+": "#FFCCCB",
+            "Droits de la jeunesse": "#DEA5A4",
+            "Droits des peuples autochtones": "#836953",
+            "Droits des personnes en situation de handicap": "#FCE883",
+            "Données féministes": "#CFCFC4",
+            "Droits humains": "#FFB347",
+            "Aide publique au développement": "#77DD77",
+            "Analyse de PFP": "#F49AC2",
+            "Méthodologies féministes": "#AEC6CF",
+            "Suivi et évaluation": "#779ECB"
+        },
+        "Types": [
+            "Rapport",
+            "Résumé de politique",
+            "Document officiel du gouvernement",
+            "Article académique",
+            "Article de journal",
+            "Art",
+            "Infographie",
+            "Podcast",
+            "Boîte à outils",
+            "Répertoires de ressources",
+            "Enregistrement d'événements",
+            "Vidéo",
+            "Blog",
+            "Article d'opinion",
+            "Actualités",
+            "Page web",
+            "Document officiel",
+            "Communiqué de presse",
+            "Procès-verbal de réunion",
+            "Livres",
+            "Autres"
+        ],
+        "Regions": [
+            "Amérique du Nord (États-Unis et Canada)",
+            "Amérique latine et Caraïbes",
+            "Moyen-Orient et Afrique du Nord",
+            "Afrique subsaharienne",
+            "Asie",
+            "Pacifique/Océanie",
+            "Europe",
+            "Mondial"
+        ],
+        "Sources": [
+            "Société civile",
+            "Organisation internationale",
+            "Gouvernement",
+            "Académie",
+            "Organisation de presse",
+            "Individu"
+        ]
     },
     "sp": {
         "Texts": {
@@ -341,9 +378,82 @@
                     "Author": "Autor",
                     "Language": "Idioma",
                     "Button": "Acceso"
-                }
+                },
+                "Modal": "Enlace copiado"
             }
-        }
+        },
+        "Themes": {
+            "Justicia climática": "#FAD6A5",
+            "Salud": "#AEC6CF",
+            "Inteligencia artificial": "#FFD1DC",
+            "Innovación digital": "#FFB347",
+            "Cuidado": "#B39EB5",
+            "Representación": "#FF6961",
+            "Diplomacia": "#FDFD96",
+            "Democracia": "#77DD77",
+            "Movimientos/actores anti-derechos/anti-género": "#CFCFC4",
+            "Salud sexual y reproductiva y derechos": "#779ECB",
+            "Violencia de género": "#C23B22",
+            "Financiamiento feminista": "#F49AC2",
+            "Trabajo/fuerza laboral": "#B19CD9",
+            "Macroeconomía (deuda, impuestos y comercio)": "#FFB6C1",
+            "Antirracismo": "#FFCC99",
+            "Descolonización": "#FF9AA2",
+            "Masculinidades": "#E3E3E3",
+            "Mujeres, paz y seguridad": "#C5E384",
+            "Migración y refugiados": "#FDFD96",
+            "Derechos LGBTQIA+": "#FFCCCB",
+            "Derechos de la juventud": "#DEA5A4",
+            "Derechos indígenas": "#836953",
+            "Derechos de las personas con discapacidad": "#FCE883",
+            "Datos feministas": "#CFCFC4",
+            "Derechos humanos": "#FFB347",
+            "Asistencia Oficial para el Desarrollo": "#77DD77",
+            "Análisis de PFP": "#F49AC2",
+            "Metodologías feministas": "#AEC6CF",
+            "Monitoreo y evaluación": "#779ECB"
+        },
+        "Types": [
+            "Informe",
+            "Resumen de política",
+            "Documento oficial del gobierno",
+            "Artículo académico",
+            "Artículo de periódico",
+            "Arte",
+            "Infografía",
+            "Podcast",
+            "Caja de herramientas",
+            "Repositorios de recursos",
+            "Grabación de eventos",
+            "Video",
+            "Blog",
+            "Artículo de opinión",
+            "Noticias",
+            "Página web",
+            "Documento oficial",
+            "Comunicado de prensa",
+            "Actas de reunión",
+            "Libros",
+            "Otros"
+        ],
+        "Regions": [
+            "América del Norte (EE.UU. y Canadá)",
+            "América Latina y el Caribe",
+            "Oriente Medio y Norte de África",
+            "África Subsahariana",
+            "Asia",
+            "Pacífico/Oceanía",
+            "Europa",
+            "Global"
+        ],
+        "Sources": [
+            "Sociedad civil",
+            "Organización internacional",
+            "Gobierno",
+            "Academia",
+            "Organización de noticias",
+            "Individuo"
+        ]
     },
     "hi": {
         "Texts": {
@@ -382,7 +492,8 @@
                     "Author": "लेखक(लेखकों)",
                     "Language": "भाषा",
                     "Button": "पहुंचें"
-                }
+                },
+                "Modal": "लिंक कॉपी किया गया"
             }
         },
         "Themes": {
@@ -495,39 +606,40 @@
                     "Author": "लेखक(हरू)",
                     "Language": "भाषा",
                     "Button": "पहुँच गर्नुहोस्"
-                }
+                },
+                "Modal": "लिङ्क प्रतिलिपि गरियो"
             }
         },
         "Themes": {
-            "Justiça climática": "#FAD6A5",
-            "Saúde": "#AEC6CF",
-            "Inteligência Artificial": "#FFD1DC",
-            "Inovação digital": "#FFB347",
-            "Cuidado": "#B39EB5",
-            "Representação": "#FF6961",
-            "Diplomacia": "#FDFD96",
-            "Democracia": "#77DD77",
-            "Movimentos/atores anti-direitos/anti-gênero": "#CFCFC4",
-            "Saúde sexual e reprodutiva e direitos": "#779ECB",
-            "Violência de gênero": "#C23B22",
-            "Financiamento feminista": "#F49AC2",
-            "Trabalho/força de trabalho": "#B19CD9",
-            "Macroeconomia (dívida, impostos e comércio)": "#FFB6C1",
-            "Anti-racismo": "#FFCC99",
-            "Descolonização": "#FF9AA2",
-            "Masculinidades": "#E3E3E3",
-            "Mulheres, paz e segurança": "#C5E384",
-            "Migração e refugiados": "#FDFD96",
-            "Direitos LGBTQIA+": "#FFCCCB",
-            "Direitos da juventude": "#DEA5A4",
-            "Direitos indígenas": "#836953",
-            "Direitos das pessoas com deficiência": "#FCE883",
-            "Dados feministas": "#CFCFC4",
-            "Direitos humanos": "#FFB347",
-            "Assistência Oficial ao Desenvolvimento": "#77DD77",
-            "Análise de PFP": "#F49AC2",
-            "Metodologias feministas": "#AEC6CF",
-            "Monitoramento e avaliação": "#779ECB"
+            "जलवायु न्याय": "#FAD6A5",
+            "स्वास्थ्य": "#AEC6CF",
+            "कृत्रिम बुद्धिमत्ता": "#FFD1DC",
+            "डिजिटल नवप्रवर्तन": "#FFB347",
+            "देखभाल": "#B39EB5",
+            "प्रतिनिधित्व": "#FF6961",
+            "कूटनीति": "#FDFD96",
+            "लोकतन्त्र": "#77DD77",
+            "अधिकारविरोधी/जेंडरविरोधी आन्दोलन/अभिनेता": "#CFCFC4",
+            "यौन र प्रजनन स्वास्थ्य र अधिकारहरू": "#779ECB",
+            "जेंडर हिंसा": "#C23B22",
+            "महिला वित्त पोषण": "#F49AC2",
+            "काम/कार्यबल": "#B19CD9",
+            "म्याक्रोइकोनॉमिक्स (ऋण, कर र व्यापार)": "#FFB6C1",
+            "रास्ट्रवाद विरोधी": "#FFCC99",
+            "उपनिवेशीकरण": "#FF9AA2",
+            "पुरुषत्व": "#E3E3E3",
+            "महिला, शान्ति र सुरक्षा": "#C5E384",
+            "आप्रवासन र शरणार्थी": "#FDFD96",
+            "LGBTQIA+ अधिकारहरू": "#FFCCCB",
+            "युवाहरुका अधिकारहरू": "#DEA5A4",
+            "आदिवासी अधिकारहरू": "#836953",
+            "अंगको अपाङ्गता भएका व्यक्तिहरूका अधिकारहरू": "#FCE883",
+            "महिला डेटा": "#CFCFC4",
+            "मानव अधिकारहरू": "#FFB347",
+            "औपचारिक विकास सहायता": "#77DD77",
+            "PFP विश्लेषण": "#F49AC2",
+            "महिला विधिहरू": "#AEC6CF",
+            "अनुगमन र मूल्यांकन": "#779ECB"
         },
         "Types": [
             "प्रतिवेदन",

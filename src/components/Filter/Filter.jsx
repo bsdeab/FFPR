@@ -2,11 +2,50 @@ import React from 'react';
 import './Filter.scss';
 import Select from "react-select";
 import data from '../../data/infos.json'; // Importando o arquivo JSON
+import translations from '../../data/translate.json'; // Importando o JSON de tradução
 
-const language = "en";
+
+function findEnglishKeyTheme(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Themes)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
+function findEnglishKeyType(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Types)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
+function findEnglishKeyRegion(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Regions)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
+function findEnglishKeySource(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Sources)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
 
 function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor, setOrganization, setPaid, authorsList, organizationsList, lang }) {
-    
+
+    let language = lang;
+
     // Gerando as opções a partir do arquivo JSON
     const themeOptions = Object.keys(data[language].Themes).map((themeKey) => ({
         label: themeKey,
@@ -49,7 +88,8 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setSelectedThemes(selectedValues);
+                            const englishThemes = selectedValues.map(findEnglishKeyTheme);
+                            setSelectedThemes(englishThemes);
                         }}
                         options={themeOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Themes"]}
@@ -61,7 +101,8 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setType(selectedValues);
+                            const englishType = selectedValues.map(findEnglishKeyType);
+                            setType(englishType);
                         }}
                         options={typeOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Types"]}
@@ -73,7 +114,8 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setRegion(selectedValues);
+                            const englishRegion = selectedValues.map(findEnglishKeyRegion);
+                            setRegion(englishRegion);
                         }}
                         options={regionOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Regions"]}
@@ -85,7 +127,8 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setSource(selectedValues);
+                            const englishSource = selectedValues.map(findEnglishKeySource);
+                            setSource(englishSource);
                         }}
                         options={sourceOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
