@@ -296,7 +296,7 @@ function Projects(props) {
         <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
         <span className="home-description bolder ">{infos[lang]["Texts"]["Projects"]["Phrase2"]} <a href={infos[lang]["Texts"]["Projects"]["terms"]} className="link-terms" target="_blank">{infos[lang]["Texts"]["Projects"]["Phrase2-terms"]}</a> {infos[lang]["Texts"]["Projects"]["Phrase2-1"]}</span>
-        <a href="https://forms.fillout.com/t/a2gP6FojgFus" className="home-description link">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</a>
+        <a href={infos[lang]["Texts"]["Projects"]["contact"]} target="_blank" className="home-description link">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</a>
         <span className="home-description how">{infos[lang]["Texts"]["Projects"]["Phrase4"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase5"]}</span>
       </div>
