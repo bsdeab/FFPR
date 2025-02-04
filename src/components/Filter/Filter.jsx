@@ -4,7 +4,6 @@ import Select from "react-select";
 import data from '../../data/infos.json'; // Importando o arquivo JSON
 import translations from '../../data/translate.json'; // Importando o JSON de tradução
 
-
 function findEnglishKeyTheme(selectedValue) {
     for (const [englishKey, translatedValues] of Object.entries(translations.Themes)) {
         if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
@@ -41,9 +40,7 @@ function findEnglishKeySource(selectedValue) {
     return selectedValue; // Caso não encontre, mantém o valor original
 }
 
-
-function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setAuthor, setOrganization, setPaid, authorsList, organizationsList, lang }) {
-
+function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setLanguageFilter, setOrganization, setPaid, organizationsList, lang }) {
     let language = lang;
 
     // Gerando as opções a partir do arquivo JSON
@@ -66,6 +63,16 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         label: source,
         value: source
     }));
+
+    // Opções de linguagem (exemplo: inglês, francês, etc.)
+    const languageOptions = [
+        { label: "English", value: "English" },
+        { label: "French", value: "French" },
+        { label: "Spanish", value: "Spanish" },
+        { label: "Portuguese", value: "Portuguese" },
+        { label: "Nepali", value: "Nepali" },
+        { label: "Hindi", value: "Hindi" }
+    ];
 
     return (
         <div className='filter-container'>
@@ -140,36 +147,10 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setAuthor(selectedValues);
+                            setLanguageFilter(selectedValues); // Atualiza o filtro de linguagem
                         }}
-                        options={authorsList}
-                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Authors"]}
-                    />
-                </div>
-
-                <div className='filter-item'>
-                    <Select
-                        isMulti
-                        onChange={(selectedOptions) => {
-                            const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setOrganization(selectedValues);
-                        }}
-                        options={organizationsList}
-                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Orgs"]}
-                    />
-                </div>
-
-                <div className='filter-item'>
-                    <Select
-                        onChange={(selectedOption) => {
-                            const selectedValue = selectedOption ? selectedOption.value : null;
-                            setPaid(selectedValue);
-                        }}
-                        options={[
-                            { label: 'Paywalled', value: 'Paywalled' },
-                            { label: 'Free', value: 'Free' }
-                        ]}
-                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Paid"]}
+                        options={languageOptions}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Language"]}
                     />
                 </div>
             </div>

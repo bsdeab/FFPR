@@ -31,7 +31,7 @@
                     "Orgs": "Select organizations",
                     "Expand": "Expand Filters",
                     "Retract": "Hide Filters",
-                    "Paid": "Type content"
+                    "Language": "Select Language"
                 },
                 "Project": "Projects",
                 "Founded": "Projects found!",
@@ -42,6 +42,16 @@
                     "Button": "Access"
                 },
                 "Modal": "Link copied"
+            },
+            "About": {
+                "Title": "About the Feminist Foreign Policy Repository",
+                "Phrase1": "The Feminist Foreign Policy Repository is managed by the Feminist Foreign Policy Collaborative (FFPC), a shared space for feminists working in governments, civil society, and philanthropic institutions to collectively strategize and advance feminist approaches to foreign policy.",
+                "Phrase2": "To contact us, please fill out our",
+                "Form": "contact form.",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "You can also follow us on",
+                "Phrase2-x": "and",
+                "Phrase3": "The FFPR emerged in response to the demand observed by the FFPC to expand the diversity and universe of resources on feminist foreign policy. However, at the moment, we do not have dedicated human and financial resources exclusively for this goal, and we recognize that this may be an obstacle to our goals of inclusivity and accessibility. Your support for this project is welcome, as are your comments and suggestions."
             }
         },
         "Themes": {
@@ -73,38 +83,37 @@
             "Overseas Development Assistance": "#77DD77",
             "FFP analysis": "#F49AC2",
             "Feminist methodologies": "#AEC6CF",
-            "Monitoring and evaluation": "#779ECB"
+            "Monitoring and evaluation": "#779ECB",
+            "State policy strategy": "#779ECB"
         },
         "Types": [
             "Report",
-            "Policy summary",
-            "Official government document",
-            "paper",
-            "Newspaper article",
+            "Policy brief",
+            "Paper",
+            "Journal article",
             "Art",
             "Infographic",
-            "podcast",
+            "Podcast",
             "Toolkit",
-            "resource repositories",
+            "Resource repositories",
             "Event recording",
             "Video",
             "Blog",
-            "Opinion piece",
+            "Op-ed",
             "News",
-            "web page",
+            "Webpage",
             "Official document",
             "Press release",
-            "Minutes of meeting",
-            "books",
-            "Other"
+            "Meeting minutes",
+            "Book",
+            "Book chapter",
+            "Speech"
         ],
         "Regions": [
-            "North America (US and Canada)",
-            "Latin America and the Caribbean",
-            "Middle East and North Africa",
-            "Sub-Saharan Africa",
+            "Americas",
+            "Africa",
             "Asia",
-            "The Pacific/Oceania",
+            "Oceania",
             "Europe",
             "Global"
         ],
@@ -149,7 +158,7 @@
                     "Orgs": "Seleciona as organizações",
                     "Expand": "Expandir Filtros",
                     "Retract": "Esconder Filtros",
-                    "Paid": "Conteúdo pago"
+                    "Language": "Selecione o Idioma"
                 },
                 "Project": "Projetos",
                 "Founded": "Projetos encontrados!",
@@ -160,6 +169,16 @@
                     "Button": "Acessar"
                 },
                 "Modal": "Link Copiado!"
+            },
+            "About": {
+                "Title": "Sobre o Repositório de Política Exterior Feminista",
+                "Phrase1": "O Repositório de Política Exterior Feminista é gerenciado pelo Feminist Foreign Policy Collaborative (FFPC), um espaço compartilhado para feministas trabalhando em governos, sociedade civil e instituições filantrópicas para coletivamente traçar estratégias e avançar abordagens feministas para a política externa.",
+                "Phrase2": "Para falar conosco, preencha o nosso",
+                "Form": "formulário de contato.",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "Você também pode nos seguir no",
+                "Pharse2-x": "e",
+                "Phrase3": "O RPEF surgiu em resposta à demanda observada pelo FFPC para expandir a diversidade e universo de recursos sobre a política exterior feminista. No entanto, no memento, nós não possuímos recursos humanos e financeiros dedicados exclusivamente à essa meta, e nós reconhecemos que isso pode ser um obstáculo para as nossas metas de inclusividade e acessibilidade. O seu apoio a esse projeto é bem-vindo, assim como seus comentários e sugestões."
             }
         },
         "Themes": {
@@ -191,38 +210,37 @@
             "Assistência Oficial ao Desenvolvimento": "#77DD77",
             "Análise de PFP": "#F49AC2",
             "Metodologias feministas": "#AEC6CF",
-            "Monitoramento e avaliação": "#779ECB"
+            "Monitoramento e avaliação": "#779ECB",
+            "Estratégia de política estatal": "#779ECB"
         },
         "Types": [
             "Relatório",
-            "Resumo da política",
-            "Documento oficial do governo",
-            "papel",
-            "Artigo de jornal",
+            "Policy brief",
+            "Paper",
+            "Artigo acadêmico",
             "Arte",
             "Infográfico",
-            "podcast",
-            "Kit de ferramentas",
-            "repositórios de recursos",
-            "Gravação de eventos",
+            "Podcast",
+            "Ferramenta",
+            "Repositório de recursos",
+            "Gravação de evento",
             "Vídeo",
             "Blog",
-            "Artigo de opinião",
-            "Notícias ",
-            "página da web",
+            "Coluna",
+            "Notícia",
+            "Página",
             "Documento oficial",
             "Comunicado de imprensa",
-            "Atas de reunião",
-            "livros",
-            "Outros"
+            "Anotações de reunião",
+            "Livro",
+            "Capítulo de livro",
+            "Discurso"
         ],
         "Regions": [
-            "América do Norte (EUA e Canadá)",
-            "América Latina e Caribe",
-            "Oriente Médio e Norte da África",
-            "África Subsaariana",
+            "Américas",
+            "África",
             "Ásia",
-            "Pacífico/Oceania",
+            "Oceania",
             "Europa",
             "Global"
         ],
@@ -230,7 +248,7 @@
             "Sociedade civil",
             "Organização internacional",
             "Governo",
-            "Academia",
+            "Acadêmico",
             "Organização de notícias",
             "Indivíduo"
         ]
@@ -267,7 +285,7 @@
                     "Orgs": "Sélectionner des organisations",
                     "Expand": "Étendre les filtres",
                     "Retract": "Réduire les filtres",
-                    "Paid": "Type de contenu"
+                    "Language": "Sélectionnez la langue"
                 },
                 "Project": "Projets",
                 "Founded": "Projets trouvés !",
@@ -278,6 +296,16 @@
                     "Button": "Accéder"
                 },
                 "Modal": "Lien copié"
+            },
+            "About": {
+                "Title": "À propos du Répertoire de Politique Étrangère Féministe",
+                "Phrase1": "Le Répertoire de Politique Étrangère Féministe est géré par le Feminist Foreign Policy Collaborative (FFPC), un espace partagé pour les féministes travaillant dans les gouvernements, la société civile et les institutions philanthropiques afin de concevoir collectivement des stratégies et de faire progresser les approches féministes de la politique étrangère.",
+                "Phrase2": "Pour nous contacter, veuillez remplir notre",
+                "Form": "formulaire de contact.",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "Vous pouvez également nous suivre sur",
+                "Phrase2-x": "et",
+                "Phrase3": "Le RPEF est né en réponse à la demande observée par le FFPC d'élargir la diversité et l'univers des ressources sur la politique étrangère féministe. Cependant, pour le moment, nous ne disposons pas de ressources humaines et financières dédiées exclusivement à cet objectif, et nous reconnaissons que cela peut constituer un obstacle à nos objectifs d'inclusivité et d'accessibilité. Votre soutien à ce projet est le bienvenu, tout comme vos commentaires et suggestions."
             }
         },
         "Themes": {
@@ -309,46 +337,45 @@
             "Aide publique au développement": "#77DD77",
             "Analyse de PFP": "#F49AC2",
             "Méthodologies féministes": "#AEC6CF",
-            "Suivi et évaluation": "#779ECB"
+            "Suivi et évaluation": "#779ECB",
+            "Stratégie de politique étatique": "#779ECB"
         },
         "Types": [
             "Rapport",
-            "Résumé de politique",
-            "Document officiel du gouvernement",
-            "Article académique",
-            "Article de journal",
+            "Note de politique",
+            "Document",
+            "Article de périodique",
             "Art",
             "Infographie",
             "Podcast",
             "Boîte à outils",
             "Répertoires de ressources",
-            "Enregistrement d'événements",
+            "Enregistrement d’événement",
             "Vidéo",
-            "Blog",
-            "Article d'opinion",
+            "Blogue",
+            "Article d’opinion",
             "Actualités",
             "Page web",
             "Document officiel",
             "Communiqué de presse",
-            "Procès-verbal de réunion",
-            "Livres",
-            "Autres"
+            "Procès-verbal",
+            "Livre",
+            "Chapitre de livre",
+            "Discours"
         ],
         "Regions": [
-            "Amérique du Nord (États-Unis et Canada)",
-            "Amérique latine et Caraïbes",
-            "Moyen-Orient et Afrique du Nord",
-            "Afrique subsaharienne",
+            "Amériques",
+            "Afrique",
             "Asie",
-            "Pacifique/Océanie",
+            "Océanie",
             "Europe",
-            "Mondial"
+            "Le monde"
         ],
         "Sources": [
             "Société civile",
             "Organisation internationale",
             "Gouvernement",
-            "Académie",
+            "Université",
             "Organisation de presse",
             "Individu"
         ]
@@ -385,7 +412,7 @@
                     "Orgs": "Seleccionar organizaciones",
                     "Expand": "Expandir filtros",
                     "Retract": "Ocultar filtros",
-                    "Paid": "Tipo de contenido"
+                    "Language": "Seleccionar idioma"
                 },
                 "Project": "Proyectos",
                 "Founded": "¡Proyectos encontrados!",
@@ -396,6 +423,16 @@
                     "Button": "Acceso"
                 },
                 "Modal": "Enlace copiado"
+            },
+            "About": {
+                "Title": "Sobre el Repositorio de Política Exterior Feminista",
+                "Phrase1": "El Repositorio de Política Exterior Feminista es gestionado por el Feminist Foreign Policy Collaborative (FFPC), un espacio compartido para feministas que trabajan en gobiernos, sociedad civil e instituciones filantrópicas para trazar estrategias colectivas y avanzar en enfoques feministas de la política exterior.",
+                "Phrase2": "Para contactarnos, complete nuestro",
+                "Form": "formulario de contacto.",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "También puede seguirnos en",
+                "Phrase2-x": "y",
+                "Phrase3": "El RPEF surgió en respuesta a la demanda observada por el FFPC de ampliar la diversidad y el universo de recursos sobre la política exterior feminista. Sin embargo, en este momento, no contamos con recursos humanos y financieros dedicados exclusivamente a este objetivo, y reconocemos que esto puede ser un obstáculo para nuestras metas de inclusividad y accesibilidad. Su apoyo a este proyecto es bienvenido, al igual que sus comentarios y sugerencias."
             }
         },
         "Themes": {
@@ -427,38 +464,37 @@
             "Asistencia Oficial para el Desarrollo": "#77DD77",
             "Análisis de PFP": "#F49AC2",
             "Metodologías feministas": "#AEC6CF",
-            "Monitoreo y evaluación": "#779ECB"
+            "Monitoreo y evaluación": "#779ECB",
+            "Estrategia política estatal": "#779ECB"
         },
         "Types": [
             "Informe",
-            "Resumen de política",
-            "Documento oficial del gobierno",
-            "Artículo académico",
-            "Artículo de periódico",
+            "Informe político",
+            "Documento",
+            "Artículo de revista",
             "Arte",
             "Infografía",
             "Podcast",
-            "Caja de herramientas",
+            "Juego de herramientas",
             "Repositorios de recursos",
             "Grabación de eventos",
-            "Video",
+            "Vídeo",
             "Blog",
             "Artículo de opinión",
             "Noticias",
             "Página web",
             "Documento oficial",
             "Comunicado de prensa",
-            "Actas de reunión",
-            "Libros",
-            "Otros"
+            "Acta de reunión",
+            "Libro",
+            "Capítulo de libro",
+            "Discurso"
         ],
         "Regions": [
-            "América del Norte (EE.UU. y Canadá)",
-            "América Latina y el Caribe",
-            "Oriente Medio y Norte de África",
-            "África Subsahariana",
+            "Américas",
             "Asia",
-            "Pacífico/Oceanía",
+            "África",
+            "Oceanía",
             "Europa",
             "Global"
         ],
@@ -487,7 +523,7 @@
                 "Phrase2": "इस संसाधन के उद्देश्य और इसे कैसे व्यवस्थित और प्रबंधित किया जाता है, इस बारे में अधिक जानकारी के लिए कृपया हमारे उपयोग",
                 "Phrase2-terms": "की शर्तें पढ़ें",
                 "terms": "https://drive.google.com/file/d/1loQ0n_yblAwQKbQYjvEfevlOiaNbkFFw/view",
-                "Phrase2-1": "।",                
+                "Phrase2-1": "।",
                 "Phrase3": "रिपोजिटरी में एक नया स्रोत सबमिट करने के लिए यहाँ क्लिक करें। यदि आपका स्रोत उपलब्ध है और आप चाहते हैं कि हम इसे हटा दें, तो कृपया spogmay@ffpcollaborative.org को ईमेल करें।",
                 "contact": "https://forms.fillout.com/t/3Bx7vxEbNfus",
                 "Phrase4": "FFPR का उपयोग कैसे करें",
@@ -503,7 +539,7 @@
                     "Orgs": "संगठन चुनें",
                     "Expand": "फ़िल्टर विस्तृत करें",
                     "Retract": "फ़िल्टर छिपाएं",
-                    "Paid": "भुगतान सामग्री"
+                    "Language": "भाषा चुने"
                 },
                 "Project": "परियोजनाएं",
                 "Founded": "परियोजनाएं मिलीं!",
@@ -514,6 +550,16 @@
                     "Button": "पहुंचें"
                 },
                 "Modal": "लिंक कॉपी किया गया"
+            },
+            "About": {
+                "Title": "महिला विदेश नीति भंडार के बारे में",
+                "Phrase1": "महिला विदेश नीति भंडार को प्रबंधन फेमिनिस्ट फॉरेन पॉलिसी कॉलैबोरेटिव (एफएफपीसी) द्वारा किया जाता है, जो सरकारों, नागरिक समाज और परोपकारी संस्थाओं में काम करने वाली महिलाओं के लिए एक साझा स्थान है, जो सामूहिक रूप से रणनीति बनाने और विदेश नीति में महिला दृष्टिकोण को आगे बढ़ाने के लिए काम करता है।",
+                "Phrase2": "हमसे संपर्क करने के लिए, कृपया हमारा",
+                "Form": "संपर्क फॉर्म भरें।",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "आप हमें इन पर भी फॉलो कर सकते हैं",
+                "Phrase2-x": "और",
+                "Phrase3": "महिला विदेश नीति भंडार एफएफपीसी द्वारा महिला विदेश नीति पर संसाधनों की विविधता और विस्तार की मांग को देखते हुए स्थापित किया गया था। हालांकि, इस समय, हमारे पास इस लक्ष्य के लिए समर्पित मानव और वित्तीय संसाधन नहीं हैं, और हम मानते हैं कि यह हमारे समावेशिता और पहुंच के लक्ष्यों में बाधा हो सकता है। इस परियोजना के लिए आपका समर्थन स्वागत योग्य है, साथ ही आपकी टिप्पणियाँ और सुझाव भी।"
             }
         },
         "Themes": {
@@ -545,38 +591,37 @@
             "सरकारी विकास सहायता": "#77DD77",
             "PFP विश्लेषण": "#F49AC2",
             "नारीवादी पद्धतियां": "#AEC6CF",
-            "निगरानी और मूल्यांकन": "#779ECB"
+            "निगरानी और मूल्यांकन": "#779ECB",
+            "राज्य नीति रणनीति": "#779ECB"
         },
         "Types": [
             "रिपोर्ट",
-            "नीति सारांश",
-            "सरकारी दस्तावेज़",
+            "नीति संक्षिप्त",
             "पेपर",
-            "समाचार पत्र लेख",
+            "जर्नल लेख",
             "कला",
-            "इन्फोग्राफिक",
+            "इन्फोग्राफ़िक",
             "पॉडकास्ट",
             "टूलकिट",
-            "संसाधन भंडार",
-            "घटना रिकॉर्डिंग",
+            "संसाधन रिपॉजिटरी",
+            "इवेंट रिकॉर्डिंग",
             "वीडियो",
             "ब्लॉग",
-            "विचार लेख",
+            "ओप-एड",
             "समाचार",
-            "वेब पेज",
-            "सरकारी दस्तावेज़",
+            "वेबपेज",
+            "आधिकारिक दस्तावेज़",
             "प्रेस विज्ञप्ति",
             "बैठक के मिनट",
-            "पुस्तकें",
-            "अन्य"
+            "पुस्तक",
+            "पुस्तक अध्याय",
+            "भाषण"
         ],
         "Regions": [
-            "उत्तरी अमेरिका (अमेरिका और कनाडा)",
-            "लैटिन अमेरिका और कैरिबियन",
-            "मध्य पूर्व और उत्तरी अफ्रीका",
-            "उप-सहारा अफ्रीका",
+            "अमेरिका",
             "एशिया",
-            "प्रशांत/ओशिनिया",
+            "अफ्रीका",
+            "ओशिनिया",
             "यूरोप",
             "वैश्विक"
         ],
@@ -584,9 +629,9 @@
             "नागरिक समाज",
             "अंतर्राष्ट्रीय संगठन",
             "सरकार",
-            "शिक्षा जगत",
+            "अकादमिक",
             "समाचार संगठन",
-            "व्यक्तिगत"
+            "व्यक्ति"
         ]
     },
     "np": {
@@ -621,7 +666,7 @@
                     "Orgs": "संगठनहरू चयन गर्नुहोस्",
                     "Expand": "फिल्टरहरू विस्तार गर्नुहोस्",
                     "Retract": "फिल्टरहरू लुकाउनुहोस्",
-                    "Paid": "पेड सामग्री"
+                    "Language": "भाषा चयन गर्नुहोस्"
                 },
                 "Project": "परियोजनाहरू",
                 "Founded": "परियोजनाहरू फेला परे!",
@@ -632,6 +677,16 @@
                     "Button": "पहुँच गर्नुहोस्"
                 },
                 "Modal": "लिङ्क प्रतिलिपि गरियो"
+            },
+            "About": {
+                "Title": "महिला विदेश नीति भण्डारको बारेमा",
+                "Phrase1": "महिला विदेश नीति भण्डारलाई फेमिनिस्ट फरेन पलिसी कलेक्टिभ (एफएफपीसी) द्वारा व्यवस्थापन गरिएको छ, जुन सरकार, नागरिक समाज र परोपकारी संस्थामा काम गर्ने महिलावादीहरूको लागि साझा ठाउँ हो जसले महिला विदेश नीतिका दृष्टिकोणलाई अगाडि बढाउन र रणनीति तय गर्न सामूहिक रूपमा काम गर्दछ।",
+                "Phrase2": "हामीलाई सम्पर्क गर्न, कृपया हाम्रो",
+                "Form": "सम्पर्क फारम भर्नुहोस्।",
+                "link-form": "https://www.ffpcollaborative.org/contact-us",
+                "Phrase2-1": "तपाईं हामीलाई यहाँ पनि पछ्याउन सक्नुहुन्छ",
+                "Phrase2-x": "र",
+                "Phrase3": "महिला विदेश नीति भण्डार एफएफपीसीले महिला विदेश नीतिको विविधता र संसाधनहरूको विस्तार गर्ने मागलाई प्रतिक्रिया दिनको लागि सुरु भएको हो। यद्यपि, हाल हामीसँग यस लक्ष्यका लागि समर्पित मानवीय र वित्तीय संसाधनहरू छैनन्, र हामीले यो समावेशिता र पहुँचको हाम्रा लक्ष्यहरूको लागि अवरोध हुन सक्छ भन्ने कुरा स्वीकार गर्दछौं। यस परियोजनालाई तपाईंको समर्थन स्वागत योग्य छ, साथै तपाईंको टिप्पणी र सुझावहरू पनि।"
             }
         },
         "Themes": {
@@ -663,48 +718,47 @@
             "औपचारिक विकास सहायता": "#77DD77",
             "PFP विश्लेषण": "#F49AC2",
             "महिला विधिहरू": "#AEC6CF",
-            "अनुगमन र मूल्यांकन": "#779ECB"
+            "अनुगमन र मूल्यांकन": "#779ECB",
+            "राज्य नीति रणनीति": "#779ECB"
         },
         "Types": [
             "प्रतिवेदन",
-            "नीति सारांश",
-            "सरकारी आधिकारिक कागजात",
-            "पत्र",
-            "समाचार लेख",
+            "नीतिगत संक्षिप्त विवरण",
+            "कागज",
+            "जर्नल लेख",
             "कला",
-            "सूचनाचित्र",
+            "इन्फोग्राफिक",
             "पोडकास्ट",
-            "उपकरण किट",
-            "स्रोत रिपोजिटरीहरू",
-            "घटना रेकर्डिङ",
-            "भिडियो",
+            "Toolkit टूलकिट",
+            "स्रोत भण्डारहरू",
+            "घटनाका रेकर्डिङ",
+            "​​भिडियो",
             "ब्लग",
-            "विचार लेख",
+            "ओप-एड / राय संस्करण",
             "समाचार",
-            "वेब पृष्ठ",
-            "सरकारी कागजात",
-            "प्रेस विज्ञप्ति",
-            "बैठक रेकर्ड",
-            "पुस्तकहरू",
-            "अन्य"
+            "वेबपेज",
+            "आधिकारिक कागजात",
+            "प्रेस बिज्ञप्ति",
+            "बैठक प्रतिवेदन वा दस्ताबेज",
+            "पुस्तक",
+            "पुस्तक अध्याय",
+            "भाषण"
         ],
         "Regions": [
-            "उत्तर अमेरिका (अमेरिका र क्यानडा)",
-            "लाटिन अमेरिका र क्यारिबियन",
-            "मध्यम पूर्व र उत्तर अफ्रिका",
-            "उप-सहारा अफ्रिका",
+            "अमेरिका",
             "एशिया",
-            "प्रशान्त/ओसिनिया",
-            "यूरोप",
-            "वैश्विक"
+            "अफ्रीका",
+            "ओसेनिया",
+            "युरोप",
+            "अन्तरराष्ट्रिय / विस्वब्यपी"
         ],
         "Sources": [
-            "सामाजिक समाज",
-            "अन्तर्राष्ट्रिय संगठन",
-            "सरकार",
-            "अकादेमिया",
-            "समाचार संगठन",
-            "व्यक्ति"
+            "नागरिक समाज",
+            "अन्तर्राष्ट्रिय संस्था",
+            "सरकारी संस्था",
+            "अध्यापन संस्था",
+            "समाचार संस्था",
+            "व्यक्तिगत"
         ]
     }
 }

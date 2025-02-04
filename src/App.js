@@ -1,22 +1,31 @@
 import './styles/global.scss';
 import './styles/home.scss';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Projects from "./pages/Projects";
+import About from './pages/About'; // Importando a página About
 import Header from './components/Header/Header';
 import React, { useState } from "react";
 
 function App() {
-
   const [selected, setSelected] = useState([]);
   const [language, setLanguage] = useState("pt"); // Adicione o estado para a linguagem
 
   return (
-    <div className="App">
-      {/* Passa setLanguage como prop para o Header */}
-      <Header setLanguage={setLanguage} lang={language}/>
-      
-      <Projects lang={language}/>
+    <Router>
+      <div className="App">
+        {/* Passa setLanguage como prop para o Header */}
+        <Header setLanguage={setLanguage} lang={language} />
 
-    </div>
+        {/* Define as rotas */}
+        <Routes>
+          {/* Rota para a página inicial (Projects) */}
+          <Route path="/" element={<Projects lang={language} />} />
+
+          {/* Rota para a página About */}
+          <Route path="/about" element={<About lang={language} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

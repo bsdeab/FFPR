@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
+import { Link } from 'react-router-dom'; // Importe o Link
 import './Header.scss';
 
 import logo from '../../assets/logoF.png';
@@ -14,7 +15,7 @@ import infos from '../../data/infos.json'; // Importando o arquivo JSON
 // Icones
 import { MdMenu, MdClose } from "react-icons/md";
 
-function Header({ setLanguage, lang}) { // Recebe setLanguage como prop
+function Header({ setLanguage, lang }) { // Recebe setLanguage como prop
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null); // Ref para detectar cliques fora do menu
 
@@ -56,9 +57,14 @@ function Header({ setLanguage, lang}) { // Recebe setLanguage como prop
             </div>
 
             <div ref={menuRef} className={`header-items ${menuOpen ? 'open' : ''}`}>
-                <span className='header-item'>{infos[lang]["Texts"]["Header"]["Home"]}</span>
-                <span className='header-item'>{infos[lang]["Texts"]["Header"]["About"]}</span>
-                
+                {/* Use Link para navegar entre as rotas */}
+                <Link to="/" className='header-item'>
+                    {infos[lang]["Texts"]["Header"]["Home"]}
+                </Link>
+                <Link to="/about" className='header-item'>
+                    {infos[lang]["Texts"]["Header"]["About"]}
+                </Link>
+
                 <div className='language'>
                     <Select
                         options={languageOptions}

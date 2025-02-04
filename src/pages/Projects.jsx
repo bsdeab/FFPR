@@ -216,6 +216,7 @@ function Projects(props) {
   const [author, setAuthor] = useState([]);
   const [organization, setOrganization] = useState([]);
   const [paids, setPaid] = useState([]); // Novo estado para o filtro de pagamento
+  const [languageFilter, setLanguageFilter] = useState([]);
 
   let lang = props.lang;
 
@@ -282,11 +283,14 @@ function Projects(props) {
       ? paids.includes(card.paid)
       : true;
 
+    const matchesLanguage = languageFilter.length > 0
+        ? languageFilter.some(lang => card.language.includes(lang))
+        : true;
+
+
     // Retorna verdadeiro se todos os filtros corresponderem
     return matchesType && matchesRegion && matchesSource &&
-           matchesThemes && matchesSearchTerm &&
-           matchesAuthor && matchesOrganization &&
-           matchesPaid;
+           matchesThemes && matchesSearchTerm && matchesLanguage;
     });
 
   return (
@@ -321,6 +325,8 @@ function Projects(props) {
         setPaid={setPaid} // Adiciona o estado de pagamento ao filtro
         authorsList={authorsList}
         organizationsList={organizationsList}
+        languageFilter={languageFilter}
+        setLanguageFilter={setLanguageFilter}
         language={lang}
       />
 
