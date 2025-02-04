@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Card.scss';
 import { MdOutlineShare, MdBookmarkBorder, MdBookmark } from "react-icons/md";
 import data from '../../data/infos.json';
+import { HiMiniCurrencyDollar } from "react-icons/hi2";
 
 const tagColors = data["en"]["Themes"];
 
@@ -68,9 +69,9 @@ function Card(props) {
     <div className='card-container'>
 
       <div className='card-tag-paid'>
-        
-        <span className={`card-paid ${props.paid}`}>{props.paid}</span>
-
+        {props.paid === 'Paywalled' ? <HiMiniCurrencyDollar className='icon-dolar'/> : (
+          <span className={`card-paid ${props.paid}`}>{props.paid}</span>
+        )}
       </div>
 
       <div className="card-title-area">

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
 import './Header.scss';
 
-import logo from '../../assets/logoF.jpeg';
+import logo from '../../assets/logoF.png';
 import usFlag from '../../assets/flags/us.png';
 import frFlag from '../../assets/flags/fr.png';
 import spFlag from '../../assets/flags/sp.png';

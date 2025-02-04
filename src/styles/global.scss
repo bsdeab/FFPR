@@ -1,25 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'MaiolaPro', sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 @font-face {
-    font-family: 'MaiolaPro';
-    src: url('../assets/fonts/MaiolaPro.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face{
-    font-family: "TerminaTest";
-    src: url('../assets/fonts/TerminaTest-Medium.otf') format("truetype");
-    font-weight: medium;
-    font-style: normal;
-}
-
 body {
-    font-family: 'MaiolaPro', sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 :root{

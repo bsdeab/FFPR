@@ -1,231 +1,242 @@
 .card-container {
+  width: 100%;
+  max-width: 310px; // Limita o tamanho máximo do card
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.45);
+  transition: 0.4s;
+
+  &:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.875);
+  }
+
+  .btn-acess {
+    height: 45px;
+    margin-top: 10px;
+    border: none;
+    background-color: #203370;
+    color: #f7f3ef;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.4s;
+
+    &:hover {
+      filter: brightness(1.5);
+    }
+  }
+
+  .card-btns {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    .btn-share,
+    .btn-favorite {
+      width: 30px;
+      height: 30px;
+      border: none;
+      background: none;
+      font-size: 20px;
+    }
+  }
+
+  .area-name {
+    font-size: 14px;
+    font-weight: lighter;
+    color: gray;
+  }
+
+  .card-tag-paid {
     width: 100%;
-    max-width: 310px; // Limita o tamanho máximo do card
-    height: auto;
-    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 12px;
+
+    .card-paid {
+      padding: 10px 30px;
+      font-weight: bolder;
+      border-radius: 4px;
+      background-color: #203370;
+      color: white;
+      font-size: 14px;
+    }
+  }
+
+  .card-title-area {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    /* Esconde o conteúdo que passa do limite */
+    white-space: wrap;
+    /* Garante que o texto não será quebrado em várias linhas */
+    text-overflow: ellipsis;
+    /* Adiciona as reticências quando o texto for maior que o contêiner */
+
+    .card-title {
+      font-weight: bold;
+      font-size: 16px;
+      padding-bottom: 6px;
+    }
+  }
+
+  .card-tags-area {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    padding: 18px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.45);
-    transition: 0.4s;
-  
-    &:hover {
-      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.875);
-    }
-  
-    .btn-acess {
-      height: 45px;
-      margin-top: 10px;
-      border: none;
-      background-color: #203370;
-      color: #f7f3ef;
-      cursor: pointer;
-      border-radius: 6px;
-      transition: 0.4s;
-  
-      &:hover {
-        filter: brightness(1.5);
-      }
-    }
-  
-    .card-btns {
-      margin-top: 12px;
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      justify-content: center;
-      align-items: center;
-  
-      .btn-share,
-      .btn-favorite {
-        width: 30px;
-        height: 30px;
-        border: none;
-        background: none;
-        font-size: 20px;
-      }
-    }
-  
-    .area-name {
-      font-size: 14px;
-      font-weight: lighter;
-      color: gray;
-    }
-  
-    .card-tag-paid{
-      width: 100%;
-      height: 40px;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-      margin-bottom: 12px;
-      
-      .card-paid{
-        padding: 10px 30px;
-        font-weight: bolder;
-        border-radius: 4px;
-        background-color: #203370;
-        color: white;
-        font-size: 14px;
-      }
-    }
 
-    .card-title-area {
-      width: 100%;
-      height: 75px;
-      overflow: hidden;            /* Esconde o conteúdo que passa do limite */
-      white-space: wrap;         /* Garante que o texto não será quebrado em várias linhas */
-      text-overflow: ellipsis;     /* Adiciona as reticências quando o texto for maior que o contêiner */
-
-      .card-title {
-        font-weight: bold;
-        font-size: 16px;
-        padding-bottom: 6px;
-      }
-    }
-  
-    .card-tags-area {
+    .tags {
+      margin-top: 2px;
       display: flex;
-      flex-direction: column;
-
-      .tags {
-        margin-top: 2px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-  
-        .tag {
-          display: flex;
-          align-items: center;
-          padding: 8px 12px;
-          border-radius: 6px;
-        }
-      }
-    }
-  
-    .card-organization-area,
-    .card-author-area,
-    .card-language-area {
-      height: 75px;
-      margin-top: 5px;
+      flex-wrap: wrap;
       gap: 6px;
-      display: flex;
-      flex-direction: column;
-      font-size: 14px;
-      overflow: hidden;            /* Esconde o conteúdo que passa do limite */
-      white-space: wrap;         /* Garante que o texto não será quebrado em várias linhas */
-      text-overflow: ellipsis;     /* Adiciona as reticências quando o texto for maior que o contêiner */
-    }
 
-    .card-organization-area{
-      height: 60px;
+      .tag {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 6px;
+      }
     }
-  
-    .card-language-area{
-      height: 60px;
-    }
+  }
 
-    .card-footer {
+  .card-organization-area,
+  .card-author-area,
+  .card-language-area {
+    height: 75px;
+    margin-top: 5px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    overflow: hidden;
+    /* Esconde o conteúdo que passa do limite */
+    white-space: wrap;
+    /* Garante que o texto não será quebrado em várias linhas */
+    text-overflow: ellipsis;
+    /* Adiciona as reticências quando o texto for maior que o contêiner */
+  }
+
+  .card-organization-area {
+    height: 60px;
+  }
+
+  .card-language-area {
+    height: 60px;
+  }
+
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 20px;
+    margin-top: 12px;
+    justify-content: flex-end;
+
+    .icon {
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(27, 203, 21);
+      }
+    }
+  }
+}
+
+.copy-notification {
+  position: fixed;
+  width: 75%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  z-index: 1000;
+  opacity: 0.9;
+}
+
+// Media Queries para responsividade
+@media (max-width: 768px) {
+  .card-container {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .btn-acess {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .card-footer {
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .card-language-area {
+
+    .language-row {
       display: flex;
       flex-direction: row;
       gap: 12px;
-      font-size: 20px;
-      margin-top: 12px;
-      justify-content: flex-end;
-  
-      .icon {
-        cursor: pointer;
-  
-        &:hover {
-          color: rgb(27, 203, 21);
-        }
-      }
     }
   }
-  
-  .copy-notification {
-    position: fixed;
-    width: 75%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    z-index: 1000;
-    opacity: 0.9;
-  }  
+}
 
-  // Media Queries para responsividade
-  @media (max-width: 768px) {
-    .card-container {
-      max-width: 100%;
-      padding: 12px;
-    }
-  
-    .btn-acess {
-      height: 40px;
-      font-size: 14px;
-    }
-  
-    .card-footer {
-      justify-content: space-between;
-      font-size: 18px;
-    }
+@media (max-width: 480px) {
+  .card-container {
+    padding: 15px 10px;
+    gap: 10px;
+  }
 
-    .card-language-area{
-      
-      .language-row{
-        display: flex;
-        flex-direction: row;
-        gap: 12px;
-      }
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .card-container {
-      padding: 15px 10px;
-      gap: 10px;
-    }
-  
-    .btn-acess {
-      height: 35px;
-      font-size: 12px;
-    }
-  
-    .card-title-area .card-title {
-      font-size: 16px;
-    }
-  
-    .card-footer {
-      font-size: 16px;
-    }
-  }
-  
-  .paid-tag {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #ff9800;
-    color: white;
+  .btn-acess {
+    height: 35px;
     font-size: 12px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    z-index: 1;
   }
-  
-  .Free{
-    display: none;
+
+  .card-title-area .card-title {
+    font-size: 16px;
   }
+
+  .card-footer {
+    font-size: 16px;
+  }
+}
+
+.paid-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff9800;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.Free {
+  display: none;
+}
+
+.icon-dolar{
+  font-size: 24px;
+  color: var(#081950);
+}
