@@ -18,7 +18,8 @@ const data = [
     "link": "https://drive.google.com/drive/folders/1K-4i_CRuBCHcjVwsgg9pnrEh0QJ2VR40?usp=drive_link",
     "type": "Report",
     "region": "North America (US and Canada)",
-    "source": "Academia"
+    "source": "Academia",
+    "paid": "Paywalled", 
   },
   {
     "title": "Defining Feminist Foreign Policy: The 2023 Edition",
@@ -30,7 +31,8 @@ const data = [
     "link": "https://drive.google.com/drive/folders/1y7aeQYj9aI8vqeUKCwsYrwB3dHHgBJBG?usp=drive_link",
     "type": "Report",
     "region": "Global",
-    "source": "Individual"
+    "source": "Individual",
+    "paid": "Paywalled", 
   },
   {
     "title": "A Reality Check of Dutch Feminist Foreign Policy in Afghanistan and South Sudan",
@@ -43,6 +45,7 @@ const data = [
     "type": "Report",
     "source": "International organization",
     "region": ["Europe"],
+    "paid": "Free", 
   },
   {
     "title": "Foreign Ministry adopts affirmative action in Foreign Service promotion exam",
@@ -54,7 +57,8 @@ const data = [
     "link": "https://www.gob.mx/sre/prensa/foreign-ministry-adopts-affirmative-action-in-foreign-service-promotion-exam?idiom=en",
     "type": "Press Release",
     "source": "",
-    "region": "Latin America and the Caribbean"
+    "region": "Latin America and the Caribbean",
+    "paid": "Free", 
   },
   {
     "title": "Improving Feminist Leadership Policy In Mining, Agriculture, And Clean Energy",
@@ -66,7 +70,8 @@ const data = [
     "link": "https://crossriverwatch.com/2024/08/improving-feminist-leadership-policy-in-mining-agriculture-and-clean-energy-by-njemanze-ugoeze/",
     "type": "Blog",
     "source": "Government",
-    "region": "Sub-Saharan Africa"
+    "region": "Sub-Saharan Africa",
+    "paid": "Free",
   },
   {
     "title": "Why donors must finance feminist movements",
@@ -78,7 +83,8 @@ const data = [
     "link": "https://odi.org/en/insights/why-donors-must-finance-feminist-movements/",
     "type": "Blog",
     "source": "Individual",
-    "region": "Global"
+    "region": "Global",
+    "paid": "Free"
   },
   {
     "title": "Opportunities for India-Mexico cooperation on gender mainstreaming",
@@ -90,7 +96,8 @@ const data = [
     "link": "https://www.hindustantimes.com/ht-insight/international-affairs/opportunities-for-india-mexico-cooperation-on-gender-mainstreaming-101724917511018.html",
     "type": "News",
     "source": "News organization",
-    "region": ["Asia", "Latin America and the Caribbean"]
+    "region": ["Asia", "Latin America and the Caribbean"],
+    "paid": "Free"
   },
   {
     "title": "The Continent Falling Behind: Africa’s placement in the Global Feminist Foreign Policy Discourse",
@@ -102,7 +109,8 @@ const data = [
     "link": "https://africanarguments.org/2024/08/the-continent-falling-behind-africas-placement-in-the-global-feminist-foreign-policy-discourse/",
     "type": "Blog",
     "source": "News Organization",
-    "region": "Sub-Saharan Africa"
+    "region": "Sub-Saharan Africa",
+    "paid": "Free"
   },
   {
     "title": "Feminist Economic Alternatives",
@@ -114,7 +122,8 @@ const data = [
     "link": "https://cmiconsortium.org/publications/feminist-economic-alternatives-why-and-why-now/",
     "type": "Reports",
     "source": "",
-    "region": "Global"
+    "region": "Global",
+    "paid": "Free"
   },
   {
     "title": "Making Feminist Foreign Policy A Reality: Experiences and Lessons Learned from one of Sweden’s Largest Women’s Rights Organisations",
@@ -126,7 +135,8 @@ const data = [
     "link": "https://kvinnatillkvinna.org/wp-content/uploads/2023/05/The-Kvinna-till-Kvinna-Foundatio",
     "type": "Reports",
     "source": "",
-    "region": "Europe"
+    "region": "Europe",
+    "paid": "Free"
   },
   {
     "title": "Feminist Foreign Policy Framework and Gender Equality in Nepal",
@@ -138,7 +148,8 @@ const data = [
     "link": "https://niice.org.np/archives/7525",
     "type": "Blog",
     "source": "",
-    "region": "Asia"
+    "region": "Asia",
+    "paid": "Free"
   },
   {
     "title": "Dimensions of Feminist Foreign Policy",
@@ -150,7 +161,8 @@ const data = [
     "link": "",
     "type": "News",
     "source": "News organization",
-    "region": "Asia"
+    "region": "Asia",
+    "paid": "Free"
   },
   {
     "title": "नारीवादी परराष्ट्र नीतिका आयाम",
@@ -162,7 +174,8 @@ const data = [
     "link": "https://ekantipur.com/opinion/2024/08/13/dimensions-of-feminist-foreign-policy-06-44.html",
     "type": "News",
     "source": "",
-    "region": "Asia"
+    "region": "Asia",
+    "paid": "Free"
   },
   {
     "title": "What is the value of feminist foreign policy in advancing social justice globally?",
@@ -174,7 +187,8 @@ const data = [
     "link": "https://odi.org/en/insights/what-is-the-value-of-feminist-foreign-policy-in-advancing-social-justice-globally/",
     "type": "Blog",
     "source": "",
-    "region": "Global"
+    "region": "Global",
+    "paid": "Free"
   },
   {
     "title": "The CFFP Glossary",
@@ -186,7 +200,8 @@ const data = [
     "link": "https://centreforfeministforeignpolicy.org/2021/03/08/feminist-glossary-2/",
     "type": "Toolkit",
     "source": "",
-    "region": "Global"
+    "region": "Global",
+    "paid": "Free"
   },
 
 
@@ -201,6 +216,7 @@ function Projects(props) {
   const [searchTerm, setSearchTerm] = useState('');
   const [author, setAuthor] = useState([]);
   const [organization, setOrganization] = useState([]);
+  const [paids, setPaid] = useState([]); // Novo estado para o filtro de pagamento
 
   let lang = props.lang;
 
@@ -262,10 +278,17 @@ function Projects(props) {
       ? organization.some(org => card.organization.includes(org))
       : true;
 
-    console.log(matchesType, matchesRegion)
+    // Verifica se há correspondência de pagamento
+    const matchesPaid = paids.length > 0
+      ? paids.includes(card.paid)
+      : true;
 
-    return matchesType && matchesRegion && matchesSource && matchesThemes && matchesSearchTerm && matchesAuthor && matchesOrganization;
-  });
+    // Retorna verdadeiro se todos os filtros corresponderem
+    return matchesType && matchesRegion && matchesSource &&
+           matchesThemes && matchesSearchTerm &&
+           matchesAuthor && matchesOrganization &&
+           matchesPaid;
+    });
 
   return (
     <div className="App">
@@ -273,21 +296,32 @@ function Projects(props) {
       <div className="home-infos">
         <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
-        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase2"]}</span>
-        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</span>
+        <span className="home-description bolder">{infos[lang]["Texts"]["Projects"]["Phrase2"]}</span>
+        <a href="https://forms.fillout.com/t/a2gP6FojgFus" className="home-description link">{infos[lang]["Texts"]["Projects"]["Phrase3"]}</a>
+        <span className="home-description how">{infos[lang]["Texts"]["Projects"]["Phrase4"]}</span>
+        <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase5"]}</span>
       </div>
 
       <Filter
-        setType={setType}
-        setRegion={setRegion}
-        setSource={setSource}
-        setSelectedThemes={setSelectedThemes}
-        setSearchTerm={setSearchTerm}
-        setAuthor={setAuthor}
-        setOrganization={setOrganization}
-        authorsList={authorsList} // Passa a lista de autores
-        organizationsList={organizationsList} // Passa a lista de organizações
         lang={lang}
+        type={type}
+        setType={setType}
+        region={region}
+        setRegion={setRegion}
+        source={source}
+        setSource={setSource}
+        selectedThemes={selectedThemes}
+        setSelectedThemes={setSelectedThemes}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        author={author}
+        setAuthor={setAuthor}
+        organization={organization}
+        setOrganization={setOrganization}
+        paid={paids}
+        setPaid={setPaid} // Adiciona o estado de pagamento ao filtro
+        authorsList={authorsList}
+        organizationsList={organizationsList}
       />
 
       <div className="projects">
@@ -307,6 +341,7 @@ function Projects(props) {
               language={card.language}
               link={card.link}
               lang={lang}
+              paid={card.paid}
             />
           ))}
 
@@ -317,3 +352,4 @@ function Projects(props) {
 }
 
 export default Projects;
+

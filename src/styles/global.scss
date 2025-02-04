@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'MaiolaPro', sans-serif;
 }
 
 @font-face {
@@ -10,11 +11,19 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: "TerminaTest";
+    src: url('../assets/fonts/TerminaTest-Medium.otf') format("truetype");
+    font-weight: medium;
+    font-style: normal;
+}
+
 body {
-    font-family: 'NomeDaFonte', sans-serif;
+    font-family: 'MaiolaPro', sans-serif;
 }
 
 :root{
     --primary: #203370;
     --secondary: #f6921e;
+    --background: #F7F4EF;
 }   

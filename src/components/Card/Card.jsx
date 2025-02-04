@@ -66,6 +66,13 @@ function Card(props) {
 
   return (
     <div className='card-container'>
+
+      <div className='card-tag-paid'>
+        
+        <span className={`card-paid ${props.paid}`}>{props.paid}</span>
+
+      </div>
+
       <div className="card-title-area">
         <span className='card-title'>{props.title}</span>
       </div>

@@ -5,8 +5,11 @@
     flex-direction: column;
     gap: 10px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
-    margin: 10px 20px;
-    padding: 10px;
+    
+    margin-top: 40px;
+    padding: 20px 30px;
+    width: 92%;
+    justify-self: center;
 
     .filter-saves {
         display: flex;
@@ -23,20 +26,25 @@
 
     .filters {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 20px;
+        justify-content: space-between;
 
         .filter-item {
             box-sizing: border-box;
+            flex: 1 1 calc(33% - 20px); /* Ajusta para três colunas */
+            min-width: 250px; /* Garante tamanho mínimo */
 
             .search-input {
                 height: 36px;
-                box-sizing: border-box; // Evita estouro de largura
+                box-sizing: border-box;
                 padding: 0 10px;
                 border-radius: 6px;
                 font-size: 14px;
                 color: #aaaaaa;
                 border: 1px solid #ccc;
+                width: 100%;
             }
 
             select {
@@ -47,6 +55,7 @@
                 background-color: white;
                 color: #aaaaaa;
                 border: 1px solid #ccc;
+                width: 100%;
 
                 &:hover, &:focus {
                     border-color: #007bff;
@@ -98,18 +107,18 @@
             align-items: center;
             justify-content: center;
         }
-
     }
 
     .filters {
-        
-        .filter-item {
+        flex-direction: column;
+        align-items: center;
 
-            .search-input {
-                width: 100%; // Ajusta o campo de busca para 100% da largura
-            }
-            select {
-                width: 100%; // Ajusta o select para 100% da largura
+        .filter-item {
+            flex: 1 1 100%;
+            min-width: unset;
+
+            .search-input, select {
+                width: 100%;
             }
         }
     }

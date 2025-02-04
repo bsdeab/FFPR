@@ -11,9 +11,11 @@
             },
             "Projects": {
                 "Title": "Feminist Foreign Policy Repository",
-                "Phrase1": "This repository displays a database of policies and initiatives related to feminist foreign policy from different parts of the world.",
-                "Phrase2": "Here you can apply multiple filters to explore and compare policies according to various criteria, such as country of origin, areas of impact, organizations involved, and policy approaches.",
-                "Phrase3": "Our objective is to promote the understanding and dissemination of inclusive and egalitarian practices in international relations.",
+                "Phrase1": "The Feminist Foreign Policy Repository (FFPR) is an open-source platform that compiles key resources and publications related to feminist foreign policy. Like everything we do, the FFPR was collaboratively built with inputs from the diverse members of our Global Partner Network for Feminist Foreign Policy and is continually updated with the support of allies like you.",
+                "Phrase2": "Kindly read our Terms of Use for more information on the purpose of this resource and how it is organized and managed.",
+                "Phrase3": "Click here to submit a new source to the repository. If your source is up and you would like us to remove it, please email spogmay@ffpcollaborative.org.",
+                "Phrase4": "How to use the FFPR",
+                "Phrase5": "Explore our diverse array of resources below. You can search for your own key words in the search bar or add any of our filters in the drop-down tabs. You can filter items by region, author, organization, theme, type of document, and type of source. You can broaden or narrow your search by adding as few or as many filters as you wish.",
                 "Filter": {
                     "Name": "Filter",
                     "Search": "Find project",
@@ -24,7 +26,8 @@
                     "Authors": "Select authors",
                     "Orgs": "Select organizations",
                     "Expand": "Expand Filters",
-                    "Retract": "Hide Filters"
+                    "Retract": "Hide Filters",
+                    "Paid": "Type content"
                 },
                 "Project": "Projects",
                 "Founded": "Projects found!",
@@ -120,10 +123,12 @@
                 "Data": "Dados"
             },
             "Projects": {
-                "Title": "Repositório Feminista de Política Externa",
-                "Phrase1": "Este repositório exibe um banco de dados com políticas e iniciativas relacionadas à política externa feminista de diversas partes do mundo.",
-                "Phrase2": "Aqui você pode aplicar múltiplos filtros para explorar e comparar políticas de acordo com diversos critérios, como país de origem, áreas de impacto, organizações envolvidas, e abordagens políticas.",
-                "Phrase3": "Nosso objetivo é promover o entendimento e a disseminação de práticas inclusivas e igualitárias nas relações internacionais.",
+                "Title": "Repositório de Política Externa Feminista",
+                "Phrase1": "O Repositório de Política Exterior Feminista (RPEF) é uma plataforma aberta que reúne recursos e publicações relacionadas à política exterior feminista. Como tudo que nós fazemos,  o RPEF foi construído coletivamente com contribuições dos membros da  Global Partner Network for Feminist Foreign Policy, e é atualizado continuamente com o apoio de aliados como você.",
+                "Phrase2": "Por favor leia os nossos Termos de Uso para saber mais sobre o propósito dessa ferramenta e para entender como ela é gerenciada.",
+                "Phrase3": "Clique aqui para enviar um novo item para o repositório.",
+                "Phrase4": "Como usar o RPEF",
+                "Phrase5": "Explore a nossa coleção diversa de recursos abaixo. Você pode buscar os seus próprios termos na barra de busca ou adicionar os nossos filtros. Você pode filtrar a sua busca por região, autor, organização, tema, tipo de documento e tipo de fonte. Você pode expandir ou limitar a sua busca adicionando mais ou menos filtros de acordo com as suas preferências.",
                 "Filter": {
                     "Name": "Filtro",
                     "Search": "Busque um projeto",
@@ -134,7 +139,8 @@
                     "Authors": "Selecione os autores",
                     "Orgs": "Seleciona as organizações",
                     "Expand": "Expandir Filtros",
-                    "Retract": "Esconder Filtros"
+                    "Retract": "Esconder Filtros",
+                    "Paid": "Conteúdo pago"
                 },
                 "Project": "Projetos",
                 "Founded": "Projetos encontrados!",
@@ -269,9 +275,11 @@
             },
             "Projects": {
                 "Title": "Répertoire de la Politique Étrangère Féministe",
-                "Phrase1": "Ce répertoire présente une base de données de politiques et d'initiatives liées à la politique étrangère féministe de différentes parties du monde.",
-                "Phrase2": "Ici, vous pouvez appliquer plusieurs filtres pour explorer et comparer les politiques selon divers critères, tels que le pays d'origine, les domaines d'impact, les organisations impliquées et les approches politiques.",
-                "Phrase3": "Notre objectif est de promouvoir la compréhension et la diffusion de pratiques inclusives et égalitaires dans les relations internationales.",
+                "Phrase1": "Le Répertoire de politique étrangère féministe (RPEF) est une plateforme à source ouverte qui compile des ressources et publications relatives à la politique étrangère féministe. Comme tout ce que nous faisons, le RPEF a été construit en collaboration avec divers membres de notre réseau mondial de partenaires pour la politique étrangère féministe et est continuellement mis à jour avec le soutien d'alliés comme vous.",
+                "Phrase2": "Veuillez lire nos Conditions d'Utilisation pour plus d'informations sur l'objectif de cette ressource et sur la manière dont elle est organisée et gérée.",
+                "Phrase3": "Cliquez ici pour soumettre une nouvelle source au Répertoire. Si votre source est en ligne et que vous souhaitez que nous la supprimions, veuillez envoyer un courriel à spogmay@ffpcollaborative.org.",
+                "Phrase4": "Comment utiliser le RPEF",
+                "Phrase5": "Explorez notre vaste gamme de ressources ci-dessous. Vous pouvez rechercher vos propres mots-clés dans la barre de recherche ou ajouter l'un de nos filtres dans les onglets déroulants. Vous pouvez filtrer les éléments par région, auteur, organisation, thème, type de document et type de source. Vous pouvez élargir ou restreindre votre recherche en ajoutant autant de filtres que vous le souhaitez.",
                 "Filter": {
                     "Name": "Filtre",
                     "Search": "Rechercher un projet",
@@ -282,7 +290,8 @@
                     "Authors": "Sélectionner des auteurs",
                     "Orgs": "Sélectionner des organisations",
                     "Expand": "Étendre les filtres",
-                    "Retract": "Réduire les filtres"
+                    "Retract": "Réduire les filtres",
+                    "Paid": "Type de contenu"
                 },
                 "Project": "Projets",
                 "Founded": "Projets trouvés !",
@@ -307,9 +316,11 @@
             },
             "Projects": {
                 "Title": "Repositorio de Política Exterior Feminista",
-                "Phrase1": "Este repositorio muestra una base de datos de políticas e iniciativas relacionadas con la política exterior feminista de diferentes partes del mundo.",
-                "Phrase2": "Aquí puedes aplicar múltiples filtros para explorar y comparar políticas de acuerdo con varios criterios, como país de origen, áreas de impacto, organizaciones involucradas y enfoques políticos.",
-                "Phrase3": "Nuestro objetivo es promover la comprensión y difusión de prácticas inclusivas e igualitarias en las relaciones internacionales.",
+                "Phrase1": "El Repositorio de Política Exterior Feminista (RPEF, por sus siglas en inglés) es una plataforma de código abierto que recopila recursos y publicaciones clave relacionados con la política exterior feminista. Como todo lo que hacemos, el RPEF fue construido en colaboración con los aportes de los diversos miembros de nuestra Red de Socios Globales para la Política Exterior Feminista y se actualiza continuamente con el apoyo de aliados como ustedes.",
+                "Phrase2": "Lea nuestras Condiciones de Uso para obtener más información sobre la finalidad de este recurso y cómo se organiza y gestiona.",
+                "Phrase3": "Haga clic aquí para enviar una nueva fuente al repositorio. Si su fuente ya está disponible y desea que la eliminemos, envíe un correo electrónico a spogmay@ffpcollaborative.org.",
+                "Phrase4": "Cómo utilizar el RPEF",
+                "Phrase5": "Explore nuestra variada selección de recursos. Puede buscar por sus propias palabras clave en la barra de búsqueda o añadir cualquiera de nuestros filtros en las pestañas desplegables. Puede filtrar los artículos por región, autor, organización, tema, tipo de documento y tipo de fuente. Puede ampliar o restringir su búsqueda añadiendo tantos filtros como desee.",
                 "Filter": {
                     "Name": "Filtro",
                     "Search": "Buscar un proyecto",
@@ -320,7 +331,8 @@
                     "Authors": "Seleccionar autores",
                     "Orgs": "Seleccionar organizaciones",
                     "Expand": "Expandir filtros",
-                    "Retract": "Ocultar filtros"
+                    "Retract": "Ocultar filtros",
+                    "Paid": "Tipo de contenido"
                 },
                 "Project": "Proyectos",
                 "Founded": "¡Proyectos encontrados!",
@@ -332,5 +344,231 @@
                 }
             }
         }
+    },
+    "hi": {
+        "Texts": {
+            "Header": {
+                "Home": "घर",
+                "Projects": "परियोजनाएं",
+                "Saves": "सहेजे गए",
+                "About": "के बारे में",
+                "Contact": "संपर्क करें",
+                "Data": "डेटा"
+            },
+            "Projects": {
+                "Title": "नारीवादी विदेश नीति भंडार",
+                "Phrase1": "फेमिनिस्ट फॉरेन पॉलिसी रिपोजिटरी (FFPR) एक ओपन-सोर्स प्लेटफ़ॉर्म है जो फेमिनिस्ट फॉरेन पॉलिसी से संबंधित प्रमुख संसाधनों और प्रकाशनों को संकलित करता है। हम जो कुछ भी करते हैं, उसकी तरह FFPR को भी फेमिनिस्ट फॉरेन पॉलिसी के लिए हमारे ग्लोबल पार्टनर नेटवर्क के विविध सदस्यों के इनपुट के साथ मिलकर बनाया गया था और इसे आप जैसे सहयोगियों के समर्थन से लगातार अपडेट किया जाता है।",
+                "Phrase2": "इस संसाधन के उद्देश्य और इसे कैसे व्यवस्थित और प्रबंधित किया जाता है, इस बारे में अधिक जानकारी के लिए कृपया हमारे उपयोग की शर्तें पढ़ें।",
+                "Phrase3": "रिपोजिटरी में एक नया स्रोत सबमिट करने के लिए यहाँ क्लिक करें। यदि आपका स्रोत उपलब्ध है और आप चाहते हैं कि हम इसे हटा दें, तो कृपया spogmay@ffpcollaborative.org को ईमेल करें।",
+                "Phrase4": "FFPR का उपयोग कैसे करें",
+                "Phrase5": "नीचे हमारे विविध संसाधनों की सरणी देखें। आप खोज बार में अपने स्वयं के कीवर्ड खोज सकते हैं या ड्रॉप-डाउन टैब में हमारे किसी भी फ़िल्टर को जोड़ सकते हैं। आप क्षेत्र, लेखक, संगठन, थीम, दस्तावेज़ के प्रकार और स्रोत के प्रकार के अनुसार आइटम फ़िल्टर कर सकते हैं। आप अपनी इच्छानुसार कम या ज़्यादा फ़िल्टर जोड़कर अपनी खोज को विस्तृत या संकीर्ण कर सकते हैं।",
+                "Filter": {
+                    "Name": "फ़िल्टर",
+                    "Search": "एक परियोजना खोजें",
+                    "Themes": "थीम चुनें",
+                    "Types": "प्रकार चुनें",
+                    "Regions": "क्षेत्र चुनें",
+                    "Sourcers": "स्रोत चुनें",
+                    "Authors": "लेखक चुनें",
+                    "Orgs": "संगठन चुनें",
+                    "Expand": "फ़िल्टर विस्तृत करें",
+                    "Retract": "फ़िल्टर छिपाएं",
+                    "Paid": "भुगतान सामग्री"
+                },
+                "Project": "परियोजनाएं",
+                "Founded": "परियोजनाएं मिलीं!",
+                "Card": {
+                    "Org": "संगठन",
+                    "Author": "लेखक(लेखकों)",
+                    "Language": "भाषा",
+                    "Button": "पहुंचें"
+                }
+            }
+        },
+        "Themes": {
+            "जलवायु न्याय": "#FAD6A5",
+            "स्वास्थ्य": "#AEC6CF",
+            "कृत्रिम बुद्धिमत्ता": "#FFD1DC",
+            "डिजिटल नवाचार": "#FFB347",
+            "देखभाल": "#B39EB5",
+            "प्रतिनिधित्व": "#FF6961",
+            "कूटनीति": "#FDFD96",
+            "लोकतंत्र": "#77DD77",
+            "विरोधी-अधिकार/विरोधी-लिंग आंदोलन/अभिनेता": "#CFCFC4",
+            "यौन और प्रजनन स्वास्थ्य और अधिकार": "#779ECB",
+            "लिंग आधारित हिंसा": "#C23B22",
+            "नारीवादी वित्तपोषण": "#F49AC2",
+            "काम/कार्यबल": "#B19CD9",
+            "मैक्रोइकॉनॉमिक्स (ऋण, कर और व्यापार)": "#FFB6C1",
+            "विरोधी-नस्लवाद": "#FFCC99",
+            "विकृतिकरण": "#FF9AA2",
+            "मर्दानगी": "#E3E3E3",
+            "महिलाएं, शांति और सुरक्षा": "#C5E384",
+            "प्रवासन और शरणार्थी": "#FDFD96",
+            "LGBTQIA+ अधिकार": "#FFCCCB",
+            "युवा अधिकार": "#DEA5A4",
+            "आदिवासी अधिकार": "#836953",
+            "विकलांग व्यक्तियों के अधिकार": "#FCE883",
+            "नारीवादी डेटा": "#CFCFC4",
+            "मानवाधिकार": "#FFB347",
+            "सरकारी विकास सहायता": "#77DD77",
+            "PFP विश्लेषण": "#F49AC2",
+            "नारीवादी पद्धतियां": "#AEC6CF",
+            "निगरानी और मूल्यांकन": "#779ECB"
+        },
+        "Types": [
+            "रिपोर्ट",
+            "नीति सारांश",
+            "सरकारी दस्तावेज़",
+            "पेपर",
+            "समाचार पत्र लेख",
+            "कला",
+            "इन्फोग्राफिक",
+            "पॉडकास्ट",
+            "टूलकिट",
+            "संसाधन भंडार",
+            "घटना रिकॉर्डिंग",
+            "वीडियो",
+            "ब्लॉग",
+            "विचार लेख",
+            "समाचार",
+            "वेब पेज",
+            "सरकारी दस्तावेज़",
+            "प्रेस विज्ञप्ति",
+            "बैठक के मिनट",
+            "पुस्तकें",
+            "अन्य"
+        ],
+        "Regions": [
+            "उत्तरी अमेरिका (अमेरिका और कनाडा)",
+            "लैटिन अमेरिका और कैरिबियन",
+            "मध्य पूर्व और उत्तरी अफ्रीका",
+            "उप-सहारा अफ्रीका",
+            "एशिया",
+            "प्रशांत/ओशिनिया",
+            "यूरोप",
+            "वैश्विक"
+        ],
+        "Sources": [
+            "नागरिक समाज",
+            "अंतर्राष्ट्रीय संगठन",
+            "सरकार",
+            "शिक्षा जगत",
+            "समाचार संगठन",
+            "व्यक्तिगत"
+        ]
+    },
+    "np": {
+        "Texts": {
+            "Header": {
+                "Home": "गृहपृष्ठ",
+                "Projects": "परियोजनाहरू",
+                "Saves": "सुरक्षित गरिएका",
+                "About": "बारेमा",
+                "Contact": "संपर्क गर्नुहोस्",
+                "Data": "डेटा"
+            },
+            "Projects": {
+                "Title": "फेमिनिस्ट विदेश नीति रिपोजिटरी",
+                "Phrase1": "नारीवादी विदेश नीति संग्रह एक खुला स्रोत मंच हो जसले नारीवादी वैदेशिक नीतिसँग सम्बन्धित मुख्य स्रोत र प्रकाशनहरू संकलन गर्दछ। अरु कार्यहरु जस्तै, यो भण्डार हाम्रो विश्वव्यापी साझेदार सञ्जालका विभिन्न सदस्यहरूको सहकार्यमा निर्माण गरिएको हो । यो संग्रह तपाईंहरु लगायत सबै हितैसीहरूको सहयोग र समर्थनका आधारमा निरन्तर रुपमा अद्यावधिक (अपडेट) गरिन्छ ।",
+                "Phrase2": "यस स्रोतको उद्देश्य र यसलाई कसरी व्यवस्थित र व्यवस्थापित गरिन्छ भन्ने बारे थप जानकारीको लागि कृपया हाम्रो प्रयोग नियम तथा सर्तहरू पढ्नुहोस्।",
+                "Phrase3": "यस संग्रहकालागि नयाँ स्रोत तथा प्रकाशनहरु पेश गर्न यहाँ क्लिक गर्नुहोस्। यदि तपाईंको स्रोत तथा प्रकाशन यस संग्रहमा प्रकाशित भइसकेको छ र तपाईं त्यसलाई हटाउन चाहनुहुन्छ भने, spogmay@ffpcollaborative.org मा सम्पर्क गर्नसक्नुहुनेछ ।",
+                "Phrase4": "संग्रह प्रयोग गर्ने बिधि ",
+                "Phrase5": "तल हाम्रा विविध तथा बिस्तृत स्रोतहरूको अन्वेषण गर्नुहोस्। तपाईं खोज पट्टीमा आफ्नै मुख्य शब्द र वाक्यांशहरू राखेर खोज्न सक्नुहुन्छ वा ड्रप-डाउन ट्याबहरूमा हाम्रा कुनै पनि फिल्टरहरू थप्न सक्नुहुन्छ। तपाईं क्षेत्र, लेखक, संगठन, विषयवस्तु, कागजातको प्रकार, र स्रोतको प्रकार अनुसार वस्तुहरू फिल्टर गर्न सक्नुहुन्छ। तपाईंले चाहे जति थोरै वा धेरै फिल्टरहरू थपेर आफ्नो खोजलाई फराकिलो वा साँघुरो बनाउन सक्नुहुन्छ।",
+                "Filter": {
+                    "Name": "फिल्टर",
+                    "Search": "परियोजना खोज्नुहोस्",
+                    "Themes": "विषयहरू चयन गर्नुहोस्",
+                    "Types": "प्रकारहरू चयन गर्नुहोस्",
+                    "Regions": "क्षेत्रहरू चयन गर्नुहोस्",
+                    "Sourcers": "स्रोतहरू चयन गर्नुहोस्",
+                    "Authors": "लेखकहरू चयन गर्नुहोस्",
+                    "Orgs": "संगठनहरू चयन गर्नुहोस्",
+                    "Expand": "फिल्टरहरू विस्तार गर्नुहोस्",
+                    "Retract": "फिल्टरहरू लुकाउनुहोस्",
+                    "Paid": "पेड सामग्री"
+                },
+                "Project": "परियोजनाहरू",
+                "Founded": "परियोजनाहरू फेला परे!",
+                "Card": {
+                    "Org": "संगठन",
+                    "Author": "लेखक(हरू)",
+                    "Language": "भाषा",
+                    "Button": "पहुँच गर्नुहोस्"
+                }
+            }
+        },
+        "Themes": {
+            "Justiça climática": "#FAD6A5",
+            "Saúde": "#AEC6CF",
+            "Inteligência Artificial": "#FFD1DC",
+            "Inovação digital": "#FFB347",
+            "Cuidado": "#B39EB5",
+            "Representação": "#FF6961",
+            "Diplomacia": "#FDFD96",
+            "Democracia": "#77DD77",
+            "Movimentos/atores anti-direitos/anti-gênero": "#CFCFC4",
+            "Saúde sexual e reprodutiva e direitos": "#779ECB",
+            "Violência de gênero": "#C23B22",
+            "Financiamento feminista": "#F49AC2",
+            "Trabalho/força de trabalho": "#B19CD9",
+            "Macroeconomia (dívida, impostos e comércio)": "#FFB6C1",
+            "Anti-racismo": "#FFCC99",
+            "Descolonização": "#FF9AA2",
+            "Masculinidades": "#E3E3E3",
+            "Mulheres, paz e segurança": "#C5E384",
+            "Migração e refugiados": "#FDFD96",
+            "Direitos LGBTQIA+": "#FFCCCB",
+            "Direitos da juventude": "#DEA5A4",
+            "Direitos indígenas": "#836953",
+            "Direitos das pessoas com deficiência": "#FCE883",
+            "Dados feministas": "#CFCFC4",
+            "Direitos humanos": "#FFB347",
+            "Assistência Oficial ao Desenvolvimento": "#77DD77",
+            "Análise de PFP": "#F49AC2",
+            "Metodologias feministas": "#AEC6CF",
+            "Monitoramento e avaliação": "#779ECB"
+        },
+        "Types": [
+            "प्रतिवेदन",
+            "नीति सारांश",
+            "सरकारी आधिकारिक कागजात",
+            "पत्र",
+            "समाचार लेख",
+            "कला",
+            "सूचनाचित्र",
+            "पोडकास्ट",
+            "उपकरण किट",
+            "स्रोत रिपोजिटरीहरू",
+            "घटना रेकर्डिङ",
+            "भिडियो",
+            "ब्लग",
+            "विचार लेख",
+            "समाचार",
+            "वेब पृष्ठ",
+            "सरकारी कागजात",
+            "प्रेस विज्ञप्ति",
+            "बैठक रेकर्ड",
+            "पुस्तकहरू",
+            "अन्य"
+        ],
+        "Regions": [
+            "उत्तर अमेरिका (अमेरिका र क्यानडा)",
+            "लाटिन अमेरिका र क्यारिबियन",
+            "मध्यम पूर्व र उत्तर अफ्रिका",
+            "उप-सहारा अफ्रिका",
+            "एशिया",
+            "प्रशान्त/ओसिनिया",
+            "यूरोप",
+            "वैश्विक"
+        ],
+        "Sources": [
+            "सामाजिक समाज",
+            "अन्तर्राष्ट्रिय संगठन",
+            "सरकार",
+            "अकादेमिया",
+            "समाचार संगठन",
+            "व्यक्ति"
+        ]
     }
 }

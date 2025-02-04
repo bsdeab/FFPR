@@ -1,17 +1,20 @@
 .App {
     min-height: 140vh;
-    
+    background-color: var(--background);
+
     .home-infos {
         display: flex;
         flex-direction: column;
         padding: 60px 90px;
         background-color: #f6921e;
-        color: #081950;
+        color: var(--background);
+        gap: 6px;
 
         .home-title {
-            font-size: 48px;
-            font-weight: bolder;
+            font-size: 52px;
+            font-weight: normal;
             margin-bottom: 20px;
+            font-family: "MaiolaPro";
         }
 
         .home-description {
@@ -88,4 +91,19 @@
             }
         }
     }
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.how{
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.link{
+    color: var(--background);
+    text-decoration: underline;
 }

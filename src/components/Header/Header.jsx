@@ -2,13 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
 import './Header.scss';
 
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logoF.jpeg';
 import usFlag from '../../assets/flags/us.png';
 import frFlag from '../../assets/flags/fr.png';
 import spFlag from '../../assets/flags/sp.png';
-import grFlag from '../../assets/flags/gr.png';
+import npFlag from '../../assets/flags/np.png';
 import ptFlag from '../../assets/flags/pt.png';
-
+import hiFlag from '../../assets/flags/hi.png';
 import infos from '../../data/infos.json'; // Importando o arquivo JSON
 
 // Icones
@@ -21,9 +21,10 @@ function Header({ setLanguage, lang}) { // Recebe setLanguage como prop
     const languageOptions = [
         { value: 'pt', label: <img src={ptFlag} alt="Português" className="flag-icon" /> },
         { value: 'en', label: <img src={usFlag} alt="English" className="flag-icon" /> },
-        { value: 'gr', label: <img src={grFlag} alt="German" className="flag-icon" /> },
+        { value: 'np', label: <img src={npFlag} alt="Nepal" className="flag-icon" /> },
         { value: 'sp', label: <img src={spFlag} alt="Spanish" className="flag-icon" /> },
-        { value: 'fr', label: <img src={frFlag} alt="Français" className="flag-icon" /> }
+        { value: 'fr', label: <img src={frFlag} alt="Français" className="flag-icon" /> },
+        { value: 'hi', label: <img src={hiFlag} alt="India" className="flag-icon" /> }
     ];
 
     const handleLanguageChange = (selectedOption) => {
