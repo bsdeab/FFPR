@@ -18,7 +18,7 @@ const data = [
     "type": "Framework",
     "region": "Global",
     "source": "Civil society",
-    "paid": "", 
+    "paid": "Free", 
   },
   {
     "title": "Defining Feminist Foreign Policy: The 2023 Edition",
