@@ -8,6 +8,19 @@ import { useState } from 'react';
 
 const data = [
   {
+    "title": "Advancing Feminist Foreign Policy in the Multilateral System: Key Debates and Challenges",
+    "tags": ["FFP analysis"],
+    "organization": "International Peace Institute",
+    "author": ["Evyn Papworth"],
+    "year": "2024",
+    "language": ["English"],
+    "link": "https://www.ipinst.org/wp-content/uploads/2024/03/2403_Advancing-Feminist-Foreign-Policyweb.pdf",
+    "type": "Policy brief",
+    "region": "Global",
+    "source": "Civil society",
+    "paid": "Free", 
+  },
+  {
     "title": "Feminist Foreign Policy: A Framework",
     "tags": ["FFP analysis"],
     "organization": "International Center for Research on Women",
