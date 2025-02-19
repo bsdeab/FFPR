@@ -87,7 +87,7 @@ const data = [
   },
   {
     "title": "Opportunities for India-Mexico cooperation on gender mainstreaming",
-    "tags": ["Feminist diplomacy"],
+    "tags": ["Diplomacy"],
     "organization": "Hindustan Times",
     "author": ["Adolfo García Estrada", "Ambika Vishwanath"],
     "year": "2024",
