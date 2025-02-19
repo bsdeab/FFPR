@@ -25,6 +25,13 @@ function App() {
           <Route path="/about" element={<About lang={language} />} />
         </Routes>
       </div>
+
+
+      <footer className="footer">
+        <p>This website was developed by <a href="https://www.linkedin.com/in/jovit/" target="_blank" rel="noopener noreferrer">@Archs</a></p>
+      </footer>
+
+
     </Router>
   );
 }

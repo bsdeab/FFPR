@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 10px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
-    
+
     margin-top: 40px;
     padding: 20px 30px;
     width: 92%;
@@ -33,8 +33,10 @@
 
         .filter-item {
             box-sizing: border-box;
-            flex: 1 1 calc(33% - 20px); /* Ajusta para três colunas */
-            min-width: 250px; /* Garante tamanho mínimo */
+            flex: 1 1 calc(33% - 20px);
+            /* Ajusta para três colunas */
+            min-width: 250px;
+            /* Garante tamanho mínimo */
 
             .search-input {
                 height: 36px;
@@ -57,7 +59,8 @@
                 border: 1px solid #ccc;
                 width: 100%;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     border-color: #007bff;
                 }
             }
@@ -117,9 +120,11 @@
             flex: 1 1 100%;
             min-width: unset;
 
-            .search-input, select {
+            .search-input,
+            select {
                 width: 100%;
             }
         }
     }
 }
+

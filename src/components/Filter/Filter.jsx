@@ -153,6 +153,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Language"]}
                     />
                 </div>
+
             </div>
         </div>
     );

@@ -4,6 +4,10 @@
     font-family: 'OpenSans', sans-serif;
 }
 
+.App{
+    padding-bottom: 20px;
+}
+
 @font-face {
     font-family: 'OpenSans';
     src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
@@ -20,3 +24,23 @@ body {
     --secondary: #f6921e;
     --background: #F7F4EF;
 }   
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.footer a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
