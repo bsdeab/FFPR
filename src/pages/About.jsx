@@ -21,6 +21,10 @@ function About(props){
         <p>
           {data[lang]["Texts"]["About"]["Phrase3"]}
         </p>
+
+        <a href='https://panoramagroup.tfaforms.net/f/feministforeignpolicy' target='_blank'>
+          {data[lang]["Texts"]["About"]["Phrase-support"]}
+        </a>
       </div>
     </div>
   );
