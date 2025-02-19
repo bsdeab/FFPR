@@ -8,6 +8,32 @@ import { useState } from 'react';
 
 const data = [
   {
+    "title": "Forced Displacement and Canada’s Feminist Foreign Policy: What Is Missing?",
+    "tags": ["Migration and refugees"],
+    "organization": "The Local Engagement Refugee Research Network",
+    "author": ["Muzna Dureid"],
+    "year": "2025",
+    "language": ["English"],
+    "link": "https://carleton.ca/lerrn/2025/forced-displacement-and-canadas-feminist-foreign-policy-what-is-missing/",
+    "type": "Report",
+    "region": "Americas",
+    "source": "Civil society",
+    "paid": "Free", 
+  },
+  {
+    "title": "La politique étrangère du Canada sous Justin Trudeau : une rhétorique ambitieuse, mais des résultats modestes",
+    "tags": ["FFP analysis"],
+    "organization": "The Conversation",
+    "author": ["Nicolas-Francois Perron"],
+    "year": "2025",
+    "language": ["French"],
+    "link": "https://theconversation.com/la-politique-etrangere-du-canada-sous-justin-trudeau-une-rhetorique-ambitieuse-mais-des-resultats-modestes-246947",
+    "type": "Blog",
+    "region": "Global",
+    "source": "News organization",
+    "paid": "Free", 
+  },
+  {
     "title": "Advancing Feminist Foreign Policy in the Multilateral System: Key Debates and Challenges",
     "tags": ["FFP analysis"],
     "organization": "International Peace Institute",
