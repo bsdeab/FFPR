@@ -202,6 +202,33 @@ const data = [
     "region": "Global",
     "paid": "Free"
   },
+  {
+    "title": "Feminist Foreign Policy and Nepal",
+    "tags": ["FFP analysis"],
+    "organization": "MyRepublica",
+    "author": ["Sandhya Ghimire"],
+    "year": "2025",
+    "language": ["English"],
+    "link": "https://myrepublica.nagariknetwork.com/news/feminist-foreign-policy-and-nepal-80-95.html",
+    "type": "News",
+    "source": "News organization",
+    "region": "Asia",
+    "paid": "Free"
+  },
+  {
+    "title": "Feminist Foreign Policy – 50th anniversary of the Veil law",
+    "tags": ["Sexual and reproductive health and rights"],
+    "organization": "France Diplomacy",
+    "author": ["N/A"],
+    "year": "2025",
+    "language": ["English"],
+    "link": "https://www.diplomatie.gouv.fr/en/french-foreign-policy/feminist-diplomacy/news/article/feminist-foreign-policy-50th-anniversary-of-the-veil-law-17-jan-2025",
+    "type": "Press release",
+    "source": "Government",
+    "region": "Europe",
+    "paid": "Free"
+  },
+
 
 
 ];
