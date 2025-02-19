@@ -10,7 +10,7 @@ const data = [
   {
     "title": "Feminist Foreign Policy: A Framework",
     "tags": ["FFP analysis"],
-    "organization": "Center for Research on Women",
+    "organization": "International Center for Research on Women",
     "author": ["Lyric Thompson"],
     "year": "2020",
     "language": ["English"],
