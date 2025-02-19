@@ -51,8 +51,9 @@
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
                 "Phrase2-1": "You can also follow us on",
                 "Phrase2-x": "and",
-                "Phrase3": "The FFPR emerged in response to the demand observed by the FFPC to expand the diversity and universe of resources on feminist foreign policy. However, at the moment, we do not have dedicated human and financial resources exclusively for this goal, and we recognize that this may be an obstacle to our goals of inclusivity and accessibility. Your support for this project is welcome, as are your comments and suggestions.",
-                "Phrase-support": "Click here to access our donation page."
+                "Phrase3": "The FFPR emerged in response to the demand observed by the FFPC to expand the diversity and universe of resources on feminist foreign policy. However, at the moment, we do not have dedicated human and financial resources exclusively for this goal, and we recognize that this may be an obstacle to our goals of inclusivity and accessibility. Your ",
+                "Phrase3-1": "support",
+                "Phrase3-2": "for this project is welcome, as are your comments and suggestions."
             }
         },
         "Themes": {
@@ -179,8 +180,9 @@
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
                 "Phrase2-1": "Você também pode nos seguir no",
                 "Pharse2-x": "e",
-                "Phrase3": "O RPEF surgiu em resposta à demanda observada pelo FFPC para expandir a diversidade e universo de recursos sobre a política exterior feminista. No entanto, no memento, nós não possuímos recursos humanos e financeiros dedicados exclusivamente à essa meta, e nós reconhecemos que isso pode ser um obstáculo para as nossas metas de inclusividade e acessibilidade. O seu apoio a esse projeto é bem-vindo, assim como seus comentários e sugestões.",
-                "Phrase-support": "Clique aqui para acessar nossa página de doações."
+                "Phrase3": "O RPEF surgiu em resposta à demanda observada pelo FFPC para expandir a diversidade e universo de recursos sobre a política exterior feminista. No entanto, no memento, nós não possuímos recursos humanos e financeiros dedicados exclusivamente à essa meta, e nós reconhecemos que isso pode ser um obstáculo para as nossas metas de inclusividade e acessibilidade. O seu ",
+                "Phrase3-1": "apoio",
+                "Phrase3-2": "a esse projeto é bem-vindo, assim como seus comentários e sugestões."
             }
         },
         "Themes": {

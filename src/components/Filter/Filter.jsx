@@ -67,11 +67,11 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
     // Opções de linguagem (exemplo: inglês, francês, etc.)
     const languageOptions = [
         { label: "English", value: "English" },
-        { label: "French", value: "French" },
-        { label: "Spanish", value: "Spanish" },
-        { label: "Portuguese", value: "Portuguese" },
-        { label: "Nepali", value: "Nepali" },
-        { label: "Hindi", value: "Hindi" }
+        { label: "Français", value: "French" },
+        { label: "Español", value: "Spanish" },
+        { label: "Português", value: "Portuguese" },
+        { label: "नेपाली", value: "Nepali" },
+        { label: "हिंदी", value: "Hindi" }
     ];
 
     return (

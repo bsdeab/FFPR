@@ -19,12 +19,8 @@ function About(props){
           {data[lang]["Texts"]["About"]["Phrase2"]} <a href="https://www.ffpcollaborative.org/contact-us" className="link">{data[lang]["Texts"]["About"]["Form"]}</a> {data[lang]["Texts"]["About"]["Phrase2-1"]} <a href="https://twitter.com/TheFFPCollab" target="_blank" rel="noopener noreferrer" className="link">X/Twitter</a> {data[lang]["Texts"]["About"]["Phrase2-x"]} <a href="https://www.linkedin.com/company/feminist-foreign-policy-collaborative/" target="_blank" rel="noopener noreferrer" className="link">Linkedin</a>.
         </p>
         <p>
-          {data[lang]["Texts"]["About"]["Phrase3"]}
+          {data[lang]["Texts"]["About"]["Phrase3"]} <a href="https://panoramagroup.tfaforms.net/f/feministforeignpolicy" target='_blank'>{data[lang]["Texts"]["About"]["Phrase3-1"]}</a> {data[lang]["Texts"]["About"]["Phrase3-2"]}
         </p>
-
-        <a href='https://panoramagroup.tfaforms.net/f/feministforeignpolicy' target='_blank'>
-          {data[lang]["Texts"]["About"]["Phrase-support"]}
-        </a>
       </div>
     </div>
   );
