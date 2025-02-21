@@ -8,6 +8,19 @@ import { useState } from 'react';
 
 const data = [
   {
+    "title": " Feministická zahraničná politika. Rozvoj konceptu, definujúce prvky, formulácia výskumného rámca ",
+    "tags": ["FFP analysis", "Toolkit"],
+    "organization": "Czech Journal of International Relations",
+    "author": ["Alexandra Madarászová"],
+    "year": "2024",
+    "language": ["Czech"],
+    "link": "https://cjir.iir.cz/index.php/cjir/article/view/8",
+    "type": "Journal article",
+    "region": "Europe",
+    "source": "Academia",
+    "paid": "Free", 
+  },
+  {
     "title": " ¿ Aproximación a una Política de Cooperación Feminista? ",
     "tags": ["FFP analysis"],
     "organization": "Revista Internacional de Estudios Feministas",
