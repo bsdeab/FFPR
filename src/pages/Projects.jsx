@@ -9,7 +9,7 @@ import { useState } from 'react';
 const data = [
   {
     "title": "Feminist Foreign Policy Sharpens Focus on Ending Gender-Based Violence as Key to National Security",
-    "tags": "[Gender-based violence"],
+    "tags": "[Gender-based violence]",
     "organization": "E-International Relations",
     "author": ["Stephenie Foster"],
     "year": "2024",
