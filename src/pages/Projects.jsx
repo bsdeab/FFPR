@@ -8,10 +8,23 @@ import { useState } from 'react';
 
 const data = [
   {
+    "title": " ¿ Aproximación a una Política de Cooperación Feminista? ",
+    "tags": ["FFP analysis"],
+    "organization": "Revista Internacional de Estudios Feministas",
+    "author": ["Rosa Belen Agirregomezkorta Ibarluzea"],
+    "year": "2024",
+    "language": ["Spanish"],
+    "link": "https://revistas.udc.es/index.php/ATL/article/view/arief.2024.9.2.9804",
+    "type": "Journal article",
+    "region": "Europe",
+    "source": "Academia",
+    "paid": "Free", 
+  },
+  {
     "title": " ¿Podrá ser feminista la cooperación española? ",
     "tags": ["FFP analysis"],
     "organization": "Revista Internacional de Estudios Feministas",
-    "author": ["SMaría Castro Serantesr"],
+    "author": ["María Castro Serantes"],
     "year": "2024",
     "language": ["Spanish"],
     "link": "https://revistas.udc.es/index.php/ATL/article/view/arief.2024.9.2.9804",
