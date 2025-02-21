@@ -28,7 +28,7 @@
         "Overseas Development Assistance": ["Assistência ao desenvolvimento no exterior", "Aide au développement à l'étranger", "Asistencia al desarrollo en el extranjero", "विदेशी विकास सहायता", "विपक्षी विकास सहायता"],
         "FFP analysis": ["Análise de PEF", "Analyse de PEF", "Análisis de PEF", "एफएफपी विश्लेषण", "FFP विश्लेषण"],
         "Feminist methodologies": ["Metodologias feministas", "Méthodologies féministes", "Metodologías feministas", "नारीवादी पद्धतियाँ", "नारीवादी विधिहरू"],
-        "Monitoring and evaluation": ["Monitoramento e avaliação", "Suivi et évaluation", "Monitoreo y evaluación", "निगरानी और मूल्यांकन", "अनुगमन र मूल्याङ्कन"],
+        "Monitoring and evaluation": ["Monitoramento e avaliação", "Suivi et évaluation", "Monitoreo y evaluación", "निगरानी और मूल्यांकन", "अनुगमन र मूल्याङ्कन"]
     },
     "Types": {
         "Report": ["Relatório", "Rapport", "Informe", "प्रतिवेदन", "रिपोर्ट"],
@@ -53,7 +53,7 @@
         "Meeting minutes": ["Atas de reunião", "Procès-verbal", "Actas de reunión", "बैठक का मिनट्स", "बैठकका मिनेट्स"],
         "Book": ["Livro", "Livre", "Libro", "पुस्तक", "पुस्तक"],
         "Book chapter": ["Capítulo de livro", "Chapitre de livre", "Capítulo de libro", "पुस्तक अध्याय", "पुस्तक अध्याय"],
-        "Speech": ["Discurso", "Discours", "Discurso", "भाषण", "भाषण"],
+        "Speech": ["Discurso", "Discours", "Discurso", "भाषण", "भाषण"]
     },
     "Regions": {
         "North America (US and Canada)": ["América do Norte (EUA e Canadá)", "Amérique du Nord (États-Unis et Canada)", "América del Norte (EE. UU. y Canadá)", "उत्तर अमेरिका (यूएस और कनाडा)", "उत्तर अमेरिका (अमेरिका र क्यानडा)"],
