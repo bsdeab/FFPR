@@ -8,19 +8,6 @@ import { useState } from 'react';
 
 const data = [
   {
-    "title": "Feminist Approaches to International Relations: ‘Good Girls’ Only?",
-    "tags": "[FFP analysis]",
-    "organization": "E-International Relations",
-    "author": ["Dominika Remžová"],
-    "year": "2024",
-    "language": ["English"],
-    "link": "https://www.e-ir.info/2024/12/22/feminist-approaches-to-international-relations-good-girls-only/",
-    "type": "Blog",
-    "region": "Global",
-    "source": "Civil society",
-    "paid": "Free", 
-  },
-  {
     "title": "Feminist Foreign Policy Sharpens Focus on Ending Gender-Based Violence as Key to National Security",
     "tags": "[Gender-based violence"],
     "organization": "E-International Relations",
