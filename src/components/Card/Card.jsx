@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Card.scss';
 import { MdOutlineShare, MdBookmarkBorder, MdBookmark } from "react-icons/md";
 import data from '../../data/infos.json';
-import data from '../..data/translate.json';
 import { HiMiniCurrencyDollar } from "react-icons/hi2";
 
 const tagColors = data["en"]["Themes"];
