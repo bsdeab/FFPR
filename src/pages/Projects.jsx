@@ -8,6 +8,19 @@ import { useState } from 'react';
 
 const data = [
   {
+    "title": " ¿Podrá ser feminista la cooperación española? ",
+    "tags": ["FFP analysis"],
+    "organization": "Revista Internacional de Estudios Feministas",
+    "author": ["SMaría Castro Serantesr"],
+    "year": "2024",
+    "language": ["Spanish"],
+    "link": "https://revistas.udc.es/index.php/ATL/article/view/arief.2024.9.2.9804",
+    "type": "Journal article",
+    "region": "Europe",
+    "source": "Academia",
+    "paid": "Free", 
+  },
+  {
     "title": "Feminist Foreign Policy Sharpens Focus on Ending Gender-Based Violence as Key to National Security",
     "tags": ["Gender-based violence"],
     "organization": "E-International Relations ",
