@@ -3,6 +3,7 @@ import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
 import infos from '../data/infos.json'; // Importando o arquivo JSON
+import infos from '../data/translate.json';
 
 import { useState } from 'react';
 
