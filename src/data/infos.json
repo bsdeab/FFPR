@@ -318,9 +318,9 @@
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
                 "Phrase2-1": "Vous pouvez également nous suivre sur",
                 "Phrase2-x": "et",
-                "Phrase3": "Le RPEF est né en réponse à la demande observée par le FFPC d'élargir la diversité et l'univers des ressources sur la politique étrangère féministe. Cependant, pour le moment, nous ne disposons pas de ressources humaines et financières dédiées exclusivement à cet objectif, et nous reconnaissons que cela peut constituer un obstacle à nos objectifs d'inclusivité et d'accessibilité. Votre",
-                "Phrase3-1": "soutien",
-                "Phrase3-2": "à ce projet est le bienvenu, tout comme vos commentaires et suggestions."
+                "Phrase3": "En construisant le FFPR, le FFPC répond à un besoin observé de documenter et d'élargir la diversité et l'univers des ressources sur la politique étrangère féministe. Cependant, à l'heure actuelle, nous le faisons sans ressources humaines et financières dédiées, et à cet égard, nous reconnaissons que cela peut présenter des obstacles à notre objectif déclaré d'inclusivité et d'accessibilité. Nous accueillons avec gratitude",
+                "Phrase3-1": "votre soutien",
+                "Phrase3-2": "à ce projet est le bienvenu, ainsi que vos commentaires et suggestions."
             }
         },
         "Themes": {
@@ -450,9 +450,9 @@
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
                 "Phrase2-1": "También puede seguirnos en",
                 "Phrase2-x": "y",
-                "Phrase3": "El RPEF surgió en respuesta a la demanda observada por el FFPC de ampliar la diversidad y el universo de recursos sobre la política exterior feminista. Sin embargo, en este momento, no contamos con recursos humanos y financieros dedicados exclusivamente a este objetivo, y reconocemos que esto puede ser un obstáculo para nuestras metas de inclusividad y accesibilidad. Su",
+                "Phrase3": "Al crear el RPEF, el FFPC responde a la necesidad que ha observado de documentar y ampliar la diversidad y el universo de recursos sobre política exterior feminista. Sin embargo, en la actualidad, lo estamos haciendo sin recursos humanos y financieros dedicados, y en este sentido, reconocemos que esto puede presentar obstáculos a nuestro objetivo declarado de inclusividad y accesibilidad. Agradecemos su",
                 "Phrase3-1": "apoyo",
-                "Phrase3-2": "a este proyecto es bienvenido, al igual que sus comentarios y sugerencias."
+                "Phrase3-2": "a este proyecto, así como sus comentarios y sugerencias."
                
             }
         },
@@ -708,15 +708,18 @@
                 "Modal": "लिङ्क प्रतिलिपि गरियो"
             },
             "About": {
-                "Title": "महिला विदेश नीति भण्डारको बारेमा",
-                "Phrase1": "महिला विदेश नीति भण्डारलाई फेमिनिस्ट फरेन पलिसी कलेक्टिभ (एफएफपीसी) द्वारा व्यवस्थापन गरिएको छ, जुन सरकार, नागरिक समाज र परोपकारी संस्थामा काम गर्ने महिलावादीहरूको लागि साझा ठाउँ हो जसले महिला विदेश नीतिका दृष्टिकोणलाई अगाडि बढाउन र रणनीति तय गर्न सामूहिक रूपमा काम गर्दछ।",
-                "Phrase2": "हामीलाई सम्पर्क गर्न, कृपया हाम्रो",
-                "Form": "सम्पर्क फारम भर्नुहोस्।",
+                "Title": "हाम्रो बारेमा",
+                "Phrase1": "यो संग्रह “नारीवादी वैदेशिक नीतिका लागि सहकार्य” (Feminist Foreign Policy Collaborative) नामक संस्थाद्वारा व्यवस्थित गरिएको हो । यो संस्था सरकार, नागरिक समाज र परोपकारमा काम गर्ने नारीवादीहरूका लागि साझा ठाउँ हो जसले सामूहिक रूपमा वैदेशिक नीतिमा नारीवादी दृष्टिकोणहरूको रणनीति बनाउन र अगाडि बढाउन मद्दत गर्दछ ।",
+                "Phrase2": "हामीलाई सम्पर्क गर्न, कृपया हाम्रो यो",
+                "Form": "फारम",
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
-                "Phrase2-1": "तपाईं हामीलाई यहाँ पनि पछ्याउन सक्नुहुन्छ",
+                "Phrase2-1": "भर्नुहोस्। तपाईं हामीलाई",
                 "Phrase2-x": "र",
-                "Phrase3": "महिला विदेश नीति भण्डार एफएफपीसीले महिला विदेश नीतिको विविधता र संसाधनहरूको विस्तार गर्ने मागलाई प्रतिक्रिया दिनको लागि सुरु भएको हो। यद्यपि, हाल हामीसँग यस लक्ष्यका लागि समर्पित मानवीय र वित्तीय संसाधनहरू छैनन्, र हामीले यो समावेशिता र पहुँचको हाम्रा लक्ष्यहरूको लागि अवरोध हुन सक्छ भन्ने कुरा स्वीकार गर्दछौं। यस परियोजनालाई तपाईंको समर्थन स्वागत योग्य छ, साथै तपाईंको टिप्पणी र सुझावहरू पनि।",
-                "Phrase-support": "हाम्रो दान पृष्ठ पहुँच गर्न यहाँ क्लिक गर्नुहोस्।"            
+                "Phrase2-y": "मा पनि फलो गर्न सक्नुहुन्छ।",
+                "Phrase3": "यस सहकर्यी संस्थाले, यो संग्रह निर्माण गर्नुमा, अवलोकन गरेको नारीवादी वैदेशिक नीति सम्बन्धि विविध स्रोतहरूको अभिलेखीकरण र विस्तारको आवश्यकतालाई सम्बोधन गर्न खोजेको हो । यद्यपि, हालमा हामी समर्पित मानव तथा वित्तीय स्रोतहरू बिना नै यो काम गरिरहेका हुँदा हामीले चाहे जस्तो समावेशीता र पहुँचको लक्ष्य प्रति न्याय गर्न नसकेको स्वीकार गर्दछौ । हामी यस परियोजना प्रति कुनै पनि किसिमको यहाँको",
+                "Phrase3-1": "सहयोग",
+                "Phrase3-2": "को साथै प्रतिक्रिया वा सुझावहरूको अपेक्छा गर्दछौं ।"
+                       
             }
         },
         "Themes": {
