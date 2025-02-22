@@ -5,7 +5,7 @@
                 "Home": "Home",
                 "Projects": "Projects",
                 "Saves": "Saves",
-                "About": "About",
+                "About": "About the FFPR",
                 "Contact": "Submit",
                 "Data": "Data"
             },
@@ -137,7 +137,7 @@
                 "Home": "Home",
                 "Projects": "Projetos",
                 "Saves": "Salvos",
-                "About": "Sobre",
+                "About": "Sobre o FFPR",
                 "Contact": "Enviar",
                 "Data": "Dados"
             },
@@ -266,10 +266,10 @@
     "fr": {
         "Texts": {
             "Header": {
-                "Home": "Maison",
+                "Home": "Accueil",
                 "Projects": "Projets",
                 "Saves": "Enregistré",
-                "About": "Sur",
+                "About": "Sur le FFPR",
                 "Contact": "Soumettre",
                 "Data": "Donné"
             },
@@ -398,10 +398,10 @@
     "sp": {
         "Texts": {
             "Header": {
-                "Home": "Hogar",
+                "Home": "Inicio",
                 "Projects": "Proyectos",
                 "Saves": "Salvado",
-                "About": "En",
+                "About": "Acerca del FFPR",
                 "Contact": "Entregar",
                 "Data": "Dado"
             },
@@ -531,10 +531,10 @@
     "hi": {
         "Texts": {
             "Header": {
-                "Home": "घर",
+                "Home": "गृह पृष्ठ",
                 "Projects": "परियोजनाएं",
                 "Saves": "सहेजे गए",
-                "About": "के बारे में",
+                "About": "FFPR के बारे में",
                 "Contact": "संपर्क करें",
                 "Data": "डेटा"
             },
@@ -583,7 +583,9 @@
                 "link-form": "https://www.ffpcollaborative.org/contact-us",
                 "Phrase2-1": "आप हमें इन पर भी फॉलो कर सकते हैं",
                 "Phrase2-x": "और",
-                "Phrase3": "महिला विदेश नीति भंडार एफएफपीसी द्वारा महिला विदेश नीति पर संसाधनों की विविधता और विस्तार की मांग को देखते हुए स्थापित किया गया था। हालांकि, इस समय, हमारे पास इस लक्ष्य के लिए समर्पित मानव और वित्तीय संसाधन नहीं हैं, और हम मानते हैं कि यह हमारे समावेशिता और पहुंच के लक्ष्यों में बाधा हो सकता है। इस परियोजना के लिए आपका समर्थन स्वागत योग्य है, साथ ही आपकी टिप्पणियाँ और सुझाव भी।",
+                "Phrase3": "FFPR के निर्माण में, FFPC नारीवादी विदेश नीति पर संसाधनों की विविधता और ब्रह्मांड को प्रलेखित करने और विस्तारित करने की आवश्यकता पर प्रतिक्रिया दे रहा है। हालाँकि, वर्तमान में, हम समर्पित मानव और वित्तीय संसाधनों के बिना ऐसा कर रहे हैं, और इस संबंध में, हम स्वीकार करते हैं कि यह समावेशिता और पहुँच के हमारे घोषित लक्ष्य में बाधाएँ पेश कर सकता है। हम इस परियोजना के",
+                "Phrase3-1": "िए आपके समर्थन",
+                "Phrase3-2": "के साथ-साथ आपकी प्रतिक्रिया और सुझावों का स्वागत करते हैं।"
                 "Phrase-support": "हमारे दान पृष्ठ तक पहुंचने के लिए यहां क्लिक करें।"
             }
         },
@@ -662,10 +664,10 @@
     "np": {
         "Texts": {
             "Header": {
-                "Home": "गृहपृष्ठ",
+                "Home": "गृह पृष्ठ",
                 "Projects": "परियोजनाहरू",
                 "Saves": "सुरक्षित गरिएका",
-                "About": "बारेमा",
+                "About": "FFPR को बारेमा",
                 "Contact": "संपर्क गर्नुहोस्",
                 "Data": "डेटा"
             },
