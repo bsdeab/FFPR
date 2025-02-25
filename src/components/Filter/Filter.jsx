@@ -89,7 +89,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         id="search"
                         className='search-input'
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Search"]}
-                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
                     />
                 </div>
 
