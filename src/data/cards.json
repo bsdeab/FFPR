@@ -1,6 +1,136 @@
 {
     "Cards": [
         {
+            "title": "Towards Economic and Climate Justice: A Feminist Analysis of Critical Trends",
+            "tags": [
+                "Climate justice",
+                "Macroeconomics"
+            ],
+            "organization": "Women's Environment and Development Organization",
+            "author": [
+                "Arimbi Wahono"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/ActionNexus_TrendsReport2024_EN_v4.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Hacia La Justicia Climática Y Económica: Un Análisis Feminista de las Tendencias Clave",
+            "tags": [
+                "Climate justice",
+                "Macroeconomics"
+            ],
+            "organization": "Women's Environment and Development Organization",
+            "author": [
+                "Arimbi Wahono"
+            ],
+            "year": "2024",
+            "language": [
+                "Spanish"
+            ],
+            "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/ActionNexus_TrendsReport2024_ES_v2.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Vers une justice économique et climatique: Une analyse féministe des principales tendances",
+            "tags": [
+                "Climate justice",
+                "Macroeconomics"
+            ],
+            "organization": "Women's Environment and Development Organization",
+            "author": [
+                "Arimbi Wahono"
+            ],
+            "year": "2024",
+            "language": [
+                "French"
+            ],
+            "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/ActionNexus_TrendsReport2024_FR_v2.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "نحو عدالة اقتصادية ومناخية: تحليل نسوي لأهم الاتجاهات في عام",
+            "tags": [
+                "Climate justice",
+                "Macroeconomics"
+            ],
+            "organization": "Women's Environment and Development Organization",
+            "author": [
+                "Arimbi Wahono"
+            ],
+            "year": "2024",
+            "language": [
+                "Arabic"
+            ],
+            "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/2024-Trends-Report_AR-Design.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Common Ask Framework",
+            "tags": [
+                "Feminist methodologies"
+            ],
+            "organization": "Walking the talk",
+            "author": [
+                "N/A"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://f4ff.global/resources/common-ask-framework-download/",
+            "type": "Toolkit",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Bericht der Bundesregierung über ihre Menschenrechts politik",
+            "tags": [
+                "Human rights"
+            ],
+            "organization": "Government of Germany",
+            "author": [
+                "N/A"
+            ],
+            "year": "2024",
+            "language": [
+                "German"
+            ],
+            "link": "https://www.auswaertiges-amt.de/resource/blob/2691024/a5ff6a3540e4a1d056b4d84a0c6ea371/241218-mrb-16-pdf-data.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Government",
+            "paid": "Free"
+        },
+        {
             "title": "Feminist Approaches to International Relations: ‘Good Girls’ Only?",
             "tags": [
                 "FFP analysis"
