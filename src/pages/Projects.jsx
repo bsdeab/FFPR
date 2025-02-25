@@ -68,7 +68,7 @@ function Projects(props) {
       : true;
 
     // Verifica se há correspondência com o termo de pesquisa
-    const matchesSearchTerm = searchTerm ? card.title.toLowerCase()includes(searchTerm.toLowerCase()) : true;
+    const matchesSearchTerm = searchTerm ? card.title.toLowerCase().includes(searchTerm.toLowerCase()) : true;
 
     // Verifica se há correspondência de autor
     const matchesAuthor = author.length > 0
