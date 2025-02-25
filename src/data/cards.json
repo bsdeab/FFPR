@@ -1,27 +1,6 @@
 {
     "Cards": [
         {
-            "title": " ASI Thought Leaders Forum | Feminist Foreign Policy: Rethinking International Development",
-            "tags": [
-                "FFP analysis"
-            ],
-            "organization": "Adam Smith International",
-            "author": [
-                "N/A"
-            ],
-            "year": "2024",
-            "language": [
-                "English"
-            ],
-            "link": "https://youtu.be/YvzqGwpUwEY?si=oDbocvfQNHrh5Fhd",
-            "type": "Event recording",
-            "region": [
-                "Global"
-            ],
-            "source": "Civil society",
-            "paid": "Free"
-        },
-        {
             "title": "Towards Economic and Climate Justice: A Feminist Analysis of Critical Trends",
             "tags": [
                 "Climate justice",
@@ -37,6 +16,27 @@
             ],
             "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/ActionNexus_TrendsReport2024_EN_v4.pdf",
             "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": " ASI Thought Leaders Forum | Feminist Foreign Policy: Rethinking International Development",
+            "tags": [
+                "FFP analysis"
+            ],
+            "organization": "Adam Smith International",
+            "author": [
+                "N/A"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://youtu.be/YvzqGwpUwEY?si=oDbocvfQNHrh5Fhd",
+            "type": "Event recording",
             "region": [
                 "Global"
             ],
