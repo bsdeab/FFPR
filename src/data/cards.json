@@ -1,25 +1,46 @@
 {
     "Cards": [
         {
-            "title": "Dimensions of Feminist Foreign Policy",
+            "title": " ASI Thought Leaders Forum | Feminist Foreign Policy: Rethinking International Development",
             "tags": [
                 "FFP analysis"
             ],
-            "organization": "Kantipur",
+            "organization": "Adam Smith International",
             "author": [
-                "निहा पाण्डे",
-                "केशव गिरी"
+                "N/A"
             ],
             "year": "2024",
             "language": [
                 "English"
             ],
-            "link": "ooo",
-            "type": "Op-ed",
+            "link": "https://youtu.be/YvzqGwpUwEY?si=oDbocvfQNHrh5Fhd",
+            "type": "Event recording",
             "region": [
-                "Asia"
+                "Global"
             ],
-            "source": "News organization",
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Towards Economic and Climate Justice: A Feminist Analysis of Critical Trends",
+            "tags": [
+                "Climate justice",
+                "Macroeconomics"
+            ],
+            "organization": "Women's Environment and Development Organization",
+            "author": [
+                "Arimbi Wahono"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://economictrends.wedo.org/wp-content/uploads/2024/12/ActionNexus_TrendsReport2024_EN_v4.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
             "paid": "Free"
         },
         {
