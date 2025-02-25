@@ -71,7 +71,10 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         { label: "Español", value: "Spanish" },
         { label: "Português", value: "Portuguese" },
         { label: "नेपाली", value: "Nepali" },
-        { label: "हिंदी", value: "Hindi" }
+        { label: "हिंदी", value: "Hindi" },
+        {label: "Czech", value: "Czhech"},
+        {label: "Deutsch", value: "German"},
+        {label: "اللغة العربية", value: Arabic"}
     ];
 
     return (
