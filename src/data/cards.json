@@ -1,6 +1,71 @@
 {
     "Cards": [
         {
+            "title": "Una Guía de Respuesta Feminista Ante la Crisis",
+            "tags": [
+                "Women, peace and security"
+            ],
+            "organization": "Global Fund for Women",
+            "author": [
+                "Sandra Macías del Villar",
+                "Beatriz Puerta"
+            ],
+            "year": "2024",
+            "language": [
+                "Spanish"
+            ],
+            "link": "https://www.globalfundforwomen.org/wp-content/uploads/2024/08/Una-guia-de-respuesta-feminista-ante-las-crisis_23-07-24.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "A Blueprint for Feminist Crisis Response",
+            "tags": [
+                "Women, peace and security"
+            ],
+            "organization": "Global Fund for Women",
+            "author": [
+                "Sandra Macías del Villar",
+                "Beatriz Puerta"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://www.globalfundforwomen.org/feministalchemy/",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Committed to feminist foreign policies and gender-responsive multilateralism? It’s time to get serious about data",
+            "tags": [
+                "Feminist data"
+            ],
+            "organization": "Data2x",
+            "author": [
+                "Natalie Cleveland"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://data2x.org/committed-to-feminist-foreign-policies-and-gender-responsive-multilateralism-its-time-to-get-serious-about-data/",
+            "type": "Blog",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
             "title": "Towards Economic and Climate Justice: A Feminist Analysis of Critical Trends",
             "tags": [
                 "Climate justice",
