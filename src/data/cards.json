@@ -1,6 +1,116 @@
 {
     "Cards": [
         {
+            "title": "Opinion – A Feminist Foreign Policy for India: Where to Turn?",
+            "tags": [
+                "FFP analysis"
+            ],
+            "organization": "E-International Relations",
+            "author": [
+                "Khushi Singh Rathore"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://www.e-ir.info/2021/08/06/opinion-a-feminist-foreign-policy-for-india-where-to-turn/",
+            "type": "Op-ed",
+            "region": [
+                "Asia"
+            ],
+            "source": "News organization",
+            "paid": "Free"
+        },
+        {
+            "title": "Chile and Colombia sign feminist foreign policy agreement",
+            "tags": [
+                "FFP analysis"
+            ],
+            "organization": "Mercopress",
+            "author": [
+                "N/A"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://iwda.org.au/resource/a-decade-of-feminist-foreign-policy-changing-trajectories-of-adoption-and-accountability-over-time/",
+            "type": "News",
+            "region": [
+                "Americas"
+            ],
+            "source": "News organization",
+            "paid": "Free"
+        },
+        {
+            "title": "Asia Pacific B+30 Event: Advancing the Beijing Platform for Action through Feminist Foreign Policy",
+            "tags": [
+                "FFP analysis"
+            ],
+            "organization": "International Women's Development Agency",
+            "author": [
+                "N/A"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://iwda.org.au/resource/a-decade-of-feminist-foreign-policy-changing-trajectories-of-adoption-and-accountability-over-time/",
+            "type": "Event recording",
+            "region": [
+                "Oceania",
+                "Asia"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "A Decade of Feminist Foreign Policy: Changing trajectories of adoption and accountability over time",
+            "tags": [
+                "Women, peace and security",
+                "Monitoring and evaluation"
+            ],
+            "organization": "International Women's Development Agency",
+            "author": [
+                "Alice Ridge",
+                "Joanna Pradela",
+                "Dr Liz Gill-Atkinson"
+            ],
+            "year": "2024",
+            "language": [
+                "English"
+            ],
+            "link": "https://iwda.org.au/resource/a-decade-of-feminist-foreign-policy-changing-trajectories-of-adoption-and-accountability-over-time/",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
+            "title": "Un Guide Pour une Réponse Féministe Aux Crises",
+            "tags": [
+                "Women, peace and security"
+            ],
+            "organization": "Global Fund for Women",
+            "author": [
+                "Sandra Macías del Villar",
+                "Beatriz Puerta"
+            ],
+            "year": "2024",
+            "language": [
+                "French"
+            ],
+            "link": "https://www.globalfundforwomen.org/wp-content/uploads/2024/08/Un-guide-pour-une-re%CC%81ponse-fe%CC%81ministe-aux-crises_23-07-24.pdf",
+            "type": "Report",
+            "region": [
+                "Global"
+            ],
+            "source": "Civil society",
+            "paid": "Free"
+        },
+        {
             "title": "Una Guía de Respuesta Feminista Ante la Crisis",
             "tags": [
                 "Women, peace and security"
