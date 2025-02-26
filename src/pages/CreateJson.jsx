@@ -19,7 +19,7 @@ const CreateJson = () => {
     link: "",
     type: "report", // Use a chave em vez do valor
     source: "international_org", // Use a chave em vez do valor
-    region: "europe", // Use a chave em vez do valor
+    region: [], // Use a chave em vez do valor
     paid: "Free",
   });
 
@@ -38,6 +38,14 @@ const CreateJson = () => {
     setFormData((prev) => ({ ...prev, tags: selectedTags }));
   };
 
+ const handleRegionsChange = (e) => {
+  const selectedRegions = Array.from(
+    e.target.selectedOptions,
+    (option) => option.value
+  );
+  setFormData((prev) => ({ ...prev, region: selectedRegions }));
+};
+  
   const handleGenerateJSON = () => {
     const jsonOutput = {
       ...formData,
@@ -130,15 +138,15 @@ const CreateJson = () => {
         ))}
       </select>
 
-      <label>Region:</label>
-      <select name="region" value={formData.region} onChange={handleChange}>
+      <label>Region (Ctrl + Click to select multiple options):</label>
+      <select multiple name="region" onChange={handleRegionsChange}>
         {regions.map((key) => (
           <option key={key} value={key}>
             {infos["en"]["Regions"][key]} {/* Exibe o valor do dicionário */}
           </option>
         ))}
       </select>
-
+      
       <label>Paid:</label>
       <div>
         <input
