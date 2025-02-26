@@ -130,8 +130,8 @@ const CreateJson = () => {
         ))}
       </select>
 
-      <label>Region:</label>
-      <select name="region" value={formData.region} onChange={handleChange}>
+      <label>Region (Ctrl + click to select multiple options):</label>
+      <select multiple name="region" value={formData.region} onChange={handleChange}>
         {regions.map((key) => (
           <option key={key} value={key}>
             {infos["en"]["Regions"][key]} {/* Exibe o valor do dicionário */}
