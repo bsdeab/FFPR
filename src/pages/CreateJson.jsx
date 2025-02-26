@@ -15,17 +15,23 @@ const CreateJson = () => {
     organization: "",
     author: "",
     year: "",
-    language: "English",
+    language: [], // Change to an array
     link: "",
-    type: "report", // Use a chave em vez do valor
-    source: "international_org", // Use a chave em vez do valor
-    region: "europe", // Use a chave em vez do valor
+    type: "report",
+    source: "international_org",
+    region: [], // Change to an array
     paid: "Free",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    if (name === "language") {
+      // Split the input by commas and trim whitespace
+      const languages = value.split(",").map((lang) => lang.trim());
+      setFormData((prev) => ({ ...prev, [name]: languages }));
+    } else {
+      setFormData((prev) => ({ ...prev, [name]: value }));
+    }
   };
 
   const handleTagsChange = (e) => {
@@ -36,18 +42,32 @@ const CreateJson = () => {
     setFormData((prev) => ({ ...prev, tags: selectedTags }));
   };
 
- const handleRegionsChange = (e) => {
-  const selectedRegions = Array.from(
-    e.target.selectedOptions,
-    (option) => option.value
-  );
-  setFormData((prev) => ({ ...prev, region: selectedRegions }));
-};
-  
+  const handleRegionsChange = (e) => {
+    const selectedRegions = Array.from(
+      e.target.selectedOptions,
+      (option) => option.value // Store the keys (e.g., "europe", "asia")
+    );
+    setFormData((prev) => ({ ...prev, region: selectedRegions }));
+  };
+
   const handleGenerateJSON = () => {
+    // Map selected region keys to their values
+    const regionValues = formData.region.map(
+      (key) => infos["en"]["Regions"][key]
+    );
+
     const jsonOutput = {
-      ...formData,
-      author: formData.author.split(",").map((a) => a.trim()), // Converte string em array
+      title: formData.title,
+      tags: formData.tags,
+      organization: formData.organization,
+      author: formData.author.split(",").map((a) => a.trim()), // Convert author string to array
+      year: formData.year,
+      language: formData.language, // Already an array
+      link: formData.link,
+      type: formData.type,
+      region: regionValues, // Use mapped region values
+      source: formData.source,
+      paid: formData.paid,
     };
 
     const jsonString = JSON.stringify(jsonOutput, null, 2);
@@ -85,7 +105,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Author (if multiple, separate with commas [e.g. Author 1, Author 2]):</label>
+      <label>Author (separado por vírgula):</label>
       <input
         type="text"
         name="author"
@@ -105,9 +125,10 @@ const CreateJson = () => {
       <input
         type="text"
         name="language"
-        value={formData.language}
+        value={formData.language.join(", ")} // Display as comma-separated string
         onChange={handleChange}
-      />  
+        placeholder="Enter language(s)"
+      />
 
       <label>Link:</label>
       <input
@@ -143,7 +164,7 @@ const CreateJson = () => {
           </option>
         ))}
       </select>
-      
+
       <label>Paid:</label>
       <div>
         <input
