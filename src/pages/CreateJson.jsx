@@ -17,11 +17,11 @@ const CreateJson = () => {
     year: "",
     language: "",
     link: "",
-    type: [],
-    source: [], 
-    region: [], 
+    type: "report", // Use a chave em vez do valor
+    source: "international_org", // Use a chave em vez do valor
+    region: "", // Use a chave em vez do valor
     paid: "Free",
-
+  });
 
   });
   const handleChange = (e) => {
