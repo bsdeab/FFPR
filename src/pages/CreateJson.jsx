@@ -17,9 +17,9 @@ const CreateJson = () => {
     year: "",
     language: "",
     link: "",
-    type: "report",
-    source: "international_org", 
-    region: "", 
+    type: [],
+    source: [], 
+    region: [], 
     paid: "Free",
 
 
