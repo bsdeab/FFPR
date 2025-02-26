@@ -17,8 +17,8 @@ const CreateJson = () => {
     year: "",
     language: [], // Change to an array
     link: "",
-    type: "report",
-    source: "international_org",
+    type: "report", // Use the key
+    source: "international_org", // Use the key
     region: [], // Change to an array
     paid: "Free",
   });
@@ -56,6 +56,12 @@ const CreateJson = () => {
       (key) => infos["en"]["Regions"][key]
     );
 
+    // Map selected source key to its value
+    const sourceValue = infos["en"]["Sources"][formData.source];
+
+    // Map selected type key to its value
+    const typeValue = infos["en"]["Types"][formData.type];
+
     const jsonOutput = {
       title: formData.title,
       tags: formData.tags,
@@ -64,9 +70,9 @@ const CreateJson = () => {
       year: formData.year,
       language: formData.language, // Already an array
       link: formData.link,
-      type: formData.type,
+      type: typeValue, // Use mapped type value
       region: regionValues, // Use mapped region values
-      source: formData.source,
+      source: sourceValue, // Use mapped source value
       paid: formData.paid,
     };
 
