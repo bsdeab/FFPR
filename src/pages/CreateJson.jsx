@@ -62,7 +62,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Tags (Ctrl + Clique para selecionar múltiplos):</label>
+      <label>Tags (Ctrl + Click to select multiple options):</label>
       <select multiple onChange={handleTagsChange}>
         {themes.map((key) => (
           <option key={key} value={key}>
@@ -130,8 +130,8 @@ const CreateJson = () => {
         ))}
       </select>
 
-      <label>Region (Ctrl + click to select multiple options):</label>
-      <select multiple name="region" value={formData.region} onChange={handleChange}>
+      <label>Region:</label>
+      <select name="region" value={formData.region} onChange={handleChange}>
         {regions.map((key) => (
           <option key={key} value={key}>
             {infos["en"]["Regions"][key]} {/* Exibe o valor do dicionário */}
