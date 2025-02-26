@@ -111,7 +111,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Author (separado por vírgula):</label>
+      <label>Author (if multiple, separate with commas [e.g. Author 1, Author 2]):</label>
       <input
         type="text"
         name="author"
