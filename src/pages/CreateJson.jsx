@@ -11,15 +11,23 @@ const CreateJson = () => {
 
   const [formData, setFormData] = useState({
     title: "",
-    tags: [],
+    tags: [
+      
+    ],
     organization: "",
-    author: "",
+    author: [
+      ""
+    ],
     year: "",
-    language: "",
+    language: [
+      ""
+    ],
     link: "",
     type: "report", // Use a chave em vez do valor
     source: "international_org", // Use a chave em vez do valor
-    region: [], // Use a chave em vez do valor
+    region: [
+      
+    ], // Use a chave em vez do valor
     paid: "Free",
   });
 
