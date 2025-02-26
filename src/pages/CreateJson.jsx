@@ -10,18 +10,18 @@ const CreateJson = () => {
   const regions = Object.keys(infos["en"]["Regions"]); // Extrai as chaves do dicionário
 
   const [formData, setFormData] = useState({
-        title: "",
-        tags: [],
-        organization: "",
-        author: "",
-        year: "",
-        language: [], // Change to an array
-        link: "",
-        type: "report", // Use the key
-        source: "international_org", // Use the key
-        region: [], // Change to an array
-        paid: "Free",
-        });
+    title: "",
+    tags: [],
+    organization: "",
+    author: "",
+    year: "",
+    language: [], // Change to an array
+    link: "",
+    type: "report", // Use the key
+    source: "international_org", // Use the key
+    region: [], // Change to an array
+    paid: "Free",
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -76,7 +76,8 @@ const CreateJson = () => {
       paid: formData.paid,
     };
 
-    const jsonString = JSON.stringify(jsonOutput, null, 2);
+    // Use 4 spaces for indentation
+    const jsonString = JSON.stringify(jsonOutput, null, 4);
 
     navigator.clipboard
       .writeText(jsonString)
@@ -111,7 +112,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Author (if multiple, separate with commas [e.g. Author 1, Author 2]):</label>
+      <label>Author (separado por vírgula):</label>
       <input
         type="text"
         name="author"
