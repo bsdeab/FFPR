@@ -15,7 +15,7 @@ const CreateJson = () => {
     organization: "",
     author: "",
     year: "",
-    language: "English",
+    language: ["English"],
     link: "",
     type: "report", // Use a chave em vez do valor
     source: "international_org", // Use a chave em vez do valor
@@ -101,10 +101,10 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Title:</label>
+      <label>Language:</label>
       <input
         type="text"
-        name="kanguage"
+        name="language"
         value={formData.language}
         onChange={handleChange}
       />  
