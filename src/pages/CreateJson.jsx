@@ -15,7 +15,7 @@ const CreateJson = () => {
     organization: "",
     author: "",
     year: "",
-    language: ["English"],
+    language: "",
     link: "",
     type: "report", // Use a chave em vez do valor
     source: "international_org", // Use a chave em vez do valor
