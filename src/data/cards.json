@@ -1,6 +1,28 @@
 {
     "Cards": [
         {
+          "title": "Feminist Foreign Policy Analysis: A new subfield",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Bristol University Press",
+          "author": [
+                    "Karin Aggestam",
+                    "Jacqui True"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://bristoluniversitypress.co.uk/feminist-foreign-policy-analysis",
+          "type": "Book",
+          "region": [
+                    "Global"
+          ],
+          "source": "Academia",
+          "paid": "Paywalled"
+},
+        {
             "title": "Opinion – A Feminist Foreign Policy for India: Where to Turn?",
             "tags": [
                 "FFP analysis"
