@@ -23,8 +23,6 @@ const CreateJson = () => {
     paid: "Free",
   });
 
-  const languageOptions = ["English", "Portuguese", "Spanish", "French"];
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -87,7 +85,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Author (separado por vírgula):</label>
+      <label>Author (if multiple, separate with commas [e.g. Author 1, Author 2):</label>
       <input
         type="text"
         name="author"
@@ -103,14 +101,13 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Language:</label>
-      <select name="language" value={formData.language} onChange={handleChange}>
-        {languageOptions.map((lang) => (
-          <option key={lang} value={lang}>
-            {lang}
-          </option>
-        ))}
-      </select>
+      <label>Title:</label>
+      <input
+        type="text"
+        name="kanguage"
+        value={formData.language}
+        onChange={handleChange}
+      />  
 
       <label>Link:</label>
       <input
