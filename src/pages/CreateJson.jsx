@@ -9,19 +9,20 @@ const CreateJson = () => {
   const sources = Object.keys(infos["en"]["Sources"]); // Extrai as chaves do dicionário
   const regions = Object.keys(infos["en"]["Regions"]); // Extrai as chaves do dicionário
 
-  const [formData, setFormData] = useState({
-    title: "",
-    tags: [],
-    organization: "",
-    author: "",
-    year: "",
-    language: "",
-    link: "",
-    type: "report", // Use a chave em vez do valor
-    source: "international_org", // Use a chave em vez do valor
-    region: "", // Use a chave em vez do valor
-    paid: "Free",
-  });
+  const jsonOutput =
+      {
+        title: formData.title,
+        tags: formData.tags,
+        organization: formData.organization,
+        author: formData.author.split(",").map((a) => a.trim()), 
+        year: formData.year,
+        language: formData.language, 
+        link: formData.link,
+        type: formData.type,
+        region: regionValues, 
+        source: formData.source,
+        paid: formData.paid,
+      };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
