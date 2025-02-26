@@ -77,7 +77,7 @@ const CreateJson = () => {
     };
 
     // Use 4 spaces for indentation
-    const jsonString = JSON.stringify(jsonOutput, null, 4);
+    const jsonString = JSON.stringify(jsonOutput, null, 8);
 
     navigator.clipboard
       .writeText(jsonString)
