@@ -71,6 +71,22 @@ const getTranslatedSource = (source, language) => {
   return sourceTranslations[languageIndex] || source;
 };
 
+// Função para traduzir os idiomas
+const getTranslatedLanguage = (language, lang) => {
+  const languageTranslations = translate["Languages"][language];
+  if (!languageTranslations) return language;
+
+  const languageIndex = {
+    "pt": 0,
+    "fr": 1,
+    "sp": 2,
+    "hi": 3,
+    "np": 4,
+  }[lang];
+
+  return languageTranslations[languageIndex] || language;
+};
+
 function Card(props) {
   const [isSaved, setIsSaved] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
@@ -165,7 +181,9 @@ function Card(props) {
       <div className='card-language-area'>
         <span className='area-name'>{data[props.lang]["Texts"]["Projects"]["Card"]["Language"]}</span>
         <div className='language-row'>
-          <span className='language'>{props.language.join(", ")}</span>
+          <span className='language'>
+            {props.language.map(lang => getTranslatedLanguage(lang, props.lang)).join(", ")}
+          </span>
         </div>
       </div>
 
