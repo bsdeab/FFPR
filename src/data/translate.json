@@ -26,27 +26,27 @@
             "Innovation numérique",
             "Innovación digital",
             "डिजिटल नवाचार",
-            "डिजिटल नवाचार"
+            "डिजिटल नविन खोज"
         ],
         "Care": [
-            "Cuidado",
+            "Cuidados",
             "Soins",
             "Cuidado",
             "देखभाल",
-            "स्यानो"
+            "हेरचाह"
         ],
         "Representation": [
-            "Representação",
+            "Representatividade",
             "Représentation",
             "Representación",
-            "प्रस्तुति",
+            "प्रतिनिधित्व",
             "प्रतिनिधित्व"
         ],
         "Diplomacy": [
             "Diplomacia",
             "Diplomatie",
             "Diplomacia",
-            "राजनय",
+            "कूटनीति",
             "कूटनीति"
         ],
         "Democracy": [
@@ -57,93 +57,93 @@
             "लोकतन्त्र"
         ],
         "Anti-rights / Anti-gender (movements/actors)": [
-            "Anti-direitos / Anti-gênero (movimentos/atores)",
+            "Movimentos anti-gênero",
             "Anti-droits / Anti-genre (mouvements/acteurs)",
-            "Anti-derechos / Anti-género (movimientos/actores)",
-            "एंटी-अधिकार / एंटी-लिंग (आंदोलन/अभिनेता)",
-            "अधिकार विरोधी / लिङ्ग विरोधी (आन्दोल/अभिनेता)"
+            "Antiderechos / Antigénero (movimientos/actores)",
+            "अधिकार-विरोधी/लिंग-विरोधी (आंदोलन/अभिनेता)",
+            "अधिकार विरोधी / लिङ्ग अधिकार विरोधी (आन्दोलन/अभिनेताहरू)"
         ],
         "Sexual and reproductive health and rights": [
-            "Saúde e direitos sexuais e reprodutivos",
+            "Direitos e saúde sexual e reprodutiva",
             "Santé et droits sexuels et reproductifs",
             "Salud y derechos sexuales y reproductivos",
             "यौन और प्रजनन स्वास्थ्य और अधिकार",
-            "यौन र प्रजनन स्वास्थ्य र अधिकार"
+            "यौन तथा प्रजनन स्वास्थ्य र अधिकार"
         ],
         "Gender-based violence": [
-            "Violência de gênero",
-            "Violence basée sur le genre",
+            "Violência baseada em gênero",
+            "Violence fondée sur le genre",
             "Violencia de género",
-            "लिंग आधारित हिंसा",
-            "लिङ्ग आधारित हिंसा"
+            "लिंग-आधारित हिंसा",
+            "लैङ्गिक हिंसा"
         ],
-        "Feminist Funding": [
+        "Feminist funding": [
             "Financiamento feminista",
             "Financement féministe",
             "Financiamiento feminista",
             "नारीवादी वित्तपोषण",
-            "नारीवादी वित्त पोषण"
+            "नारीवादी वित्तीय स्रोत"
         ],
         "Labor/workforce": [
-            "Trabalho/força de trabalho",
-            "Travail/main-d'œuvre",
-            "Trabajo/fuerza laboral",
-            "श्रम/श्रम बल",
-            "श्रम/श्रमशक्ति"
+            "Questões trabalhistas",
+            "Travail/force de travail",
+            "Trabajo",
+            "श्रम/कार्यबल",
+            "श्रम"
         ],
-        "Macroeconomics (debt, tax and trade)": [
-            "Macroeconomia (dívida, impostos e comércio)",
-            "Macroéconomie (dette, impôts et commerce)",
-            "Macroeconomía (deuda, impuestos y comercio)",
-            "मॅक्रोइकॉनॉमिक्स (ऋण, कर और व्यापार)",
-            "म्याक्रोनोमिक्स (ऋण, कर र व्यापार)"
+        "Macroeconomics": [
+            "Macroeconomia",
+            "Macroéconomie",
+            "Macroeconomía",
+            "समष्टि अर्थशास्त्र",
+            "बृहत् अर्थशास्त्र"
         ],
         "Anti-racism": [
-            "Anti-racismo",
+            "Antirracismo",
             "Antiracisme",
             "Antirracismo",
-            "एंटी-रंगभेद",
-            "वर्णवाद विरोधी"
+            "नस्लवाद-विरोधी",
+            "जातिवाद विरोधी"
         ],
         "Decolonization": [
-            "Descolonização",
+            "Decolonização",
             "Décolonisation",
             "Descolonización",
-            "उपनिवेशवाद विराम",
-            "उपनिवेशीकरण"
+            "उपनिवेशवाद का उन्मूलन",
+            "औपनिवेशिकिकरन"
         ],
         "Masculinities": [
             "Masculinidades",
             "Masculinités",
             "Masculinidades",
-            "पुंसत्त्व",
-            "पुंसत्व"
+            "पुरुषत्व",
+            "पुरुषत्व"
         ],
         "Women, peace and security": [
             "Mulheres, paz e segurança",
             "Femmes, paix et sécurité",
             "Mujeres, paz y seguridad",
-            "महिलाएं, शांति और सुरक्षा",
+            "महिलाएँ, शांति और सुरक्षा",
             "महिला, शान्ति र सुरक्षा"
         ],
         "Migration and refugees": [
             "Migração e refugiados",
             "Migration et réfugiés",
             "Migración y refugiados",
-            "प्रवासन और शरणार्थी",
-            "प्रवासन र शरणार्थी"
+            "प्रवास और शरणार्थी",
+            "बसाइँसराइ र शरणार्थीहरू"
         ],
         "LGBTQIA+ rights": [
             "Direitos LGBTQIA+",
             "Droits LGBTQIA+",
             "Derechos LGBTQIA+",
-            "एलजीबीटीक्यूआईए+ अधिकार",
-            "एलजीबीटीक्यूआईए+ अधिकार"
+            "LGBTQIA+ अधिकार",
+            "विविध लैङ्गिक तथा यौनिक पहिचान भएका मानिसहरूको अधिकार"
         ],
         "Youth rights": [
             "Direitos da juventude",
-            "Droits de la jeunesse",
-            "Derechos de la juventud",
+            "Droits des jeunes",
+            "Derechos de los jóvenes",
             "युवाओं के अधिकार",
             "युवाहरूका अधिकार"
         ],
@@ -151,43 +151,43 @@
             "Direitos indígenas",
             "Droits des peuples autochtones",
             "Derechos indígenas",
-            "आदिवासी अधिकार",
-            "आदिवासी अधिकार"
+            "युवा अधिकार",
+            "युवा अधिकार"
         ],
         "Disability rights": [
             "Direitos das pessoas com deficiência",
-            "Droits des personnes handicapées",
-            "Derechos de las personas con discapacidad",
+            "Droits des personnes en situation d’handicap",
+            "Derechos de las personas con discapacitad",
             "विकलांगता अधिकार",
-            "दिव्यांग अधिकार"
+            "अपाङ्गता भएका मानिसहरुको अधिकार"
         ],
         "Feminist data": [
             "Dados feministas",
             "Données féministes",
             "Datos feministas",
-            "नारीवादी आंकड़े",
-            "नारीवादी डाटा"
+            "नारीवादी डेटा",
+            "नारीवादी तथ्यांक"
         ],
         "Human rights": [
             "Direitos humanos",
-            "Droits de l'homme",
+            "Droits de la personne",
             "Derechos humanos",
-            "मानवाधिकार",
+            "मानव अधिकार",
             "मानव अधिकार"
         ],
         "Overseas Development Assistance": [
-            "Assistência ao desenvolvimento no exterior",
-            "Aide au développement à l'étranger",
-            "Asistencia al desarrollo en el extranjero",
+            "AAssistência ao desenvolvimento exterior",
+            "Aide publique au développement",
+            "Ayuda oficial al desarrollo",
             "विदेशी विकास सहायता",
-            "विपक्षी विकास सहायता"
+            "वैदेशिक विकास सहायता"
         ],
         "FFP analysis": [
-            "Análise FFP",
-            "Analyse FFP",
-            "Análisis FFP",
-            "एफएफपी विश्लेषण",
-            "एफएफपी विश्लेषण"
+            "Análise de PEF",
+            "Analyse de PEF",
+            "Análisis de PEF",
+            "FFP विश्लेषण",
+            "नारीवादी विदेश नीति विश्लेषण"
         ],
         "Feminist methodologies": [
             "Metodologias feministas",
@@ -197,48 +197,49 @@
             "नारीवादी विधिहरू"
         ],
         "Monitoring and evaluation": [
-            "Monitoramento e avaliação",
+            "Monitorização e avaliação",
             "Suivi et évaluation",
             "Monitoreo y evaluación",
             "निगरानी और मूल्यांकन",
             "अनुगमन र मूल्याङ्कन"
+        ],
+        "State policy strategy": [
+            "Estratégia de política estatal",
+            "Stratégie de politique étatique",
+            "Estrategia política estatal",
+            "राज्य नीति रणनीति",
+            "राज्य नीति रणनीति"
         ]
+        
     },
     "Types": {
         "Report": [
             "Relatório",
             "Rapport",
             "Informe",
-            "प्रतिवेदन",
-            "रिपोर्ट"
+            "रिपोर्ट",
+            "प्रतिवेदन"
         ],
-        "Policy summary": [
-            "Resumo de política",
-            "Résumé de la politique",
-            "Resumen de política",
-            "नीति सारांश",
-            "नीति सारांश"
+        "Policy brief": [
+            "Policy brief",
+            "Note de politique",
+            "Informe político",
+            "नीति संक्षिप्त",
+            "नीतिगत संक्षिप्त विवरण"
         ],
-        "Official government document": [
-            "Documento oficial do governo",
-            "Document officiel du gouvernement",
-            "Documento oficial del gobierno",
-            "सरकारी आधिकारिक दस्तावेज़",
-            "सरकारी आधिकारिक कागजात"
-        ],
-        "paper": [
-            "Artigo",
-            "Article",
-            "Papel",
-            "कागज",
+        "Paper": [
+            "Paper",
+            "Document",
+            "Documento",
+            "पेपर",
             "कागज"
         ],
-        "Newspaper article": [
-            "Artigo de jornal",
-            "Article de journal",
-            "Artículo de periódico",
-            "समाचार पत्र का लेख",
-            "अखबार लेख"
+        "Journal article": [
+            "Artigo acadêmico",
+            "Article de périodique",
+            "Artículo de revista",
+            "जर्नल लेख",
+            "जर्नल लेख"
         ],
         "Art": [
             "Arte",
@@ -251,71 +252,71 @@
             "Infográfico",
             "Infographie",
             "Infografía",
-            "सूचनात्मक चित्र",
-            "सूचनात्मक इन्फोग्राफिक"
+            "इन्फोग्राफ़िक",
+            "इन्फोग्राफिक"
         ],
-        "podcast": [
+        "Podcast": [
             "Podcast",
             "Podcast",
             "Podcast",
             "पॉडकास्ट",
-            "पॉडकास्ट"
+            "पोडकास्ट"
         ],
         "Toolkit": [
-            "Kit de ferramentas",
+            "Ferramenta",
             "Boîte à outils",
-            "Caja de herramientas",
-            "उपकरण सेट",
-            "उपकरण सेट"
+            "Juego de herramientas",
+            "टूलकिट",
+            "Toolkit टूलकिट"
         ],
-        "resource repositories": [
-            "Repositórios de recursos",
-            "Dépôts de ressources",
+        "Resource repositories": [
+            "Repositório de recursos",
+            "Répertoires de ressources",
             "Repositorios de recursos",
-            "संसाधन भंडारण",
-            "संसाधन भण्डार"
+            "संसाधन रिपॉजिटरी",
+            "स्रोत भण्डारहरू"
         ],
         "Event recording": [
             "Gravação de evento",
             "Enregistrement d'événement",
             "Grabación de evento",
-            "कार्यक्रम रिकॉर्डिंग",
-            "घटना रेकॉर्डिंग"
+            "इवेंट रिकॉर्डिंग",
+            "घटनाका रेकर्डिङ"
         ],
         "Video": [
             "Vídeo",
             "Vidéo",
             "Vídeo",
             "वीडियो",
-            "भिडियो"
+            "​​भिडियो"
         ],
         "Blog": [
             "Blog",
-            "Blog",
+            "Blogue",
             "Blog",
             "ब्लॉग",
             "ब्लग"
         ],
-        "Opinion piece": [
+        "Op-ed": [
             "Artigo de opinião",
             "Article d'opinion",
             "Artículo de opinión",
-            "मत विचार लेख",
-            "राय लेख"
+            "ओप-एड",
+            "ओप-एड / राय संस्करण"
         ],
         "News": [
-            "Notícias",
-            "Actualités",
-            "Noticias",
+            "Notícia",
+            "Actualité",
+            "Noticia",
             "समाचार",
             "समाचार"
         ],
-        "web page": [
+        "Web page": [
             "Página web",
             "Page web",
             "Página web",
-            "वेब पेज",
-            "वेब पृष्ठ"
+            "वेबपेज",
+            "वेबपेज"
         ],
         "Official document": [
             "Documento oficial",
@@ -329,85 +330,79 @@
             "Communiqué de presse",
             "Comunicado de prensa",
             "प्रेस विज्ञप्ति",
-            "प्रेस विज्ञप्ति"
+            "प्रेस बिज्ञप्ति"
         ],
-        "Minutes of meeting": [
+        "Meeting minutes": [
             "Atas de reunião",
-            "Procès-verbal de réunion",
-            "Actas de la reunión",
-            "बैठक का मिनट्स",
-            "बैठकका मिनेट्स"
+            "Procès-verbal",
+            "Acta de reunión",
+            "बैठक के मिनट",
+            "बैठक प्रतिवेदन वा दस्ताबेज"
         ],
-        "books": [
-            "Livros",
-            "Livres",
-            "Libros",
-            "पुस्तकें",
-            "पुस्तकहरु"
+        "Book": [
+            "Livro",
+            "Livre",
+            "Libro",
+            "पुस्तक",
+            "पुस्तक"
         ],
-        "Other": [
-            "Outro",
-            "Autre",
-            "Otro",
-            "अन्य",
-            "अन्य"
+        "Book chapter": [
+            "Capítulo de livro",
+            "Chapitre de livre",
+            "Capítulo de libro",
+            "पुस्तक अध्याय",
+            "पुस्तक अध्याय"
+        ],
+        "Speech": [
+            "Discurso",
+            "Discours,"
+            "Discurso",
+            "भाषण",
+            "भाषण"
         ]
+        
     },
     "Regions": {
-        "North America (US and Canada)": [
-            "América do Norte (EUA e Canadá)",
-            "Amérique du Nord (États-Unis et Canada)",
-            "América del Norte (EE. UU. y Canadá)",
-            "उत्तर अमेरिका (यूएस और कनाडा)",
-            "उत्तर अमेरिका (अमेरिका र क्यानडा)"
+        "Americas": [
+            "Américas",
+            "Amériques",
+            "Américas",
+            "अमेरिका",
+            "अमेरिका"
         ],
-        "Latin America and the Caribbean": [
-            "América Latina e o Caribe",
-            "Amérique latine et Caraïbes",
-            "América Latina y el Caribe",
-            "लातीनी अमेरिका और कैरेबियन",
-            "लाटिन अमेरिका र क्यारिबियन"
-        ],
-        "Middle East and North Africa": [
-            "Oriente Médio e Norte da África",
-            "Moyen-Orient et Afrique du Nord",
-            "Medio Oriente y Norte de África",
-            "मध्य पूर्व और उत्तर अफ्रीका",
-            "मध्य पूर्व र उत्तर अफ्रिका"
-        ],
-        "Sub-Saharan Africa": [
-            "África Subsaariana",
-            "Afrique subsaharienne",
-            "África subsahariana",
-            "उप-सहारा अफ्रीका",
-            "उप-सहारा अफ्रिका"
+        "Africa": [
+            "África",
+            "Afrique",
+            "África",
+            "एशिया",
+            "एशिया"
         ],
         "Asia": [
             "Ásia",
             "Asie",
             "Asia",
-            "एशिया",
-            "एशिया"
+            "अफ्रीका",
+            "अफ्रीका"
         ],
-        "The Pacific/Oceania": [
-            "Pacífico/Oceanía",
-            "Pacifique/Océanie",
-            "Pacífico/Oceanía",
-            "प्रशांत/ओशनिया",
-            "प्रशान्त/ओशनिया"
+        "Oceania": [
+            "Oceania",
+            "Océanie",
+            "Oceanía",
+            "ओसेनिया",
+            "ओशिनिया"
         ],
         "Europe": [
             "Europa",
             "Europe",
             "Europa",
-            "यूरोप",
-            "युरोप"
+            "युरोप",
+            "यूरोप"
         ],
         "Global": [
             "Global",
-            "Mondial",
+            "Le monde",
             "Global",
-            "वैश्विक",
+            "अन्तरराष्ट्रिय / विस्वब्यपी",
             "वैश्विक"
         ]
     },
@@ -416,43 +411,43 @@
             "Sociedade civil",
             "Société civile",
             "Sociedad civil",
-            "सिविल सोसाइटी",
-            "सिविल समाज"
+            "नागरिक समाज",
+            "नागरिक समाज"
         ],
         "International organization": [
             "Organização internacional",
             "Organisation internationale",
             "Organización internacional",
             "अंतर्राष्ट्रीय संगठन",
-            "अन्तर्राष्ट्रिय संगठन"
+            "अन्तर्राष्ट्रिय संस्था"
         ],
         "Government": [
             "Governo",
             "Gouvernement",
             "Gobierno",
             "सरकार",
-            "सरकार"
+            "सरकारी संस्था"
         ],
         "Academia": [
+            "Acadêmico",
+            "Université",
             "Academia",
-            "Académie",
-            "Academia",
-            "अकादमी",
-            "अकादमी"
+            "अकादमिक",
+            "अध्यापन संस्था"
         ],
         "News organization": [
             "Organização de notícias",
             "Organisation de presse",
             "Organización de noticias",
             "समाचार संगठन",
-            "समाचार संगठन"
+            "समाचार संस्था"
         ],
         "Individual": [
             "Indivíduo",
             "Individu",
             "Individuo",
             "व्यक्ति",
-            "व्यक्ति"
+            "व्यक्तिगत"
         ]
     },
     "Languages": {
