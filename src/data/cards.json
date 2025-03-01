@@ -19,6 +19,7 @@
                     "Americas",
                     "Africa"
           ],
+          "source": Civil society
           "paid": "Free"
 },
         {
@@ -39,6 +40,7 @@
           "region": [
                     "Europe"
           ],
+          "source": "Civil society",
           "paid": "Free"
 },
         {
