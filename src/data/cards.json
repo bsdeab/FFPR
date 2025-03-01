@@ -1,6 +1,132 @@
 {
     "Cards": [
         {
+          "title": "Policy Brief: A feminist foreign policy approach to EU security and defence",
+          "tags": [
+                    "Women, peace and security",
+                    "FFP analysis"
+          ],
+          "organization": "Foundation For European Progressive Studies",
+          "author": [
+                    "Annika Bergman Rosamond"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://library.fes.de/pdf-files/bueros/bruessel/21693.pdf",
+          "region": [
+                    "Europe"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "From Talking to Walking: Using feminist foreign policy to fund feminist organizing",
+          "tags": [
+                    "Feminist funding"
+          ],
+          "organization": "Foundation For European Progressive Studies",
+          "author": [
+                    "Benedicta Aloakinnou",
+                    "Marinke van Riet",
+                    "Lucie Daniel",
+                    "Maria Malomalo"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://library.fes.de/pdf-files/bueros/bruessel/21656.pdf",
+          "region": [
+                    "Global"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Deutsche Außenpolitik im Kontext von Gaza: Widersprüche der deutschen feministischen Außenpolitik und Perspektiven menschlicher Sicherheit ",
+          "tags": [
+                    "Women, peace and security"
+          ],
+          "organization": "Foundation For European Progressive Studies",
+          "author": [
+                    "Barbara Mittelhammer",
+                    "Leonie Stamm",
+                    "Lydia Both"
+          ],
+          "year": "2024",
+          "language": [
+                    "German"
+          ],
+          "link": "https://library.fes.de/pdf-files/bueros/bruessel/21473.pdf",
+          "region": [
+                    "Asia",
+                    "Europe"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Feminist Foreign Policy in the EU and Latin America",
+          "tags": [],
+          "organization": "Foundation For European Progressive Studies",
+          "author": [
+                    "Daniela Sepúlveda",
+                    "Evyn Papworth and Thainá Leite"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://library.fes.de/pdf-files/bueros/bruessel/21473.pdf",
+          "region": [
+                    "Asia"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Women, Peace and Security: Mongolia, a Feminist-oriented Foreign Policy",
+          "tags": [
+                    "Women, peace and security",
+                    "FFP analysis"
+          ],
+          "organization": "United Nations University",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2025",
+          "language": [
+                    "English"
+          ],
+          "link": "https://unu.edu/symposium/women-peace-and-security-mongolia-feminist-oriented-foreign-policy",
+          "region": [
+                    "Asia"
+          ],
+          "source": "Academia",
+          "paid": "Free"
+},
+        {
+          "title": "Implementing Foreign Policy Goals with a Human Rights Lens: Advancing Equality through Multilateralism",
+          "tags": [
+                    "Human rights"
+          ],
+          "organization": "Government of Slovenia",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2025",
+          "language": [
+                    "English"
+          ],
+          "link": "https://drive.google.com/file/d/1vm4yWCby3VyGHHbK9vdnvpP_BmD_spk7/view",
+          "type": "Meeting minutes",
+          "region": [
+                    "Africa",
+                    "Asia",
+                    "Europe"
+          ],
+          "source": "Government",
+          "paid": "Free"
+},
+        {
           "title": "Feminist Foreign Policy: An Opportunity for a Bi-regional EU-CELAC Compact",
           "tags": [
                     "Democracy",
