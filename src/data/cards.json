@@ -61,6 +61,8 @@
                     "Americas",
                     "Europe"
           ],
+          "type": "Blog",
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
@@ -103,6 +105,7 @@
           "region": [
                     "Asia"
           ],
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
