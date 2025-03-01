@@ -1,6 +1,88 @@
 {
     "Cards": [
         {
+          "title": "Against all odds: implementing feminist approaches to international politics ",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Heinrich Boll Stiftung",
+          "author": [
+                    "Birte Rodenberg"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.boell.de/en/2024/12/03/against-all-odds-implementing-feminist-approaches-international-politics?amp",
+          "type": "Blog",
+          "region": [
+                    "Europe"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Humanitarian action in the era of feminist foreign policy: narratives, ambition and opposition in Canada and Germany",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "ODI",
+          "author": [
+                    "Megan Daigle"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://odi.org/en/publications/humanitarian-action-in-the-era-of-feminist-foreign-policy-narratives-ambition-and-opposition-in-canada-and-germany/",
+          "region": [
+                    "Americas",
+                    "Europe"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Germany's Feminist Foreign Policy: Effective Practice or an Empty Phrase?",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Harvard International Review",
+          "author": [
+                    "Ben Schnalke"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://hir.harvard.edu/germanys-feminist-foreign-policy-effective-practice-or-an-empty-phrase/",
+          "type": "Blog",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Academia",
+          "paid": "Free"
+},
+        {
+          "title": "Why Feminist Diplomacy Is Crucial For Lasting Peace In Palestine",
+          "tags": [
+                    "Diplomacy",
+                    "Women, peace and security"
+          ],
+          "organization": "Feminism in India",
+          "author": [
+                    "Mansi Malhotra"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://feminisminindia.com/2024/06/11/beyond-machismo-harnessing-feminist-diplomacy-for-lasting-peace-in-palestine/",
+          "type": "Blog",
+          "region": [
+                    "Asia"
+          ],
+          "paid": "Free"
+},
+        {
           "title": "Policy Brief: A feminist foreign policy approach to EU security and defence",
           "tags": [
                     "Women, peace and security",
