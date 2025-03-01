@@ -112,7 +112,7 @@ const CreateJson = () => {
         onChange={handleChange}
       />
 
-      <label>Author (separado por vírgula):</label>
+      <label>Author (commas separating each name [e.g.: Author 1, Author 2]):</label>
       <input
         type="text"
         name="author"
@@ -134,7 +134,6 @@ const CreateJson = () => {
         name="language"
         value={formData.language.join(", ")} // Display as comma-separated string
         onChange={handleChange}
-        placeholder="Enter language(s)"
       />
 
       <label>Link:</label>
