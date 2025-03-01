@@ -123,6 +123,8 @@
           "region": [
                     "Europe"
           ],
+          "type": "Report",
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
@@ -145,6 +147,8 @@
           "region": [
                     "Global"
           ],
+          "type": "Report",
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
@@ -167,11 +171,15 @@
                     "Asia",
                     "Europe"
           ],
+          "type": "Report",
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
           "title": "Feminist Foreign Policy in the EU and Latin America",
-          "tags": [],
+          "tags": [
+                  "FFP analysis"
+          ],
           "organization": "Foundation For European Progressive Studies",
           "author": [
                     "Daniela Sepúlveda",
@@ -185,6 +193,8 @@
           "region": [
                     "Asia"
           ],
+          "type": "Report",
+          "source": "Civil society",  
           "paid": "Free"
 },
         {
@@ -205,6 +215,7 @@
           "region": [
                     "Asia"
           ],
+          "type": "Webpage",  
           "source": "Academia",
           "paid": "Free"
 },
