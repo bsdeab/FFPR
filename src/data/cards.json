@@ -1,6 +1,29 @@
 {
     "Cards": [
         {
+          "title": "Feminist Foreign Policy: An Opportunity for a Bi-regional EU-CELAC Compact",
+          "tags": [
+                    "Democracy",
+                    "FFP analysis"
+          ],
+          "organization": "Palgrave",
+          "author": [
+                    "Daniela Mesa"
+          ],
+          "year": "2025",
+          "language": [
+                    "English"
+          ],
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-80216-4_29",
+          "type": "Book chapter",
+          "region": [
+                    "Americas",
+                    "Europe"
+          ],
+          "source": "Academia",
+          "paid": "Paywalled"
+},
+        {
           "title": "​Assessing Germany’s Feminist Foreign Policy Approach to Conflict-Related Sexual Violence",
           "tags": [
                     "Gender-based violence",
