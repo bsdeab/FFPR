@@ -1,6 +1,140 @@
 {
     "Cards": [
         {
+          "title": "What Feminist Foreign Policy Alliances Should Deliver in Times of Crisis",
+          "tags": [
+                    "Women, peace and security",
+                    "FFP analysis"
+          ],
+          "organization": "Internationale Politik Quarterly",
+          "author": [
+                    "Leonie Stamm"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://ip-quarterly.com/en/what-feminist-foreign-policy-alliances-should-deliver-times-crisis",
+          "type": "Journal article",
+          "region": [
+                    "Global"
+          ],
+          "source": "Academia",
+          "paid": "Free"
+},
+        {
+          "title": "Embedding feminist principles in grant-making: A win-win for donors and grantees",
+          "tags": [
+                    "Feminist funding"
+          ],
+          "organization": "Alliance for philanthropy and social investment worldwide",
+          "author": [
+                    "Mónica Enríquez-Enríquez",
+                    "Terry de Vries"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.alliancemagazine.org/blog/embedding-feminist-principles-in-grant-making-a-win-win-for-donors-and-grantees/",
+          "type": "Blog",
+          "region": [
+                    "Global"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
+          "title": "India, Germany and Inclusive Foreign Policy-Making",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Kubernein Initiative",
+          "author": [
+                    "Aditi Mukund",
+                    "Ambika Vishwanath",
+                    "Lakshmi Puri"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://open.spotify.com/episode/5f3U0OXqRxe09U5VIMQunS?si=RUMv5j8UTAa5cM_6e3RONw&nd=1&dlsi=ac34bd12e3bf4e76",
+          "type": "Podcast",
+          "region": [
+                    "Asia",
+                    "Europe"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
+          "title": "Ministerial event Feminist Foreign Policy Plus (FFP+) group Address by Jean-Noël Barrot Minister for Europe and Foreign Affairs",
+          "tags": [
+                    "Representation",
+                    "Women, peace and security"
+          ],
+          "organization": "France Diplomacy",
+          "author": [
+                    "Jean-Noël Barrot"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.diplomatie.gouv.fr/en/french-foreign-policy/france-and-the-united-nations/news-and-events/news/news-2024/article/ministerial-event-feminist-foreign-policy-plus-ffp-group-address-by-jean-noel",
+          "type": "Speech",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Government",
+          "paid": "Free"
+},
+        {
+          "title": "A new Gender Equality Contract for Europe",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Palgrave McMillian",
+          "author": [
+                    "Andrea Petö",
+                    "Laeticia Thissen",
+                    "Amandine Clavaud"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://feps-europe.eu/publication/a-new-gender-equality-contract-for-europe/",
+          "type": "Book",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Academia",
+          "paid": "Free"
+},
+        {
+          "title": "#EnVivo | La Política Exterior Feminista en el marco del Día de la Persona Diplomática Mexicana",
+          "tags": [
+                    "Representation"
+          ],
+          "organization": "Ministerio de Relaciones Exteriores de Mexico",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2024",
+          "language": [
+                    "Spanish"
+          ],
+          "link": "https://x.com/i/broadcasts/1OyKAZdnQQDGb",
+          "type": "Event recording",
+          "region": [
+                    "Americas"
+          ],
+          "source": "Government",
+          "paid": "Free"
+},
+        {
           "title": "How German Imperialism Rebranded Itself as Feminist",
           "tags": [
                     "Women, peace and security"
