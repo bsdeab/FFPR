@@ -1,6 +1,134 @@
 {
     "Cards": [
         {
+          "title": "How German Imperialism Rebranded Itself as Feminist",
+          "tags": [
+                    "Women, peace and security"
+          ],
+          "organization": "Jacobin",
+          "author": [
+                    "Magdalena Berger"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://jacobin.com/2024/11/germany-feminist-foreign-policy-gaza",
+          "type": "Magazine article",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
+          "title": "Shifts in Gender Dynamics: France’s Feminist Foreign Policy and the Rise of Female Far-Right Voters",
+          "tags": [
+                    "Anti-rights / Anti-gender (movements/actors)"
+          ],
+          "organization": "Fulbright Association 47th Annual Conference",
+          "author": [
+                    "Jacquelyn Irene Eidson",
+                    "Sophia Behghiti"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.researchgate.net/publication/385380259_Shifts_in_Gender_Dynamics_France%27s_Feminist_Foreign_Policy_and_the_Rise_of_Female_Far-Right_Voters",
+          "type": "Infographic",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Academia",
+          "paid": "Free"
+},
+        {
+          "title": "Moving beyond branding: what’s next for feminist foreign policy",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Gaps UK",
+          "author": [
+                    "Detmer Kremer"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://gaps-uk.org/moving-beyond-branding-whats-next-for-feminist-foreign-policy/",
+          "type": "Blog",
+          "region": [
+                    "Global"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
+          "title": "Statement of Intent on Feminist Informed Policies Abroad and at Home",
+          "tags": [
+                  FFP analysis
+          ],
+          "organization": "African Arguments",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2023",
+          "language": [
+                    "English"
+          ],
+          "link": "https://africanarguments.org/2023/07/statement-of-intent-on-feminist-informed-policies-abroad-and-at-home/",
+          "type": "Blog",
+          "region": [
+                    "Africa"
+          ],
+          "source": "Civil society"   
+          "paid": "Free"
+},
+        {
+          "title": "Defining and Reclaiming Feminist Foreign Policy in Africa",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Researchers Without Borders",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2023",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.youtube.com/watch?v=8VZLvHiDDTE&feature=youtu.be",
+          "type": "Event recording",
+          "region": [
+                    "Africa"
+          ],
+          "source": "Civil society"  
+          "paid": "Free"
+},
+        {
+          "title": "Governing the Feminist Peace: The Vitality and Failure of the Women, Peace, and Security Agenda",
+          "tags": [
+                    "Women, peace and security"
+          ],
+          "organization": "Columbia University Press",
+          "author": [
+                    "Paul Kirby",
+                    "Laura J. Shepherd"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://cup.columbia.edu/book/governing-the-feminist-peace/9780231555852",
+          "type": "Book",
+          "region": [
+                    "Global"
+          ],
+          "source": "Academia",
+          "paid": "Paywalled"
+},
+        {
           "title": "From Santiago to Nairobi: How Chile's female-first foreign policy could transform Kenya",
           "tags": [
                     "FFP analysis"
