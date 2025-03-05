@@ -119,13 +119,6 @@
             "पुरुषत्व",
             "पुरुषत्व"
         ],
-        "Sustainable development": [
-            "Desenvolvimento sustentável",
-            "Développement durable",
-            "Desarollo sostenible",
-            "सतत विकास",
-            "दिगो विकास"
-        ],
         "Women, peace and security": [
             "Mulheres, paz e segurança",
             "Femmes, paix et sécurité",
@@ -216,6 +209,13 @@
             "Estrategia política estatal",
             "राज्य नीति रणनीति",
             "राज्य नीति रणनीति"
+        ],
+        "Sustainable development": [
+            "Desenvolvimento sustentável",
+            "Développement durable",
+            "Desarollo sostenible",
+            "सतत विकास",
+            "दिगो विकास"
         ]
         
     },
