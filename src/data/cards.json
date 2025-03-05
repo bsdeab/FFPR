@@ -1,6 +1,91 @@
 {
     "Cards": [
         {
+          "title": "",
+          "tags": [
+                    "Sustainable development"
+          ],
+          "organization": "Coordinación Sud",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.coordinationsud.org/wp-content/uploads/CSUD-IS-Handbook-MEPs-web-july24.pdf",
+          "type": "Policy brief",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+}
+        {
+          "title": "III Ministerial and High-Level Representatives on Feminist Foreign Policy",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Secretaría de Relaciones Exteriores de México",
+          "author": [
+                    "Alicia Barcena"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.gob.mx/sre/documentos/iii-ministerial-and-high-level-representatives-on-feminist-foreign-policy",
+          "type": "Speech",
+          "region": [
+                    "Global"
+          ],
+          "source": "Government",
+          "paid": "Free"
+},
+        {
+          "title": "Voices from MENA Feminists on Feminist Foreign Policies: Engaging with Latin America",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Asfari Institute for Civil Society and Citizenship",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.youtube.com/watch?v=491Bw3OlaR8",
+          "type": "Event recording",
+          "region": [
+                    "Americas",
+                    "Africa",
+                    "Asia"
+          ],
+          "paid": "Free"
+},
+        {
+          "title": "Inaugural Session FFPF Feminist Foreign Policy Fellowship Live Ms Stephenie Foster",
+          "tags": [
+                    "FFP analysis"
+          ],
+          "organization": "Impact and Policy Research Institute",
+          "author": [
+                    "N/A"
+          ],
+          "year": "2024",
+          "language": [
+                    "English"
+          ],
+          "link": "https://www.youtube.com/live/4HV8tzmxTdE",
+          "type": "Event recording",
+          "region": [
+                    "Global"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
           "title": "What Feminist Foreign Policy Alliances Should Deliver in Times of Crisis",
           "tags": [
                     "Women, peace and security",
@@ -118,7 +203,7 @@
           "tags": [
                     "Representation"
           ],
-          "organization": "Ministerio de Relaciones Exteriores de Mexico",
+          "organization": "Secretaría de Relaciones Exteriores de Mexico",
           "author": [
                     "N/A"
           ],
