@@ -1,6 +1,28 @@
 {
     "Cards": [
         {
+          "title": "La France et ses territoires d’Outre-mer : quelle place pour la diplomatie féministe ?",
+          "tags": [
+                    "Decolonization",
+                    "FFP analysis"
+          ],
+          "organization": "Gender in Geopolitics Institute",
+          "author": [
+                    "Pénélope Le Mauguen"
+          ],
+          "year": "2024",
+          "language": [
+                    "French"
+          ],
+          "link": "https://igg-geo.org/2024/09/12/la-france-et-ses-territoires-doutre-mer-quelle-place-pour-la-diplomatie-feministe/",
+          "type": "Policy brief",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
           "title": "How Can the EU Promote a Just and Sustainable Development Model?",
           "tags": [
                     "Sustainable development"
