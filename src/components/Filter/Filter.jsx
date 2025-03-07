@@ -4,8 +4,26 @@ import Select from "react-select";
 import data from '../../data/infos.json'; // Importando o arquivo JSON
 import translations from '../../data/translate.json'; // Importando o JSON de tradução
 
-function findEnglishKeySource(selectedValue) {
-    for (const [englishKey, translatedValues] of Object.entries(translations.Sources)) {
+function findEnglishKeyTheme(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Themes)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
+function findEnglishKeyType(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Types)) {
+        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
+            return englishKey;
+        }
+    }
+    return selectedValue; // Caso não encontre, mantém o valor original
+}
+
+function findEnglishKeyRegion(selectedValue) {
+    for (const [englishKey, translatedValues] of Object.entries(translations.Regions)) {
         if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
             return englishKey;
         }
@@ -32,9 +50,9 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         value: region
     }));
 
-    const sourceOptions = data[language].Sources.map((source) => ({
-        label: source, // Use the translated value as the label
-        value: source, // Use the translated value as the value
+    const sourceOptions = Object.keys(data[language].Sources).map((key) => ({
+        label: data[language].Sources[key], // Display the translated value
+        value: key, // Use the key for filtering
     }));
 
     // Opções de linguagem (exemplo: inglês, francês, etc.)
@@ -72,15 +90,63 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            const englishSources = selectedValues.map(findEnglishKeySource); // Map to English keys
-                            setSource(englishSources); // Use the English keys
+                            const englishThemes = selectedValues.map(findEnglishKeyTheme);
+                            setSelectedThemes(englishThemes);
+                        }}
+                        options={themeOptions}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Themes"]}
+                    />
+                </div>
+
+                <div className='filter-item'>
+                    <Select
+                        isMulti
+                        onChange={(selectedOptions) => {
+                            const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                            const englishType = selectedValues.map(findEnglishKeyType);
+                            setType(englishType);
+                        }}
+                        options={typeOptions}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Types"]}
+                    />
+                </div>
+
+                <div className='filter-item'>
+                    <Select
+                        isMulti
+                        onChange={(selectedOptions) => {
+                            const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                            const englishRegion = selectedValues.map(findEnglishKeyRegion);
+                            setRegion(englishRegion);
+                        }}
+                        options={regionOptions}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Regions"]}
+                    />
+                </div>
+
+                <div className='filter-item'>
+                    <Select
+                        isMulti
+                        onChange={(selectedOptions) => {
+                            const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                            setSource(selectedValues); // Directly use the keys
                         }}
                         options={sourceOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
                     />
                 </div>
 
-                {/* Other filter items... */}
+                <div className='filter-item'>
+                    <Select
+                        isMulti
+                        onChange={(selectedOptions) => {
+                            const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                            setLanguageFilter(selectedValues); // Atualiza o filtro de linguagem
+                        }}
+                        options={languageOptions}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Language"]}
+                    />
+                </div>
             </div>
         </div>
     );
