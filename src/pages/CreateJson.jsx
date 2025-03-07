@@ -192,7 +192,7 @@ const CreateJson = () => {
       </div>
 
       <button onClick={handleGenerateJSON} style={{ marginTop: "10px" }}>
-        Gerar JSON
+        Generate JSON
       </button>
     </div>
   );
