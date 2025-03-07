@@ -142,7 +142,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                             setSource(englishSource);
                         }}
                         options={sourceOptions}
-                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sources"]}
                     />
                 </div>
 
