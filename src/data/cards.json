@@ -1,6 +1,28 @@
 {
     "Cards": [
         {
+          "title": "Становище (внутрішньо переміщеної) української ЛГБТК+ спільноти під час російського повномасштабного вторгнення",
+          "tags": [
+                    "Women, peace and security",
+                    "LGBTQIA+ rights"
+          ],
+          "organization": "Global Public Policy Institute",
+          "author": [
+                    "Maryna Shevtsova"
+          ],
+          "year": "2024",
+          "language": [
+                    "Ukrainian"
+          ],
+          "link": "https://gppi.net/media/Shevtsova_2024_Queering_Displacement_UKR.pdf",
+          "type": "Policy brief",
+          "region": [
+                    "Europe"
+          ],
+          "source": "Civil society",
+          "paid": "Free"
+},
+        {
           "title": "La France et ses territoires d’Outre-mer : quelle place pour la diplomatie féministe ?",
           "tags": [
                     "Decolonization",
