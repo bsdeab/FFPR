@@ -50,9 +50,9 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         value: region
     }));
 
-    const sourceOptions = Object.keys(data[language].Sources).map((key) => ({
-        label: data[language].Sources[key], // Display the translated value
-        value: key, // Use the key for filtering
+    const sourceOptions = Object.values(translations.Sources).map((values) => ({
+         label: values[0], // 
+         value: values[0], // 
     }));
 
     // Opções de linguagem (exemplo: inglês, francês, etc.)
@@ -129,10 +129,10 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            setSource(selectedValues); // Directly use the keys
+                            setSource(selectedValues); // Use the English words directly
                         }}
                         options={sourceOptions}
-                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
+                        placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sources"]}
                     />
                 </div>
 
