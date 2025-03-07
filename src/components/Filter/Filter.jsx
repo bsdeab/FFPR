@@ -31,15 +31,6 @@ function findEnglishKeyRegion(selectedValue) {
     return selectedValue; // Caso não encontre, mantém o valor original
 }
 
-function findEnglishKeySource(selectedValue) {
-    for (const [englishKey, translatedValues] of Object.entries(translations.Sources)) {
-        if (translatedValues.includes(selectedValue) || englishKey === selectedValue) {
-            return englishKey;
-        }
-    }
-    return selectedValue; // Caso não encontre, mantém o valor original
-}
-
 function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTerm, setLanguageFilter, setOrganization, setPaid, organizationsList, lang }) {
     let language = lang;
 
@@ -59,9 +50,9 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         value: region
     }));
 
-    const sourceOptions = data[language].Sources.map(source => ({
-        label: source,
-        value: source
+    const sourceOptions = Object.keys(data[language].Sources).map((key) => ({
+        label: data[language].Sources[key], // Display the translated value
+        value: key, // Use the key for filtering
     }));
 
     // Opções de linguagem (exemplo: inglês, francês, etc.)
@@ -138,8 +129,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
-                            const englishSource = selectedValues.map(findEnglishKeySource);
-                            setSource(englishSource);
+                            setSource(selectedValues); // Directly use the keys
                         }}
                         options={sourceOptions}
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Sourcers"]}
@@ -157,7 +147,6 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         placeholder={data[lang]["Texts"]["Projects"]["Filter"]["Language"]}
                     />
                 </div>
-
             </div>
         </div>
     );
