@@ -50,9 +50,9 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
         value: region
     }));
 
-    const sourceOptions = Object.keys(data[language].Sources).map((key) => ({
-        label: data[language].Sources[key], // Display the translated value
-        value: key, // Use the key for filtering
+    const sourceOptions = data[region].Sources.map(source) => ({
+        label: source,
+        value: source
     }));
 
     // Opções de linguagem (exemplo: inglês, francês, etc.)
