@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import data from "../data/cards.json"; // Import your data
 import Filter from "../components/Filter/Filter"; // Import the Filter component
+import '../styles/global.scss';
+import '../styles/home.scss';
+import infos from '../data/infos.json'; 
 
 const Projects = () => {
   const [searchTerm, setSearchTerm] = useState("");
