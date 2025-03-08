@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'; // Import useEffect
 import Card from "../components/Card/Card";
 import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
 import infos from '../data/infos.json'; 
 import cards from "../data/cards.json"; 
+import { useState } from 'react';
 
-const data = cards["Cards"];
+const data = cards["Cards"]
 
 function Projects(props) {
   // Estados para os filtros
@@ -19,11 +19,11 @@ function Projects(props) {
   const [organization, setOrganization] = useState([]);
   const [paids, setPaid] = useState([]); // Novo estado para o filtro de pagamento
   const [languageFilter, setLanguageFilter] = useState([]);
-  const [filteredData, setFilteredData] = useState(data); // State to hold filtered data
 
   let lang = props.lang;
 
-  useEffect(() => {
+ 
+ useEffect(() => {
     const filtered = data.filter((item) => {
       const matchesSearchTerm = searchTerm
         ? item.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -43,18 +43,17 @@ function Projects(props) {
       const matchesLanguage =
         languageFilter.length === 0 || languageFilter.includes(item.language);
 
-      const matchesPaid = paids.length === 0 || paids.includes(item.paid);
+      const matchesPaid = paid === null || item.paid === paid
 
-      // Retorna verdadeiro se todos os filtros corresponderem
-      return matchesType && matchesRegion && matchesSource &&
-             matchesThemes && matchesSearchTerm && matchesLanguage && matchesPaid;
+
+    // Retorna verdadeiro se todos os filtros corresponderem
+    return matchesType && matchesRegion && matchesSource &&
+           matchesThemes && matchesSearchTerm && matchesLanguage;
     });
-
-    setFilteredData(filtered); // Update the filtered data state
-  }, [type, region, source, selectedThemes, searchTerm, languageFilter, paids]);
 
   return (
     <div className="App">
+
       <div className="home-infos">
         <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
@@ -93,6 +92,7 @@ function Projects(props) {
         <span className="projects-found">{filteredData.length} {infos[lang]["Texts"]["Projects"]["Founded"]}</span>
 
         <div className="project-view">
+
           {filteredData.map((card) => (
             <Card
               key={card.title}
@@ -110,6 +110,7 @@ function Projects(props) {
               type={card.type}
             />
           ))}
+
         </div>
       </div>
     </div>
