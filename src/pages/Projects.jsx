@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'; // Import useEffect
 import Card from "../components/Card/Card";
 import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
 import infos from '../data/infos.json'; 
-import cards from "../data/cards.json"; 
+import cards from "../data/cards.json";
+import { useState } from 'react';
 
 const data = cards["Cards"];
 
@@ -19,7 +19,6 @@ function Projects(props) {
   const [organization, setOrganization] = useState([]);
   const [paids, setPaid] = useState([]); // Novo estado para o filtro de pagamento
   const [languageFilter, setLanguageFilter] = useState([]);
-  const [filteredData, setFilteredData] = useState(data); // State to hold filtered data
 
   let lang = props.lang;
 
