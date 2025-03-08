@@ -129,6 +129,7 @@ function Filter({ setType, setRegion, setSource, setSelectedThemes, setSearchTer
                         isMulti
                         onChange={(selectedOptions) => {
                             const selectedValues = selectedOptions ? selectedOptions.map(option => option.value) : [];
+                            console.log("Source Options:", sourceOptions);
                             setSource(selectedValues); // Use the English words directly
                         }}
                         options={sourceOptions}
