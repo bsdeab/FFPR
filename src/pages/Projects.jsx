@@ -3,10 +3,10 @@ import Filter from "../components/Filter/Filter";
 import '../styles/global.scss';
 import '../styles/home.scss';
 import infos from '../data/infos.json'; 
-import cards from "../data/cards.json";
+import cards from "../data/cards.json"; 
 import { useState } from 'react';
 
-const data = cards["Cards"];
+const data = cards["Cards"]
 
 function Projects(props) {
   // Estados para os filtros
@@ -22,38 +22,82 @@ function Projects(props) {
 
   let lang = props.lang;
 
-  useEffect(() => {
-    const filtered = data.filter((item) => {
-      const matchesSearchTerm = searchTerm
-        ? item.title.toLowerCase().includes(searchTerm.toLowerCase())
+  // Função para extrair autores únicos
+  const getUniqueAuthors = () => {
+    const authors = data.map(card => card.author).flat();
+    return [...new Set(authors)];
+  };
+
+  // Função para extrair organizações únicas
+  const getUniqueOrganizations = () => {
+    const organizations = data.map(card => card.organization);
+    return [...new Set(organizations)];
+  };
+
+  // Gerar listas de autores e organizações
+  const authorsList = getUniqueAuthors().map(author => ({
+    label: author,
+    value: author
+  }));
+
+  const organizationsList = getUniqueOrganizations().map(org => ({
+    label: org,
+    value: org
+  }));
+
+  // Função para filtrar os dados
+  const filteredData = data.filter(card => {
+    // Verifica se há correspondência de tipo
+    const matchesType = type.length > 0
+      ? type.some(t => card.type.includes(t))
+      : true;
+
+    // Verifica se há correspondência de região
+    const matchesRegion = region.length > 0
+      ? region.some(r => card.region.includes(r))
+      : true;
+
+    // Verifica se há correspondência de fonte
+    const matchesSource = source.length > 0
+      ? source.some(s => card.source.includes(s))
+      : true;
+
+    // Verifica se há correspondência de temas
+    const matchesThemes = selectedThemes.length > 0
+      ? selectedThemes.every(theme => card.tags.some(tag => tag.includes(theme)))
+      : true;
+
+    // Verifica se há correspondência com o termo de pesquisa
+    const matchesSearchTerm = searchTerm ? card.title.toLowerCase().includes(searchTerm.toLowerCase()) : true;
+
+    // Verifica se há correspondência de autor
+    const matchesAuthor = author.length > 0
+      ? author.some(a => card.author.some(cardAuthor => cardAuthor.includes(a)))
+      : true;
+
+    // Verifica se há correspondência de organização
+    const matchesOrganization = organization.length > 0
+      ? organization.some(org => card.organization.includes(org))
+      : true;
+
+    // Verifica se há correspondência de pagamento
+    const matchesPaid = paids.length > 0
+      ? paids.includes(card.paid)
+      : true;
+
+    const matchesLanguage = languageFilter.length > 0
+        ? languageFilter.some(lang => card.language.includes(lang))
         : true;
 
-      // Use the English terms directly for the source filter
-      const matchesSource = source.length === 0 || source.includes(item.source);
 
-      const matchesType = type.length === 0 || type.includes(item.type);
-
-      const matchesRegion = region.length === 0 || region.includes(item.region);
-  
-      const matchesThemes =
-        selectedThemes.length === 0 ||
-        selectedThemes.every((theme) => item.tags.includes(theme));
-
-      const matchesLanguage =
-        languageFilter.length === 0 || languageFilter.includes(item.language);
-
-      const matchesPaid = paids.length === 0 || paids.includes(item.paid);
-
-      // Retorna verdadeiro se todos os filtros corresponderem
-      return matchesType && matchesRegion && matchesSource &&
-             matchesThemes && matchesSearchTerm && matchesLanguage && matchesPaid;
+    // Retorna verdadeiro se todos os filtros corresponderem
+    return matchesType && matchesRegion && matchesSource &&
+           matchesThemes && matchesSearchTerm && matchesLanguage;
     });
-
-    setFilteredData(filtered); // Update the filtered data state
-  }, [type, region, source, selectedThemes, searchTerm, languageFilter, paids]);
 
   return (
     <div className="App">
+
       <div className="home-infos">
         <span className="home-title">{infos[lang]["Texts"]["Projects"]["Title"]}</span>
         <span className="home-description">{infos[lang]["Texts"]["Projects"]["Phrase1"]}</span>
@@ -92,6 +136,7 @@ function Projects(props) {
         <span className="projects-found">{filteredData.length} {infos[lang]["Texts"]["Projects"]["Founded"]}</span>
 
         <div className="project-view">
+
           {filteredData.map((card) => (
             <Card
               key={card.title}
@@ -109,6 +154,7 @@ function Projects(props) {
               type={card.type}
             />
           ))}
+
         </div>
       </div>
     </div>
