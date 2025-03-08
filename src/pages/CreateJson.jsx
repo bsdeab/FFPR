@@ -15,14 +15,13 @@ const CreateJson = () => {
     organization: "",
     author: "",
     year: "",
-    language: "",
+    language: [], // Change to an array
     link: "",
-    type: "report", // Use a chave em vez do valor
-    source: "international_org", // Use a chave em vez do valor
-    region: "europe", // Use a chave em vez do valor
+    type: "report", // Use the key
+    source: "international_org", // Use the key
+    region: [], // Change to an array
     paid: "Free",
   });
-
 
   const handleChange = (e) => {
     const { name, value } = e.target;
