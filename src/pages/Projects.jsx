@@ -114,7 +114,7 @@ function Projects(props) {
         </div>
       </div>
     </div>
-  );
-},
+  )
+}
 
 export default Projects;
