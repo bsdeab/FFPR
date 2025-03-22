@@ -1,27 +1,6 @@
 {
     "Cards": [
         {
-          "title": "Foreign Ministry adopts affirmative action in Foreign Service promotion exam",
-          "tags": [
-                    "Representation"
-          ],
-          "organization": "Secretaría de Relaciones Exteriores de México",
-          "author": [
-                    "N/A"
-          ],
-          "year": "2024",
-          "language": [
-                    "English"
-          ],
-          "link": "https://www.gob.mx/sre/prensa/foreign-ministry-adopts-affirmative-action-in-foreign-service-promotion-exam?idiom=en",
-          "type": "Press release",
-          "region": [
-                    "Americas"
-          ],
-          "source": "Government",
-          "paid": "Free"
-},
-        {
           "title": "Становище (внутрішньо переміщеної) української ЛГБТК+ спільноти під час російського повномасштабного вторгнення",
           "tags": [
                     "Women, peace and security",
@@ -1405,7 +1384,8 @@
         {
             "title": "Foreign Ministry adopts affirmative action in Foreign Service promotion exam",
             "tags": [
-                "Labor/workforce"
+                "Labor/workforce",
+                "Representation"
             ],
             "organization": "Secretaría de Relaciones Exteriores de México",
             "author": [
