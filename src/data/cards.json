@@ -18,7 +18,9 @@
           "region": [
                     "Americas"
           ],
-          "source": "Civil society", "Government",
+          "source": [
+                    "Civil society",
+                    "Government"]
           "paid": "Free"
 },
         {
